@@ -1,6 +1,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
+var deploy      = require('gulp-gh-pages');
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
@@ -26,5 +27,14 @@ gulp.task('serve', gulp.series('sass', function() {
     gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'], gulp.series('sass'));
     gulp.watch("src/*.html").on('change', browserSync.reload);
 }));
+
+//Deploying it to github pages
+gulp.task('deploy', function () {
+    return gulp.src("./prod/**/*")
+        .pipe(deploy({
+            remoteUrl: "https://planningu.github.io/main/",
+            branch: "master"
+        }))
+});
 
 gulp.task('default', gulp.series('js', 'serve'));
