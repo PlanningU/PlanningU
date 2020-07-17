@@ -2,7 +2,7 @@ var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
 var deploy = require('gulp-gh-pages');
-
+/*
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
     return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'src/scss/*.scss'])
@@ -29,11 +29,14 @@ gulp.task('serve', gulp.series('sass', function() {
 }));
 
 
+
+
+gulp.task('default', gulp.series('js', 'serve')); */
+
 gulp.task('deploy', function () {
     return gulp.src("./dist/**/*")
         .pipe(deploy({
-            remoteUrl: "https://github.com/PlanningU/main.git",
+            remoteUrl: "https://github.com/PlanningU/main",
             branch: "master"
         }))
 });
-gulp.task('default', gulp.series('js', 'serve'));
