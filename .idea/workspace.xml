@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c75b532-208e-4233-9f21-eff2633196c3" name="Default Changelist" comment="Starting Tests">
+      <change afterPath="$PROJECT_DIR$/src/assets/temp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.html" afterDir="false" />
     </list>
@@ -55,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Emperor Master Chen\BootstrapWebsite\docs" />
       <recent name="C:\Users\Emperor Master Chen\BootTest\src" />
     </key>
   </component>
@@ -70,7 +72,7 @@
       <updated>1594922992810</updated>
       <workItem from="1594922997356" duration="4889000" />
       <workItem from="1595008285600" duration="6739000" />
-      <workItem from="1595180748012" duration="5659000" />
+      <workItem from="1595180748012" duration="7406000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
