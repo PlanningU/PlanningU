@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-    <title>About</title>
+    <title>About Us</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,16 +18,16 @@
 <script src="./../js/popper.min.js"></script>
 <script src="./../js/bootstrap.min.js"></script>
 
-<div class="container">
+<div class="container-fluid px-0">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">CompanyTest</a>
+        <a class="navbar-brand h1 ml-4" href="./../../index.html">Planning U</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <u1 class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="./../../index.html">Home</a>
                 </li>
@@ -38,25 +38,33 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
                         Products
                     </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Product 1</a>
-                        <a class="dropdown-item" href="#">Product 2</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Another Product</a>
-                    </div>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><h6 class="dropdown-header">Our main products</h6></li>
+                        <li><a class="dropdown-item" href="#">Product 1</a></li>
+                        <li><a class="dropdown-item" href="#">Product 2</a></li>
+                        <li>
+                            <div class="dropdown-divider"></div>
+                        </li>
+                        <li class="dropdown-submenu dropleft ml-1">
+                            <a class="dropdown-item" tabindex="-1" href="#">Hover me for more options</a>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li class="dropdown-item"><a tabindex="-1" href="#">Second level</a></li>
+                                <li class="dropdown-item"><a href="#">Second level</a></li>
+                                <li class="dropdown-item"><a href="#">Second level</a></li>
+                            </ul>
+                        </li>
+                    </ul>
 
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
-            </u1>
+            </ul>
         </div>
     </nav>
 
 
-
-
-    <div class="row">
+    <div class="row p">
         <div class="col-sm-12 col-md-4"> <!--This is pretty cool; expands or contracts based on screen size -->
             <div class="card mb-4">
                 <div class="card-body text-center">
@@ -86,17 +94,23 @@
         </div>
     </div>
 
-    <div class="row mt-sm-4 mt-md-0"> <!-- AKA small screen have top margin of 4, medium screen have margin of 0 -->
-        <div class="col-sm-12 col-md-8 text-sm-center text-md-left">
+    <div class="row mt-sm-4 mt-md-0 "> <!-- AKA small screen have top margin of 4, medium screen have margin of 0 -->
+        <div class="col-sm-12 col-md-8 pl-5 bg-primary">
             <h3>Listen up yo</h3>
             <p class="lead"> An important subheading goes here, large and grey</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.</p>
 
         </div>
 
-        <div class="col-sm-12 col-md-4"> <!-- So if small browser, essentially have both columns take up two rows, else take up one row of 2:1 -->
+        <div class="col-sm-12 col-md-4 ml-4">
+            <!-- So if small browser, essentially have both columns take up two rows, else take up one row of 2:1 -->
             <h3 class="mb-4">Secondary Menu</h3>
 
             <u1 class="nav flex-column nav-pills">
