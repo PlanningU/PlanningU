@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
     <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./../css/bootstrap.css">
     <link rel="stylesheet" href="./../css/styles.css">
     <!-- stupid mistake here,     ^  I initially had /src instead of src - this caused the path to be absolute and not relative, thus breaking the css -->
@@ -17,10 +18,10 @@
 <script src="./../js/jquery.min.js"></script>
 <script src="./../js/popper.min.js"></script>
 <script src="./../js/bootstrap.min.js"></script>
-
 <div class="container-fluid px-0">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand h1 ml-4" href="./../../index.html">Planning U</a>
+
+    <nav class="navbar navbar-expand-lg navbar-light px-10">
+        <a class="navbar-brand" href="./../../index.html">PlanningU</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
@@ -59,81 +60,237 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
+                <li>
+                    <a class="btn btn-primary" href="#" role="button">Get Started</a>
+                </li>
             </ul>
         </div>
     </nav>
 
+    <div class="container-fluid text-center py-3 px-10" id="page-description">
+        <h2>
+            About Us
+        </h2>
+        <p>
+            We're a group of hardworking individuals who strive for excellence. You never stop learning, so we shouldn't
+            either. We're a group of hardworking individuals who strive for excellence. You never stop learning, so we
+            shouldn't either. We're a group of hardworking individuals who strive for excellence. You never stop
+            learning, so we shouldn't either.
+        </p>
+    </div>
 
-    <div class="row p">
-        <div class="col-sm-12 col-md-4"> <!--This is pretty cool; expands or contracts based on screen size -->
-            <div class="card mb-4">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Card Title</h5>
-                    <p class="card-text">Some text can be found here on the card title</p>
-                    <a href="#" class="card-link">Haha another link</a>
-                </div>
-            </div>
+    <div class="row py-6 px-10 text-md-center text-lg-left bg-white">
+        <div class="col-sm-12 col-lg-6 ">
+            <h3>
+                Reasons why you should travel during this Covid-19 Pandemic:
+            </h3>
+            <p>
+                Sure, most planes can't fly right now but life is lookin' not too shabby right now - especially if you
+                travel to Uzbekistan where you could get up to $3000 for contracting Covid-19
+            </p>
+            <ul id="reasons">
+                <li>
+                    It's free real estate
+                </li>
+                <li>
+                    Is this free money?
+                </li>
+                <li>
+                    Babuschka doesn't approve
+                </li>
+            </ul>
+            <p>
+                More stuff here. Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate.Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate.Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate
+            </p>
+
         </div>
-        <div class="col">
-            <div class="card">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title</p>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title</p>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
+        <div class="col-sm-12 col-lg-6" id="landscape-image">
+            <img alt="Cultural landscape - Wikipedia" class="n3VNCb"
+                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Neckertal_20150527-6384.jpg/1200px-Neckertal_20150527-6384.jpg"
+                 data-noaft="1" jsname="HiaYvf" jsaction="load:XAeZkd,gvK6lb;"
+            >
         </div>
     </div>
 
-    <div class="row mt-sm-4 mt-md-0 "> <!-- AKA small screen have top margin of 4, medium screen have margin of 0 -->
-        <div class="col-sm-12 col-md-8 pl-5 bg-primary">
-            <h3>Listen up yo</h3>
-            <p class="lead"> An important subheading goes here, large and grey</p>
+    <div class="container-fluid text-center text-white py-4 bg-primary">
+        <h3>
+            Meet The Team
+        </h3>
+    </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur.</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur.</p>
+    <div class="row px-lg-10 px-md-5 px-sm-2 bg-white" id="members">
+
+        <div class="col-sm-12 col-md-6 col-lg-6 pt-4 ">
+            <div class="card">
+                <img class="card-img-top"
+                     src="https://cdn.now.howstuffworks.com/media-content/0b7f4e9b-f59c-4024-9f06-b3dc12850ab7-1920-1080.jpg"
+                     alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Bob 1</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-snapchat"></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 pt-4 ">
+            <div class="card">
+                <img class="card-img-top"
+                     src="https://cdn.now.howstuffworks.com/media-content/0b7f4e9b-f59c-4024-9f06-b3dc12850ab7-1920-1080.jpg"
+                     alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Cardi 2</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-snapchat"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 pt-4">
+            <div class="card">
+                <img class="card-img-top"
+                     src="https://cdn.now.howstuffworks.com/media-content/0b7f4e9b-f59c-4024-9f06-b3dc12850ab7-1920-1080.jpg"
+                     alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Rob 3</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-snapchat"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 pt-4">
+            <div class="card">
+                <img class="card-img-top"
+                     src="https://cdn.now.howstuffworks.com/media-content/0b7f4e9b-f59c-4024-9f06-b3dc12850ab7-1920-1080.jpg"
+                     alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Lame 4</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-snapchat"></a>
+
+
+                </div>
+            </div>
 
         </div>
 
-        <div class="col-sm-12 col-md-4 ml-4">
-            <!-- So if small browser, essentially have both columns take up two rows, else take up one row of 2:1 -->
-            <h3 class="mb-4">Secondary Menu</h3>
+    </div>
 
-            <u1 class="nav flex-column nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </u1>
+    <footer>
+        <div class="row px-lg-10 px-md-5 px-sm-2 mt-5 pt-5 bg-light">
+            <div class="col-sm-12 col-md-6 col-lg-3 pt-4">
+                <h3>
+                    PlanningU
+                </h3>
+                <p>
+                    Address<br>
+                    123 Bob Road<br>
+                    California, Nv.<br>
+                    K2J 0A0<br>
+
+                    <strong>Phone: </strong> 911<br>
+                    <strong>Email: </strong>Bob@bob.com
+                </p>
+
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 pt-4">
+                <h4>
+                    Website Navigation
+                </h4>
+                <ul>
+                    <li>
+                        <a href="#">Go somewhere</a>
+                    </li>
+                    <li>
+                        <a href="#">Go elsewhere</a>
+                    </li>
+                    <li>
+                        <a href="#">Go somewhere</a>
+                    </li>
+                    <li>
+                        <a href="#">Go somewhere</a>
+                    </li>
+                    <li>
+                        <a href="#">Go somewhere</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 pt-4">
+                <h4>
+                    Useful Links
+                </h4>
+                <ul>
+                    <li>
+                        <a href="#">Go somewhere</a>
+                    </li>
+                    <li>
+                        <a href="#">Go elsewhere</a>
+                    </li>
+                    <li>
+                        <a href="#">Go somewhere</a>
+                    </li>
+                    <li>
+                        <a href="#">Go somewhere</a>
+                    </li>
+                    <li>
+                        <a href="#">Go somewhere</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 pt-4">
+                <h4>
+                    Subscribe and hit the bell icon!
+                </h4>
+                <p>
+                    By subscribing, you help support us. The more support we have,
+                    the more content we can provide for you. Everyone wins.
+                </p>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="example.email.com" aria-label="email"
+                           aria-describedby="basic-addon1" id="email-input">
+                    <div class="input-group-append">
+                        <button class="btn-primary text-white" type="button" id="subscribe">Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-
+    </footer>
+    <div class="container-fluid px-lg-10 px-md-5 px-sm-2 py-3" id="copyright">
+        <h6>
+            Copyright Something blah blah 2020
+        </h6>
     </div>
 
 
 </div>
-
 </body>
 
 </html>

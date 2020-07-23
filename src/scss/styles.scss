@@ -1,9 +1,41 @@
-// Variable Overrides
-$theme-colors: (
-        "primary": #5fcf80
+//Font Imports
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+$primary: #5fcf80;
+$body-bg: white;
+
+//Adding custom spacers to increase flexibility
+$spacer: 1rem !default;
+$spacers: (
+        6: ($spacer * 4), //64px
+        7: ($spacer * 5), //80px
+        8: ($spacer * 6.25), //100px
+        9: ($spacer * 7.5), //120px
+        10: ($spacer * 9.375) //150px
 );
 
-$body-bg: #ededed;
+//Design Adjustments
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+//Navbar
+.navbar-expand-lg.navbar-light {
+  background-color: #ffffff;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+//Navbar brand
+.navbar-light.navbar-expand-lg .navbar-brand {
+  color: $primary;
+  font: bold 30px Poppins, serif;
+}
+
+.navbar-light.navbar-expand-lg .navbar-brand:hover { //What did I do to deserve this
+  color: $primary;
+}
 
 .jumbotron {
   background-color: #ffffff !important;
@@ -11,6 +43,141 @@ $body-bg: #ededed;
 }
 
 
-// Bootstrap Sass Imports
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+
+  transform: translate(0, -8%);
+  position: relative;
+
+
+  border-radius: 6px 6px 6px 6px;
+
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: left;
+  transform: scaleX(-1);
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+  margin-left: -20px;
+}
+
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+.btn.btn-primary {
+  border-radius: 15px;
+}
+
+#page-description {
+  background-color: $primary;
+}
+
+#page-description p, #page-description h2 {
+  color: white;
+}
+
+#reasons{
+  list-style: none;
+}
+#reasons li::before {
+  content: "★";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: $primary; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+
+}
+
+#landscape-image img{ //for making the image resize when page is adjusted
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; /* Make the picture taking the size of it's parent */
+  width: 100%; /* This if for the object-fit */
+  height: 100%; /* This if for the object-fit */
+  object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
+  object-position: center;
+}
+.card-text{
+  color:#AAAAAA;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+#subscribe{
+  border-radius: 0px 15px 15px 0px;
+}
+#email-input{
+  border-radius: 15px 0px 0px 15px;
+
+}
+
+.col-lg-3.col-md-6.col-sm-12 ul{
+  list-style: none;
+}
+.col-lg-3.col-md-6.col-sm-12 ul li::before {
+  content: "›";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: $primary; /* Change the color */
+  font-weight: 900; /* If you want it to be bold */
+  font-size: 20px;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+
+}
+
+.input-group.mb-3 .form-control::placeholder{
+  font-size: 13px;
+}
+#copyright h6{
+  font-size: 10px;
+}
+#copyright{
+  background: rgba(0, 0, 0, 0.24);
+}
+// Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
 @import "node_modules/bootstrap/scss/bootstrap";
 
