@@ -19,13 +19,66 @@ $spacers: (
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+
 }
+
+//Scrollbar
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(to top, $primary, rgba(21, 238, 1, 0.5));
+
+  border-radius: 10px 10px 10px 10px;
+  height: 50vh;
+
+}
+
+//Button Press Animation
+a.btn.btn-primary{
+  overflow: hidden;
+  position:relative;
+}
+#button-animate{
+  position:absolute;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  animation: animate 1s linear infinite;
+}
+@keyframes animate{
+  0%{
+    width:0px;
+    height:0px;
+    opacity: 0.5;
+  }
+  100%{
+    width:150px;
+    height:150px;
+    opacity: 0.5;
+  }
+}
+
 
 //Navbar
 .navbar-expand-lg.navbar-light {
   background-color: #ffffff;
   border-bottom: 1px solid #d3d3d3;
+  position: -webkit-sticky;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  padding-left: 11vw;
+  padding-right: 11vw;
 }
+
+#main-info > * {
+  padding-left: 11vw;
+  padding-right: 11vw;
+}
+
 
 //Navbar brand
 .navbar-light.navbar-expand-lg .navbar-brand {
@@ -106,11 +159,12 @@ html, body {
   color: white;
 }
 
-#reasons{
+#reasons {
   list-style: none;
 }
+
 #reasons li::before {
-  content: "★";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  content: "★"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: $primary; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
@@ -119,7 +173,7 @@ html, body {
 
 }
 
-#landscape-image img{ //for making the image resize when page is adjusted
+#landscape-image img { //for making the image resize when page is adjusted
 
   top: 0;
   bottom: 0;
@@ -130,8 +184,9 @@ html, body {
   object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
   object-position: center;
 }
-.card-text{
-  color:#AAAAAA;
+
+.card-text {
+  color: #AAAAAA;
 }
 
 .fa {
@@ -147,19 +202,22 @@ html, body {
 .fa:hover {
   opacity: 0.7;
 }
-#subscribe{
+
+#subscribe {
   border-radius: 0px 15px 15px 0px;
 }
-#email-input{
+
+#email-input {
   border-radius: 15px 0px 0px 15px;
 
 }
 
-.col-lg-3.col-md-6.col-sm-12 ul{
+.col-lg-3.col-md-6.col-sm-12 ul {
   list-style: none;
 }
+
 .col-lg-3.col-md-6.col-sm-12 ul li::before {
-  content: "›";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  content: "›"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: $primary; /* Change the color */
   font-weight: 900; /* If you want it to be bold */
   font-size: 20px;
@@ -169,15 +227,18 @@ html, body {
 
 }
 
-.input-group.mb-3 .form-control::placeholder{
+.input-group.mb-3 .form-control::placeholder {
   font-size: 13px;
 }
-#copyright h6{
+
+#copyright h6 {
   font-size: 10px;
 }
-#copyright{
+
+#copyright {
   background: rgba(0, 0, 0, 0.24);
 }
+
 // Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
 @import "node_modules/bootstrap/scss/bootstrap";
 
