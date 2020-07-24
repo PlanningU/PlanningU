@@ -13,72 +13,26 @@
     <!-- stupid mistake here,     ^  I initially had /src instead of src - this caused the path to be absolute and not relative, thus breaking the css -->
 </head>
 
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light" id="nav-bar">
-        <a class="navbar-brand" href="index.html">PlanningU</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
-                        Products
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-right">
-                        <li><h6 class="dropdown-header">Our main products</h6></li>
-                        <li><a class="dropdown-item" href="#">Product 1</a></li>
-                        <li><a class="dropdown-item" href="#">Product 2</a></li>
-                        <li>
-                            <div class="dropdown-divider"></div>
-                        </li>
-                        <li class="dropdown-submenu dropleft ml-1">
-                            <a class="dropdown-item" tabindex="-1" href="#">Hover me for more options</a>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li class="dropdown-item"><a tabindex="-1" href="#">Second level</a></li>
-                                <li class="dropdown-item"><a href="#">Second level</a></li>
-                                <li class="dropdown-item"><a href="#">Second level</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li>
-                    <a class="btn btn-primary" href="#" role="button">Get Started</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
 
 <body>
 
 <script src="../../js/jquery.min.js"></script>
 <script src="../../js/popper.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/header_footer.js"></script>
 
 
+
+<div id="header"></div>
 
 <div class="container-fluid px-0 mt-6" id="main-info">
 
 
-
     <div class="container-fluid text-center py-3 " id="page-description">
-        <h2>
+        <h2 data-i18n="about-us-heading" id="about-us-heading">
             About Us
         </h2>
-        <p>
+        <p data-i18n="about-us-body" id="about-us-body">
             We're a group of hardworking individuals who strive for excellence. You never stop learning, so we shouldn't
             either. We're a group of hardworking individuals who strive for excellence. You never stop learning, so we
             shouldn't either. We're a group of hardworking individuals who strive for excellence. You never stop
@@ -208,98 +162,12 @@
     </div>
 
 
-        <div class="row mt-5 pt-5 bg-light text-lg-left text-md-left text-sm-center text-center" id="footer">
-            <div class="col-sm-12 col-md-6 col-lg-3 pt-4">
-                <h3>
-                    PlanningU
-                </h3>
-                <p>
-                    Address<br>
-                    123 Bob Road<br>
-                    California, Nv.<br>
-                    K2J 0A0<br>
-
-                    <strong>Phone: </strong> 911<br>
-                    <strong>Email: </strong>Bob@bob.com
-                </p>
-
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 pt-4">
-                <h4>
-                    Website Navigation
-                </h4>
-                <ul>
-                    <li>
-                        <a href="#">Go somewhere</a>
-                    </li>
-                    <li>
-                        <a href="#">Go elsewhere</a>
-                    </li>
-                    <li>
-                        <a href="#">Go somewhere</a>
-                    </li>
-                    <li>
-                        <a href="#">Go somewhere</a>
-                    </li>
-                    <li>
-                        <a href="#">Go somewhere</a>
-                    </li>
-                </ul>
-
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 pt-4">
-                <h4>
-                    Useful Links
-                </h4>
-                <ul>
-                    <li>
-                        <a href="#">Go somewhere</a>
-                    </li>
-                    <li>
-                        <a href="#">Go elsewhere</a>
-                    </li>
-                    <li>
-                        <a href="#">Go somewhere</a>
-                    </li>
-                    <li>
-                        <a href="#">Go somewhere</a>
-                    </li>
-                    <li>
-                        <a href="#">Go somewhere</a>
-                    </li>
-                </ul>
-
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 pt-4">
-                <h4>
-                    Subscribe and hit the bell icon!
-                </h4>
-                <p>
-                    By subscribing, you help support us. The more support we have,
-                    the more content we can provide for you. Everyone wins.
-                </p>
-
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="example.email.com" aria-label="email"
-                           aria-describedby="basic-addon1" id="email-input">
-                    <div class="input-group-append">
-                        <button class="btn-primary text-white" type="button" id="subscribe">Subscribe</button>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    <div class="container-fluid  py-3" id="copyright">
-        <h6>
-            Copyright Something blah blah 2020
-        </h6>
-    </div>
-
-    <script type='text/javascript' src="../../js/buttonAnimation.js"></script>
-
 </div>
+
+<div id="footer"></div>
+
+<script type='text/javascript' src="../../js/buttonAnimation.js"></script>
+<script type="module" src="../../js/translate.js"></script>
 </body>
 
 </html>

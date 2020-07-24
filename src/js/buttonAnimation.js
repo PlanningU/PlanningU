@@ -1,4 +1,5 @@
-const buttons = document.querySelectorAll('a.btn.btn-primary')
+//Doesn't work after changing header <a> to <button>
+const buttons = document.querySelectorAll('button.btn.btn-primary.language-toggle');
 buttons.forEach(btn => {
     btn.addEventListener('click', function (e) {
         let x = e.clientX - e.target.offsetLeft;

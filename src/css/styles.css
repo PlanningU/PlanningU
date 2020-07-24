@@ -13,7 +13,7 @@ html, body {
   border-radius: 10px 10px 10px 10px;
   height: 50vh; }
 
-a.btn.btn-primary {
+button.btn.btn-primary {
   overflow: hidden;
   position: relative; }
 
@@ -46,6 +46,10 @@ a.btn.btn-primary {
   padding-right: 11vw; }
 
 #main-info > * {
+  padding-left: 11vw;
+  padding-right: 11vw; }
+
+#footer > * {
   padding-left: 11vw;
   padding-right: 11vw; }
 

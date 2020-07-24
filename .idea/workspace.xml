@@ -11,7 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c75b532-208e-4233-9f21-eff2633196c3" name="Default Changelist" comment="Starting Tests">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/header_footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/translate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/translator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/en/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/en/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/i18n/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/i18n/zh.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/buttonAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/buttonAnimation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/en/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/en/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/en/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -59,6 +74,16 @@
       <recent name="C:\Users\Emperor Master Chen\BootTest\src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="translator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/translator.js" working-dir="$PROJECT_DIR$/src/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.translator.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -72,7 +97,7 @@
       <workItem from="1594922997356" duration="4889000" />
       <workItem from="1595008285600" duration="6739000" />
       <workItem from="1595180748012" duration="42630000" />
-      <workItem from="1595514384046" duration="17469000" />
+      <workItem from="1595514384046" duration="31651000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -109,6 +134,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1594940725998" />
+    <state x="462" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595620885401">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="462" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1595620885401" />
     <state x="704" y="103" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1595180216827">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -125,9 +154,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1366.728@0.0.1366.728" timestamp="1595344351357" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1595623729765">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595623729765" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1595623729764">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595623729764" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1595623729764">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595623729764" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1595623729764">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595623729764" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1594940359558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594940359558" />
+    <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595620975980">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1595620975980" />
   </component>
 </project>

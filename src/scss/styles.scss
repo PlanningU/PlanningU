@@ -36,9 +36,10 @@ html, body {
 }
 
 //Button Press Animation
-a.btn.btn-primary{
+button.btn.btn-primary{
   overflow: hidden;
   position:relative;
+
 }
 #button-animate{
   position:absolute;
@@ -79,6 +80,10 @@ a.btn.btn-primary{
   padding-right: 11vw;
 }
 
+#footer > * {
+  padding-left: 11vw;
+  padding-right: 11vw;
+}
 
 //Navbar brand
 .navbar-light.navbar-expand-lg .navbar-brand {
