@@ -42,5 +42,4 @@ class Translator {
     }
 
 }
-
 export default Translator;

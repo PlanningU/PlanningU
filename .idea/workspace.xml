@@ -11,28 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c75b532-208e-4233-9f21-eff2633196c3" name="Default Changelist" comment="Starting Tests">
-      <change afterPath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Emperor_Master_Chen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/dev_testing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PlanningU.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlanningU.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PlanningU.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/buttonAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/ui_animations/buttonAnimation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/header_footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/en/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/en/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/en/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/en/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/i18n/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/translations/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/i18n/zh.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/translations/zh.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -82,12 +76,16 @@
       <recent name="C:\Users\Emperor Master Chen\BootstrapWebsite\src\pages\en" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.react_testing.js">
+    <configuration name="react_testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/react_testing.js" working-dir="$PROJECT_DIR$/src/js">
+      <method v="2" />
+    </configuration>
     <configuration name="translator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/page_functionality/translator.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.react_testing.js" />
         <item itemvalue="Node.js.translator.js" />
       </list>
     </recent_temporary>
@@ -106,7 +104,7 @@
       <workItem from="1595008285600" duration="6739000" />
       <workItem from="1595180748012" duration="42630000" />
       <workItem from="1595514384046" duration="33880000" />
-      <workItem from="1595863915417" duration="1000000" />
+      <workItem from="1595863915417" duration="15031000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -151,6 +149,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="704" y="103" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1595180216827" />
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595881366544">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595881366544" />
     <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1594940772710">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -163,22 +165,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1366.728@0.0.1366.728" timestamp="1595344351357" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1595864068896">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1595867328949">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595864068896" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1595864068895">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595867328949" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1595867328949">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595864068895" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1595864068895">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595867328949" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1595867328949">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595864068895" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1595864068895">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595867328949" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1595867328949">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595864068895" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595867328949" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1594940359558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

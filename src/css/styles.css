@@ -36,6 +36,7 @@ button.btn.btn-primary {
     opacity: 0.5; } }
 
 .navbar-expand-lg.navbar-light {
+  top: 0;
   background-color: #ffffff;
   border-bottom: 1px solid #d3d3d3;
   position: -webkit-sticky;
