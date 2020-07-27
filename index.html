@@ -1,14 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-
-
-
+<html class="no-js" lang="en">
 <head>
-    <meta http-equiv="refresh" content="0; url='src/pages/en/index.html'">
-    <meta charset="UTF-8">
-    <title>Redirect</title>
+    <title>Bootstrap 4 Layout</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/css/bootstrap.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <!-- stupid mistake here,     ^  I initially had /src instead of src - this caused the path to be absolute and not relative, thus breaking the css -->
 </head>
+
 <body>
 
+<script src="src/js/jquery.min.js"></script>
+<script src="src/js/popper.min.js"></script>
+<script src="src/js/bootstrap.min.js"></script>
+<script src="src/js/page_functionality/header_footer.js"></script>
+
+<div id="header"></div>
+
+
+<div class="container-fluid px-0 mt-6" id="main-info">
+
+    <div class="jumbotron">
+        <h1 class="display-4">Simple. Easy to use. Helpful</h1>
+        <p class="lead">The best one-stop website for all your university needs and wants</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">
+                Learn more
+            </a>
+        </p>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-sm-12 col-md-4"> <!--This is pretty cool; expands or contracts based on screen size -->
+            <div class="card mb-4">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Card Title</h5>
+                    <p class="card-text">Some text can be found here on the card title</p>
+                    <a href="#" class="card-link">Haha another link</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title</p>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title</p>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-sm-4 mt-md-0"> <!-- AKA small screen have top margin of 4, medium screen have margin of 0 -->
+        <div class="col-sm-12 col-md-8 text-sm-center text-md-left">
+            <h3>Listen up yo</h3>
+            <p class="lead"> An important subheading goes here, large and grey</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+        </div>
+
+        <div class="col-sm-12 col-md-4"> <!-- So if small browser, essentially have both columns take up two rows, else take up one row of 2:1 -->
+            <h3 class="mb-4">Secondary Menu</h3>
+
+            <u1 class="nav flex-column nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </u1>
+        </div>
+
+    </div>
+
+
+</div>
+<div id="footer"></div>
 </body>
+
 </html>
