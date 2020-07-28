@@ -7,7 +7,13 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c75b532-208e-4233-9f21-eff2633196c3" name="Default Changelist" comment="messed around with testing page and changed language toggler">
@@ -34,45 +40,7 @@
       <change afterPath="$PROJECT_DIR$/.cache/d7/2d4705d8f81f309030b06c8336977b.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.cache/d9/b7879e2b088de9f79b5fa114a2bf2b.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.cache/ff/3a4831b614dea9624cf9bd32860f6b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap.34e73f30.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap.34e73f30.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap.34e73f30.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap.34e73f30.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap.81756f0d.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap.81756f0d.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap.min.cd10b3e1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap.min.cd10b3e1.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap.min.f75ed46d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap.min.f75ed46d.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/header_footer.29aeb563.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/header_footer.29aeb563.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/header_footer.29fd0bfd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/header_footer.29fd0bfd.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/jquery.min.50b998b6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/jquery.min.50b998b6.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/jquery.min.f8857e27.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/jquery.min.f8857e27.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/popper.min.84526a06.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/popper.min.84526a06.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/popper.min.dc7a96a6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/popper.min.dc7a96a6.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/styles.237c716e.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/styles.237c716e.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/styles.237c716e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/styles.237c716e.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/styles.58e2aa20.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/styles.58e2aa20.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/flag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/ui_animations/flagraise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/dev_testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dev_testing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594940732728</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="messed around with testing page and changed language toggler">
+      <created>1595904163339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595904163339</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +142,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -229,10 +216,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="441" y="91" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595890647001" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1594940359558">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1595904229068">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594940359558" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595904229068" />
     <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595630068396">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
