@@ -43,6 +43,21 @@ button.btn.btn-primary{
   position:relative;
 
 }
+button.btn.btn-lang{
+    background-color: transparent;
+    border: none;
+    padding: 5 ;
+
+    width: 40;
+    height: 40;
+    border-radius: 40;
+
+
+}
+
+
+
+
 #button-animate{
   position:absolute;
   background: #fff;
@@ -51,6 +66,13 @@ button.btn.btn-primary{
   border-radius: 50%;
   animation: animate 1s linear infinite;
 }
+
+button.btn.btn-lang:focus{
+    outline:0;
+}
+
+
+
 @keyframes animate{
   0%{
     width:0px;
@@ -121,6 +143,7 @@ button.btn.btn-primary{
 
 }
 
+
 .dropdown-submenu:hover > .dropdown-menu {
   display: block;
 }
@@ -156,6 +179,14 @@ button.btn.btn-primary{
   -webkit-border-radius: 6px 0 6px 6px;
   -moz-border-radius: 6px 0 6px 6px;
   border-radius: 6px 0 6px 6px;
+}
+.dropdown-menu{
+    min-width: 50px !important;
+}
+
+#navbarDropdown2{
+    min-width:60;
+    width:60;
 }
 
 .btn.btn-primary {
@@ -253,3 +284,33 @@ button.btn.btn-primary{
 // Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
 @import "node_modules/bootstrap/scss/bootstrap";
 
+.iframecontainer{
+     padding-top: 56.25%;
+     position: relative;
+}
+
+.iframecontainer iframe {
+   border: 0;
+   height: 80%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 80%;
+}
+
+#sky {
+  position: relative;
+
+}
+
+#flag {
+
+  position: absolute;
+
+}
+#raise{
+    margin: 20;
+}
+.hidden{
+    display: none;
+}

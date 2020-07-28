@@ -1,10 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Test</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <meta name="The one stop shop for all your Canadian University Needs" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../src/css/bootstrap.css">
+    <link rel="stylesheet" href="../src/css/styles.css">
+    <!-- stupid mistake here,     ^  I initially had /src instead of src - this caused the path to be absolute and not relative, thus breaking the css -->
 </head>
+
 <body>
 
+<script src="../src/js/jquery.min.js"></script>
+<script src="../src/js/popper.min.js"></script>
+<script src="../src/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+<div id="header"></div>
+
+
+<div class="container-fluid px-0 mt-6" id="main-info">
+
+    <div class="container-fluid text-white py-4 bg-primary">
+    <h1 data-i18n="test-heading" id="test-heading">TESTING PAGE</h1>
+    </div>
+    <break></break>
+    <h2>Watch This</h2>
+    <center>
+        <div class="iframecontainer">
+
+            <iframe  src="//player.bilibili.com/player.html?aid=1250357&bvid=BV1Sx411T7QQ&cid=5337009&page=1" scrolling="no" border="0" frameborder="yes" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+        </div>
+    </center>
+
+    <h2>Raise the Flag</h2>
+    <audio id="guoge" preload="auto" src="http://www.gov.cn/guoqing/guoge/gyhz01.mp3"></audio>
+    <center>
+    <script src="../src/js/ui_animations/flagraise.js"></script>
+    <div id ="sky">
+        <img src="../src/assets/flag.png">
+        <img class="hidden" id="flag" width="224" height="224" src="https://image.flaticon.com/icons/svg/940/940194.svg" class="loaded">
+    </div>
+        <h2> </h2>
+        <button id="raise" type="button" class="btn btn-primary" onclick="myMove()">Raise Now</button>
+
+    </center>
+</div>
+<div id="footer"></div>
+
+
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+<script type="text/javascript" src="../src/js/ui_animations/buttonAnimation.js"></script>
+<script type="module" src="../src/js/page_functionality/translate.js"></script>
+<script type="text/javascript" src="../src/js/page_functionality/like_button.js"></script>
+<script src="../src/js/page_functionality/header_footer.js"></script>
+
 </body>
+
+
 </html>
