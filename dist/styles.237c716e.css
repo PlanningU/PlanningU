@@ -17,14 +17,6 @@ button.btn.btn-primary {
   overflow: hidden;
   position: relative; }
 
-button.btn.btn-lang {
-  background-color: transparent;
-  border: none;
-  padding: 5;
-  width: 40;
-  height: 40;
-  border-radius: 40; }
-
 #button-animate {
   position: absolute;
   background: #fff;
@@ -32,9 +24,6 @@ button.btn.btn-lang {
   pointer-events: none;
   border-radius: 50%;
   animation: animate 1s linear infinite; }
-
-button.btn.btn-lang:focus {
-  outline: 0; }
 
 @keyframes animate {
   0% {
@@ -114,13 +103,6 @@ button.btn.btn-lang:focus {
   -webkit-border-radius: 6px 0 6px 6px;
   -moz-border-radius: 6px 0 6px 6px;
   border-radius: 6px 0 6px 6px; }
-
-.dropdown-menu {
-  min-width: 50px !important; }
-
-#navbarDropdown2 {
-  min-width: 60;
-  width: 60; }
 
 .btn.btn-primary {
   border-radius: 15px; }
@@ -8498,26 +8480,5 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.iframecontainer {
-  padding-top: 56.25%;
-  position: relative; }
 
-.iframecontainer iframe {
-  border: 0;
-  height: 80%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 80%; }
-
-#sky {
-  position: relative; }
-
-#flag {
-  position: absolute; }
-
-#raise {
-  margin: 20; }
-
-.hidden {
-  display: none; }
+/*# sourceMappingURL=/styles.237c716e.css.map */
