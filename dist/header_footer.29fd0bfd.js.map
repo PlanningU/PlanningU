@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/js/page_functionality/header_footer.js"],"names":["$","load"],"mappings":";AAAAA,EAAE,WACEA,EAAE,WAAWC,KAAK,sBAClBD,EAAE,WAAWC,KAAK","file":"header_footer.29fd0bfd.js","sourceRoot":"..","sourcesContent":["$(function () {\n    $(\"#header\").load(\"/pages/header.html\");\n    $(\"#footer\").load(\"/pages/footer.html\");\n});\n\n\n\n"]}

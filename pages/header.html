@@ -39,15 +39,20 @@
                 <a class="nav-link" href="/pages/dev_testing.html">Testing</a>
             </li>
 
-            <li>
-                <button type="button" class="btn btn-primary language-toggle" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" id="en">English
-                </button>
-            </li>
-            <li>
-                <button type="button" class="btn btn-primary language-toggle" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" id="zh">中文
-                </button>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" data-toggle="dropdown">
+                    Lang
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li>
+                        <button type="button" class="dropdown-item btn btn-lang language-toggle" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" id="en"><img height="40" width="40" src="https://image.flaticon.com/icons/svg/323/323310.svg" class="loaded"> EN</button>
+                    </li>
+                    <li>
+                        <button type="button" class="dropdown-item btn btn-lang language-toggle" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" id="zh"> <img class="buttonimg" height="40" width="40" src="https://image.flaticon.com/icons/svg/197/197375.svg" class="loaded"> 中文</button>
+                    </li>
+                </ul>
             </li>
         </ul>
     </div>
