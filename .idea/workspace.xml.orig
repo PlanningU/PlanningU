@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="3c75b532-208e-4233-9f21-eff2633196c3" name="Default Changelist" comment="Starting Tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+=======
+    <list default="true" id="3c75b532-208e-4233-9f21-eff2633196c3" name="Default Changelist" comment="messed around with testing page and changed language toggler">
+      <change afterPath="$PROJECT_DIR$/.cache/0b/840c0a71fee9d68ec47b019079f6da.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/28/a630ffe85989042e8c4b008ec27e4c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/2a/f4dddd12f9537990d8d9c07fc2f9f4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/34/3dd0307b0745f88a660fd4d096bfd0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/35/688ab08a59b7c14ea87ab0f8c770b2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/3a/0d208e35164fc8295fa2519b3e297f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/4b/42e32aad9bec6e24ee61792b9fb6e7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/4d/807b50756a2e7a6a7d8850e7ab1c25.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/5a/f00a376544396ff91d9b571aee05c1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/6e/54b411fa06a7341b97c6782bd38c29.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/72/06fe9f3fe50ec51239761214527400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/88/0d475f6f913451b10a3a2df972c1f0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/8a/a5ff83a69812814cf064fbd0987dcf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/a0/0b3d7069dfc2f9237f785388d14d5f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/ad/a5c5ef3612c36435db5480caa6d511.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/b7/7ab6f54f5a9d15ac8d766e4da2abeb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/c0/31a5a7cc5e16fbfe42381b643da3b8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/c2/330fd75ee66652309b0dc0f123dd77.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/c6/accbf73dec5b384084bf386bf73708.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/d1/e362c8692629c7c72787147d502f6e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/d7/2d4705d8f81f309030b06c8336977b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/d9/b7879e2b088de9f79b5fa114a2bf2b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cache/ff/3a4831b614dea9624cf9bd32860f6b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap.34e73f30.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap.34e73f30.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap.34e73f30.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap.34e73f30.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap.81756f0d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap.81756f0d.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap.min.cd10b3e1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap.min.cd10b3e1.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap.min.f75ed46d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap.min.f75ed46d.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/header_footer.29aeb563.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/header_footer.29aeb563.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/header_footer.29fd0bfd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/header_footer.29fd0bfd.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/jquery.min.50b998b6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/jquery.min.50b998b6.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/jquery.min.f8857e27.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/jquery.min.f8857e27.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/popper.min.84526a06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/popper.min.84526a06.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/popper.min.dc7a96a6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/popper.min.dc7a96a6.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/styles.237c716e.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/styles.237c716e.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/styles.237c716e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/styles.237c716e.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/styles.58e2aa20.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/styles.58e2aa20.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/ui_animations/flagraise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dev_testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dev_testing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
+>>>>>>> 9533e1b1dd29d7b4368846b2fcb25c726c79e4fb
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1emNpjMoZL74U3rDh63dOTqtADu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\ui_animations" />
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\page_functionality" />
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\" />
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\pages\" />
+      <recent name="C:\Users\Emperor Master Chen\BootstrapWebsite\src\pages\en" />
+    </key>
+  </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Node.js.translator.js">
+=======
+  <component name="RunManager">
+>>>>>>> 9533e1b1dd29d7b4368846b2fcb25c726c79e4fb
+    <configuration name="react_testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/react_testing.js" working-dir="$PROJECT_DIR$/src/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="translator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/page_functionality/translator.js" working-dir="$PROJECT_DIR$/src/js">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c75b532-208e-4233-9f21-eff2633196c3" name="Default Changelist" comment="" />
+      <created>1594922992810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594922992810</updated>
+      <workItem from="1594922997356" duration="4889000" />
+      <workItem from="1595008285600" duration="6739000" />
+      <workItem from="1595180748012" duration="42630000" />
+      <workItem from="1595514384046" duration="33880000" />
+      <workItem from="1595863915417" duration="18343000" />
+      <workItem from="1595887024850" duration="1894000" />
+    </task>
+    <task id="LOCAL-00001" summary="Starting Tests">
+      <created>1594940732728</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594940732728</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Starting Tests" />
+    <MESSAGE value="messed around with testing page and changed language toggler" />
+    <option name="LAST_COMMIT_MESSAGE" value="messed around with testing page and changed language toggler" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Deployment" timestamp="1594940725998">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1594940725998" />
+    <state x="462" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595620885401">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="462" y="186" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1595620885401" />
+    <state x="704" y="103" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1595180216827">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="704" y="103" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1595180216827" />
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595881366544">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595881366544" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1594940772710">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594940772710" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1594943389369">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594943389369" />
+    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1595344351357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1366.728@0.0.1366.728" timestamp="1595344351357" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1595886848761">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595886848761" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1595886848761">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595886848761" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1595886848761">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595886848761" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1595886848761">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+<<<<<<< HEAD
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595886848761" />
+    <state x="108" y="16" width="1071" height="710" key="SettingsEditor" timestamp="1595888328368">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="108" y="16" width="1071" height="710" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1595888328368" />
+=======
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595867328949" />
+    <state x="441" y="91" key="RollbackChangesDialog" timestamp="1595890647001">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="441" y="91" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595890647001" />
+>>>>>>> 9533e1b1dd29d7b4368846b2fcb25c726c79e4fb
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1594940359558">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594940359558" />
+    <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595630068396">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1595630068396" />
+    <state x="347" y="166" width="672" height="677" key="run.anything.popup" timestamp="1595889902366">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="347" y="166" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1595889902366" />
+  </component>
+</project>
