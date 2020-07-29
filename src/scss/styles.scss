@@ -7,6 +7,7 @@
   src: url('/src/assets/fonts/PingFangSCRegular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   url('/src/assets/fonts/PingFangSCRegular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 $primary: #71c8f0;
 $secondary: #6666ad;
@@ -28,7 +29,7 @@ $spacers: (
 
 //Design Adjustments
 * {
-  box-sizing: border-box;
+  // box-sizing: border-box;
 }
 
 html, body {
@@ -101,17 +102,17 @@ button.btn.btn-lang:focus {
 
 
 //Navbar
-nav {
+#nav-bar {
   top: 0;
   background-color: $darker;
   color: #ffffff;
-  border-bottom: 1px solid #d3d3d3;
+
   position: -webkit-sticky;
   position: fixed;
   width: 100%;
   z-index: 100;
-  padding-left: 11vw;
-  padding-right: 11vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
 
 }
 
@@ -140,20 +141,32 @@ nav {
   margin-bottom: 5px;
   border-radius: 1px 1px 1px 1px;
 }
-a.nav-link{
-  color:white;
+
+a.nav-link {
+  color: white;
 }
-div.vertical-divider{
-  width:2px;
-  height:40px;
-  background:white;
+
+div.vertical-divider {
+  width: 2px;
+  height: 40px;
+  background: white;
   border-radius: 10px 10px 10px 10px;
 }
 
-li.nav-item{
-  padding-left: 1em;
-  padding-right: 1em;
+li.nav-item {
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
+
+a.fa {
+  padding: 0;
+  color: white;
+}
+
+div.social-media {
+  padding-top: 9px;
+}
+
 ////THIS IS FOR PADDING FOR THE WHOLE PAGE
 /*#main-info > * {
   padding-left: 11vw;
@@ -176,24 +189,81 @@ li.nav-item{
 
 //SlideShow
 .slideshow-container {
-  position: relative;
-  margin: auto;
-}
-.slideshow-container .slide img{
-  max-width: 100%;
-  max-height: 100%;
+ position: relative;
 }
 
 .slide {
   display: none;
   overflow: hidden;
+  width: 100%;
+  height: 100vh;
+
 }
+
+.slideshow-container .slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+
+.slideshow-text #slogan {
+
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slideshow-text #slogan .col h2{
+  font: 75px Fjalla One, sans-serif;
+}
+.slideshow-text #vision-statement{
+  width:85vw;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slideshow-text {
+  color: white;
+
+
+
+
+}
+
+.slideshow-text .slogan-text {
+
+
+}
+
+.slideshow-text .slogan-text h2 {
+  font: 50px "Open Sans Extrabold", sans-serif;
+}
+
+#slogan-vertical-divider {
+  width: 5px;
+  height: 80px;
+  background: white;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.slideshow-text h3 {
+  position: absolute;
+  top: 60%;
+}
+
 
 /* Next & previous buttons */
 .slideshow-container a.prev, .slideshow-container a.next {
   cursor: pointer;
   position: absolute;
-  top: 30%;
+  top: 45%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -210,9 +280,12 @@ li.nav-item{
   border-radius: 3px 0 0 3px;
 }
 
+/*
+
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+*/
 
 
 .fade {
