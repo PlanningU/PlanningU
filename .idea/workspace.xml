@@ -16,31 +16,18 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c75b532-208e-4233-9f21-eff2633196c3" name="Default Changelist" comment="messed around with testing page and changed language toggler">
-      <change afterPath="$PROJECT_DIR$/.cache/0b/840c0a71fee9d68ec47b019079f6da.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/28/a630ffe85989042e8c4b008ec27e4c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/2a/f4dddd12f9537990d8d9c07fc2f9f4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/34/3dd0307b0745f88a660fd4d096bfd0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/35/688ab08a59b7c14ea87ab0f8c770b2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/3a/0d208e35164fc8295fa2519b3e297f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/4b/42e32aad9bec6e24ee61792b9fb6e7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/4d/807b50756a2e7a6a7d8850e7ab1c25.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/5a/f00a376544396ff91d9b571aee05c1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/6e/54b411fa06a7341b97c6782bd38c29.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/72/06fe9f3fe50ec51239761214527400.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/88/0d475f6f913451b10a3a2df972c1f0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/8a/a5ff83a69812814cf064fbd0987dcf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/a0/0b3d7069dfc2f9237f785388d14d5f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/ad/a5c5ef3612c36435db5480caa6d511.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/b7/7ab6f54f5a9d15ac8d766e4da2abeb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/c0/31a5a7cc5e16fbfe42381b643da3b8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/c2/330fd75ee66652309b0dc0f123dd77.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/c6/accbf73dec5b384084bf386bf73708.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/d1/e362c8692629c7c72787147d502f6e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/d7/2d4705d8f81f309030b06c8336977b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/d9/b7879e2b088de9f79b5fa114a2bf2b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.cache/ff/3a4831b614dea9624cf9bd32860f6b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/jepardy.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dev_testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dev_testing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/ocad.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ocad.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/u_of_t.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/u_of_t.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/waterloo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/waterloo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/western.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/western.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +80,7 @@
       <recent name="C:\Users\Emperor Master Chen\BootstrapWebsite\src\pages\en" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.react_testing.js">
     <configuration name="react_testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/react_testing.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
