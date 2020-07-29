@@ -16,19 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/jepardy.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/dev_testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dev_testing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/ocad.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/ocad.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/u_of_t.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/u_of_t.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/waterloo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/waterloo.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/western.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/western.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
-    </list>
+    <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
