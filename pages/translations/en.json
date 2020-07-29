@@ -1,4 +1,30 @@
 {
   "about-us-heading": "About Us",
-  "about-us-body": "We're a group of hardworking individuals who strive for excellence. You never stop learning, so we shouldn't\n            either. We're a group of hardworking individuals who strive for excellence. You never stop learning, so we\n            shouldn't either. We're a group of hardworking individuals who strive for excellence. You never stop\n            learning, so we shouldn't either."
+  "about-us-body": "PlanningU is a website that aims to provide valuable advice to those who are applying to a Canadian University. The website will provide guidance for transitioning from high school to university as well as vital course information for several key subjects. Written in both Chinese and English, the website will be accessible to both English and Chinese speaking students (particularly those that live in China).",
+  "ypu": "Why Did We Start PlanningU?",
+  "ypu1": "The idea of a university planning ‘encyclopedia’ originated in mid-June when the PlanningU team had just finished high school and were working on the university-related business. Regardless of the university, every member of the team had great difficulties in navigating the university websites. From tuition fees to course selection, we felt that the resources were scattered across multiple websites rather than being in one consolidated place. Our frustration was further exacerbated by the flood of updates caused by Covid-19.\n",
+  "ypu2": "The feeling of searching for a needle in a haystack reminded us of a similar experience that occurred last September 2019. During the first few months of the school year, we underwent a similar experience when applying for university. Even before filling out the application, we were frustrated by the little information surrounding each program and the daunting amount of courses found in each. When it came to filling out the supplementary applications, very little to no expectations or criteria were listed.\n",
+  "ypu3": "Now that we have completed these ordeals, we wish that no one has to relive the frustration and angst we went through. Through PlanningU, we aim to streamline the university application process for both domestic and international students by providing free, open resources to help them stay on track during the transition from high school to university. Therefore, PlanningU will bring the most up to date, the most comprehensive information to students, just as our slogan says: Planning for Uni, Planning for U.\n",
+  "ypu4": "Some of the universities we provide coverage for include:\n",
+  "ypu5": "The University of Toronto\n",
+  "ypu6": "The University of Waterloo",
+  "ypu7": "The University of Western Ontario",
+  "ypu8": "Going International",
+  "ypu9": "We hold a global vision: not only to help Canadian students but also students coming into Canada. We value user experience and strive to take the initiative and responsibility to help high school students step with the right foot into university with content that would otherwise be behind paywalls.\n",
+  "ourteam": "Our Team",
+  "isaacdesc": "Isaac Dong will be enrolled in the Ivey Business Program at the University of Western Ontario. He has valuable experience in organization and business.",
+  "fullprof": "See Full Profile",
+  "sabdesc": "Sabrina is a person. She is good at table tennis.",
+
+  "isaacheading": "Isaac Dong",
+  "isaacintro": "Western University, Economics + Ivey AEO Status",
+  "isaacnotable": "Notable Achievements",
+  "isaac1": "High School Business Club Founder & CEO",
+  "isaac2": "Co-Founder of the High School Math Team",
+  "isaac3": "Winner of the National Capital Secondary School Athletic Association Competition - Team Division",
+  "isaac4": "Three years of experience as a peer tutor",
+  "isaac5": "SHAD Western Best Prototype Award",
+
+  "sabname": "Sabrina Chen",
+  "sabintro": "University of Toronto, Math and Physical Science"
 }
