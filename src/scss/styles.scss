@@ -1,8 +1,20 @@
 //Font Imports
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@469&display=swap');
+//PingFang
+@font-face {
+  font-family: 'PingFang';
+  src: url('/src/assets/fonts/PingFangSCRegular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('/src/assets/fonts/PingFangSCRegular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
 
-$primary: #5fcf80;
-$body-bg: white;
+$primary: #71c8f0;
+$secondary: #6666ad;
+$accent: b44c78;
+$gray: #e8e9f0;
+$dark: #333366;
+$darker: #000033;
+
 
 //Adding custom spacers to increase flexibility
 $spacer: 1rem !default;
@@ -15,6 +27,9 @@ $spacers: (
 );
 
 //Design Adjustments
+* {
+  box-sizing: border-box;
+}
 
 html, body {
   max-width: 100%;
@@ -28,7 +43,8 @@ html, body {
   background-color: transparent;
   width: 12px;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
   background: linear-gradient(to top, $primary, rgba(21, 238, 1, 0.5));
 
   border-radius: 10px 10px 10px 10px;
@@ -37,28 +53,27 @@ html, body {
 }
 
 //Button Press Animation
-button.btn.btn-primary{
+button.btn.btn-primary {
   overflow: hidden;
-  position:relative;
-
-}
-button.btn.btn-lang{
-    background-color: transparent;
-    border: none;
-    padding: 5 ;
-
-    width: 40;
-    height: 40;
-    border-radius: 40;
-
+  position: relative;
 
 }
 
+button.btn.btn-lang {
+  background-color: transparent;
+  border: none;
+  padding: 5;
+
+  width: 40;
+  height: 40;
+  border-radius: 40;
 
 
+}
 
-#button-animate{
-  position:absolute;
+
+#button-animate {
+  position: absolute;
   background: #fff;
   transform: translate(-50%, -50%);
   pointer-events: none;
@@ -66,30 +81,30 @@ button.btn.btn-lang{
   animation: animate 1s linear infinite;
 }
 
-button.btn.btn-lang:focus{
-    outline:0;
+button.btn.btn-lang:focus {
+  outline: 0;
 }
 
 
-
-@keyframes animate{
-  0%{
-    width:0px;
-    height:0px;
+@keyframes animate {
+  0% {
+    width: 0px;
+    height: 0px;
     opacity: 0.5;
   }
-  100%{
-    width:150px;
-    height:150px;
+  100% {
+    width: 150px;
+    height: 150px;
     opacity: 0.5;
   }
 }
 
 
 //Navbar
-.navbar-expand-lg.navbar-light {
+nav {
   top: 0;
-  background-color: #ffffff;
+  background-color: $darker;
+  color: #ffffff;
   border-bottom: 1px solid #d3d3d3;
   position: -webkit-sticky;
   position: fixed;
@@ -100,31 +115,131 @@ button.btn.btn-lang:focus{
 
 }
 
-#main-info > * {
+//Navbar brand
+#nav-bar .navbar-brand {
+  color: white;
+  padding-left: 3vw;
+  font: bold 30px Poppins, serif;
+}
+
+#nav-bar .navbar-brand:hover { //What did I do to deserve this
+  color: white;
+}
+
+#navbar-btn-toggle {
+  width: 47px;
+  height: 34px;
+  background-color: #ffffff;
+}
+
+#navbar-btn-toggle .line {
+  width: 100%;
+  float: left;
+  height: 3px;
+  background-color: $darker;
+  margin-bottom: 5px;
+  border-radius: 1px 1px 1px 1px;
+}
+a.nav-link{
+  color:white;
+}
+div.vertical-divider{
+  width:2px;
+  height:40px;
+  background:white;
+  border-radius: 10px 10px 10px 10px;
+}
+
+li.nav-item{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+////THIS IS FOR PADDING FOR THE WHOLE PAGE
+/*#main-info > * {
   padding-left: 11vw;
   padding-right: 11vw;
-}
+}*/
 
 #footer > * {
   padding-left: 11vw;
   padding-right: 11vw;
 }
 
-//Navbar brand
-.navbar-light.navbar-expand-lg .navbar-brand {
-  color: $primary;
-  font: bold 30px Poppins, serif;
-}
-
-.navbar-light.navbar-expand-lg .navbar-brand:hover { //What did I do to deserve this
-  color: $primary;
-}
 
 //************************//
 
 .jumbotron {
   background-color: #ffffff !important;
   border-top: 3px solid rgb(219, 219, 219);
+}
+
+
+//SlideShow
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+.slideshow-container .slide img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slide {
+  display: none;
+  overflow: hidden;
+}
+
+/* Next & previous buttons */
+.slideshow-container a.prev, .slideshow-container a.next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
 }
 
 
@@ -179,13 +294,14 @@ button.btn.btn-lang:focus{
   -moz-border-radius: 6px 0 6px 6px;
   border-radius: 6px 0 6px 6px;
 }
-.dropdown-menu{
-    min-width: 50px !important;
+
+.dropdown-menu {
+  min-width: 50px !important;
 }
 
-#navbarDropdown2{
-    min-width:60;
-    width:60;
+#navbarDropdown2 {
+  min-width: 60;
+  width: 60;
 }
 
 .btn.btn-primary {
@@ -194,6 +310,7 @@ button.btn.btn-lang:focus{
 
 #page-description {
   background-color: $primary;
+
 }
 
 #page-description p, #page-description h2 {
@@ -283,18 +400,18 @@ button.btn.btn-lang:focus{
 // Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
 @import "node_modules/bootstrap/scss/bootstrap";
 
-.iframecontainer{
-     padding-top: 56.25%;
-     position: relative;
+.iframecontainer {
+  padding-top: 56.25%;
+  position: relative;
 }
 
 .iframecontainer iframe {
-   border: 0;
-   height: 80%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 80%;
+  border: 0;
+  height: 80%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 80%;
 }
 
 #sky {
@@ -307,9 +424,11 @@ button.btn.btn-lang:focus{
   position: absolute;
 
 }
-#raise{
-    margin: 20;
+
+#raise {
+  margin: 20;
 }
-.hidden{
-    display: none;
+
+.hidden {
+  display: none;
 }
