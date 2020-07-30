@@ -522,3 +522,13 @@ div.social-media {
 .hidden {
   display: none;
 }
+
+.wrapper{
+    display:flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.slideshow-container{
+    background: black;
+}
