@@ -35,8 +35,8 @@ $spacers: (
 }
 
 html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+  //max-width: 100%;
+  //overflow-x: hidden;
 
 }
 
@@ -235,7 +235,7 @@ div.social-media {
   pointer-events: none;
   position: absolute;
   width: 100%;
-  top: 12vw;
+  top: 14vw;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -578,6 +578,7 @@ div.social-media {
 .wrapper {
   display: flex;
   width: 100%;
+
 }
 
 #sidebar-div {
@@ -586,7 +587,7 @@ div.social-media {
 
 #sidebar {
   width: 250px;
-  position: fixed;
+// position: fixed;
   top: 0;
   left: 0;
   height: 100vh;

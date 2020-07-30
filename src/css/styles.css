@@ -7,10 +7,6 @@
   src: url("/src/assets/fonts/PingFangSCRegular.woff") format("woff"), url("/src/assets/fonts/PingFangSCRegular.ttf") format("truetype");
   /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden; }
-
 ::-webkit-scrollbar {
   background-color: transparent;
   width: 12px; }
@@ -151,7 +147,7 @@ div.social-media {
   pointer-events: none;
   position: absolute;
   width: 100%;
-  top: 12vw;
+  top: 14vw;
   left: 50%;
   transform: translateX(-50%); }
 
@@ -8710,7 +8706,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 #sidebar {
   width: 250px;
-  position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
