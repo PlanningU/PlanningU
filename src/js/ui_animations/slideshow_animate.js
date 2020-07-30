@@ -1,9 +1,11 @@
 var slides = document.getElementsByClassName("slide")
 var slideIndex = 1;
+var interval = setInterval(function(){plusSlides(1)}, 3600);
 plusSlides(0);
-automatedSlides();
-function plusSlides(n) {
 
+
+function plusSlides(n) {
+    clearInterval(interval);
     for (var i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
@@ -13,22 +15,10 @@ function plusSlides(n) {
     }else if (slideIndex < 1){
         slideIndex = slides.length;
     }
-
     slides[slideIndex -1].style.display = "block";
+
+    setTimeout(interval = setInterval(function(){plusSlides(1)}, 3600), 3600);
 }
 
-function automatedSlides() {
-    for (var i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length){
-        slideIndex = 1
-    }else if (slideIndex < 1){
-        slideIndex = slides.length;
-    }
 
 
-    slides[slideIndex -1].style.display = "block";
-    setTimeout(automatedSlides, 3600); // Change image every 2 seconds
-}
