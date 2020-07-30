@@ -85,6 +85,20 @@ button.btn.btn-lang:focus {
   margin-bottom: 5px;
   border-radius: 1px 1px 1px 1px; }
 
+ul.dropdown-menu.dropdown-menu-left {
+  color: white;
+  background-color: #333366;
+  left: -10px;
+  top: 45px; }
+
+ul.dropdown-menu.dropdown-menu-left li a,
+ul.dropdown-menu.dropdown-menu-left li button,
+ul.dropdown-menu.dropdown-menu-left li h6 {
+  color: white; }
+
+ul.dropdown-menu li a:hover, ul.dropdown-menu li button:hover {
+  background-color: blueviolet; }
+
 a.nav-link {
   color: white;
   font: 15px "Open Sans", sans-serif; }
@@ -206,13 +220,13 @@ div.social-media {
 
 @-webkit-keyframes fade {
   from {
-    opacity: .4; }
+    opacity: .8; }
   to {
     opacity: 1; } }
 
 @keyframes fade {
   from {
-    opacity: .4; }
+    opacity: .8; }
   to {
     opacity: 1; } }
 
@@ -258,12 +272,23 @@ div.social-media {
 .dropdown-menu {
   min-width: 50px !important; }
 
-#navbarDropdown2 {
-  min-width: 60;
-  width: 60; }
-
 .btn.btn-primary {
   border-radius: 15px; }
+
+#learn-more-card {
+  position: relative;
+  width: 100%;
+  height: 100vh; }
+
+#curve {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  fill: #e8e9f0; }
+
+#card-grid pattern {
+  stroke: #71c8f0;
+  position: absolute; }
 
 #page-description {
   background-color: #71c8f0; }

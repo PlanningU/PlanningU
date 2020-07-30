@@ -7,8 +7,8 @@
   src: url('/src/assets/fonts/PingFangSCRegular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   url('/src/assets/fonts/PingFangSCRegular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 
 $primary: #71c8f0;
@@ -145,11 +145,27 @@ button.btn.btn-lang:focus {
   border-radius: 1px 1px 1px 1px;
 }
 
+ul.dropdown-menu.dropdown-menu-left {
+  color: white;
+  background-color: $dark;
+  left: -10px;
+  top: 45px;
+}
+
+ul.dropdown-menu.dropdown-menu-left li a,
+ul.dropdown-menu.dropdown-menu-left li button,
+ul.dropdown-menu.dropdown-menu-left li h6 {
+  color: white;
+}
+
+ul.dropdown-menu li a:hover, ul.dropdown-menu li button:hover {
+  background-color: blueviolet; //TODO: Please change
+}
+
 a.nav-link {
   color: white;
   font: 15px "Open Sans", sans-serif;
 }
-
 
 
 div.nav-vertical-divider {
@@ -195,7 +211,7 @@ div.social-media {
 
 //SlideShow
 .slideshow-container {
- position: relative;
+  position: relative;
 }
 
 .slide {
@@ -225,17 +241,14 @@ div.social-media {
   transform: translateX(-50%);
 }
 
-#slogan .col h2{
+#slogan .col h2 {
   font: 75px Fjalla One, sans-serif;
 }
-
 
 
 .slideshow-text {
   color: white;
 }
-
-
 
 
 #slogan-vertical-divider {
@@ -245,7 +258,7 @@ div.social-media {
 
 }
 
-@media  (max-width: 768px) {
+@media (max-width: 768px) {
   #slogan-vertical-divider {
     position: absolute;
     top: -4vw;
@@ -254,24 +267,26 @@ div.social-media {
     background: white;
     transform: rotate(90deg);
   }
-  #row-vertical-divider{
-   // min-height: 20px;
+  #row-vertical-divider {
+    // min-height: 20px;
     position: relative;
     height: 40px;
   }
-  #slogan .col h2{
+  #slogan .col h2 {
     font: 70px Fjalla One, sans-serif;
   }
 }
+
 @media (max-width: 450px) {
-  #slogan .col h2{
+  #slogan .col h2 {
     font: 15vw Fjalla One, sans-serif;
   }
 }
 
 @media (max-width: 992px) {
-  .nav-vertical-divider{
+  .nav-vertical-divider {
     all: initial;
+
     * {
       all: unset;
     }
@@ -303,8 +318,6 @@ div.social-media {
 }
 
 
-
-
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -316,7 +329,7 @@ div.social-media {
 
 @-webkit-keyframes fade {
   from {
-    opacity: .4
+    opacity: .8
   }
   to {
     opacity: 1
@@ -325,14 +338,14 @@ div.social-media {
 
 @keyframes fade {
   from {
-    opacity: .4
+    opacity: .8
   }
   to {
     opacity: 1
   }
 }
 
-
+//Submenus
 .dropdown-submenu {
   position: relative;
 }
@@ -389,13 +402,30 @@ div.social-media {
   min-width: 50px !important;
 }
 
-#navbarDropdown2 {
-  min-width: 60;
-  width: 60;
-}
+
 
 .btn.btn-primary {
   border-radius: 15px;
+}
+
+//Home Page Cards
+#learn-more-card{
+  position: relative;
+  width:100%;
+  height:100vh;
+
+
+}
+#curve {
+  position: absolute;
+  width:100%;
+  height:100%;
+  fill: $gray;
+}
+
+#card-grid pattern{
+  stroke: $primary;
+  position: absolute;
 }
 
 #page-description {
