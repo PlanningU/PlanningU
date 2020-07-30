@@ -9,6 +9,8 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
+
+
 $primary: #71c8f0;
 $secondary: #6666ad;
 $accent: b44c78;
@@ -116,6 +118,7 @@ button.btn.btn-lang:focus {
 
 }
 
+
 //Navbar brand
 #nav-bar .navbar-brand {
   color: white;
@@ -144,13 +147,16 @@ button.btn.btn-lang:focus {
 
 a.nav-link {
   color: white;
+  font: 15px "Open Sans", sans-serif;
 }
 
-div.vertical-divider {
+
+
+div.nav-vertical-divider {
   width: 2px;
   height: 40px;
   background: white;
-  border-radius: 10px 10px 10px 10px;
+
 }
 
 li.nav-item {
@@ -205,59 +211,74 @@ div.social-media {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: brightness(50%);
 
 }
 
 
 .slideshow-text #slogan {
-
+  pointer-events: none;
   position: absolute;
   width: 100%;
-  top: 25%;
+  top: 12vw;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.slideshow-text #slogan .col h2{
+#slogan .col h2{
   font: 75px Fjalla One, sans-serif;
 }
-.slideshow-text #vision-statement{
-  width:85vw;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translateX(-50%);
-}
+
+
 
 .slideshow-text {
   color: white;
-
-
-
-
 }
 
-.slideshow-text .slogan-text {
 
 
-}
-
-.slideshow-text .slogan-text h2 {
-  font: 50px "Open Sans Extrabold", sans-serif;
-}
 
 #slogan-vertical-divider {
   width: 5px;
   height: 80px;
   background: white;
-  border-radius: 10px 10px 10px 10px;
+
 }
 
-.slideshow-text h3 {
-  position: absolute;
-  top: 60%;
+@media  (max-width: 768px) {
+  #slogan-vertical-divider {
+    position: absolute;
+    top: -4vw;
+    width: 5px;
+    height: 80px;
+    background: white;
+    transform: rotate(90deg);
+  }
+  #row-vertical-divider{
+   // min-height: 20px;
+    position: relative;
+    height: 40px;
+  }
+  #slogan .col h2{
+    font: 70px Fjalla One, sans-serif;
+  }
+}
+@media (max-width: 450px) {
+  #slogan .col h2{
+    font: 15vw Fjalla One, sans-serif;
+  }
 }
 
+@media (max-width: 992px) {
+  .nav-vertical-divider{
+    all: initial;
+    * {
+      all: unset;
+    }
+
+  }
+
+}
 
 /* Next & previous buttons */
 .slideshow-container a.prev, .slideshow-container a.next {
@@ -268,6 +289,7 @@ div.social-media {
   margin-top: -22px;
   padding: 16px;
   color: white;
+  opacity: 50%;
   font-weight: bold;
   font-size: 40px;
   transition: 0.6s ease;
@@ -280,12 +302,7 @@ div.social-media {
   border-radius: 3px 0 0 3px;
 }
 
-/*
 
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-*/
 
 
 .fade {
