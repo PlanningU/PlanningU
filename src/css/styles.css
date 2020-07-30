@@ -7,10 +7,6 @@
   src: url("/src/assets/fonts/PingFangSCRegular.woff") format("woff"), url("/src/assets/fonts/PingFangSCRegular.ttf") format("truetype");
   /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden; }
-
 ::-webkit-scrollbar {
   background-color: transparent;
   width: 12px; }
@@ -110,8 +106,8 @@ div.nav-vertical-divider {
   background: white; }
 
 li.nav-item {
-  padding-left: 1vw;
-  padding-right: 1vw; }
+  padding-left: 0.5vw;
+  padding-right: 0.5vw; }
 
 a.fa {
   padding: 0;
@@ -120,10 +116,9 @@ a.fa {
 div.social-media {
   padding-top: 9px; }
 
-/*#main-info > * {
-  padding-left: 11vw;
-  padding-right: 11vw;
-}*/
+#main-info, #sidebar {
+  padding-top: 56px; }
+
 #footer > * {
   padding-left: 11vw;
   padding-right: 11vw; }
@@ -152,7 +147,7 @@ div.social-media {
   pointer-events: none;
   position: absolute;
   width: 100%;
-  top: 12vw;
+  top: 14vw;
   left: 50%;
   transform: translateX(-50%); }
 
@@ -392,6 +387,51 @@ div.social-media {
 
 #copyright {
   background: rgba(0, 0, 0, 0.24); }
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  position: relative; }
+
+#sidebar-div {
+  padding-top: 15px; }
+
+#sidebar {
+  width: 250px;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  position: sticky;
+  background: white;
+  color: #333366;
+  transition: all 0.3s;
+  border-right: 2px solid #e8e9f0; }
+
+#sidebar .sidebar-header {
+  padding-left: 10px; }
+
+#sidebar ul {
+  padding-left: 0;
+  list-style-type: none; }
+
+#sidebar .sidebar-components .sidebar-item a {
+  color: #333366;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: block;
+  transition: background-color 400ms, color 400ms; }
+
+#sidebar .sidebar-components .sidebar-item a:hover {
+  background-color: #333366;
+  color: white; }
+
+#sidebar .sidebar-components .sidebar-item .course-unit-dropdown {
+  font-size: 13px; }
+
+#sidebar .sidebar-components .sidebar-item .course-unit-dropdown li a {
+  padding-left: 20px;
+  display: block; }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
@@ -8680,35 +8720,3 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-
-.iframecontainer {
-  padding-top: 56.25%;
-  position: relative; }
-
-.iframecontainer iframe {
-  border: 0;
-  height: 80%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 80%; }
-
-#sky {
-  position: relative; }
-
-#flag {
-  position: absolute; }
-
-#raise {
-  margin: 20; }
-
-.hidden {
-  display: none; }
-
-.wrapper {
-  display: flex;
-  align-items: stretch;
-  width: 100%; }
-
-.slideshow-container {
-  background: black; }
