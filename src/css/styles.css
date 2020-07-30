@@ -110,8 +110,8 @@ div.nav-vertical-divider {
   background: white; }
 
 li.nav-item {
-  padding-left: 1vw;
-  padding-right: 1vw; }
+  padding-left: 0.5vw;
+  padding-right: 0.5vw; }
 
 a.fa {
   padding: 0;
@@ -120,10 +120,9 @@ a.fa {
 div.social-media {
   padding-top: 9px; }
 
-/*#main-info > * {
-  padding-left: 11vw;
-  padding-right: 11vw;
-}*/
+#main-info, #sidebar {
+  padding-top: 56px; }
+
 #footer > * {
   padding-left: 11vw;
   padding-right: 11vw; }
@@ -8707,8 +8706,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 .wrapper {
   display: flex;
-  align-items: stretch;
   width: 100%; }
 
-.slideshow-container {
-  background: black; }
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: #7386D5;
+  color: #fff;
+  transition: all 0.3s; }
