@@ -17,13 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/ui_animations/slideshow_animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/ui_animations/slideshow_animate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +38,7 @@
   </component>
   <component name="ProjectId" id="1emNpjMoZL74U3rDh63dOTqtADu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -63,6 +58,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -200,15 +196,19 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="441" y="91" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595890647001" />
+    <state x="221" y="13" key="SettingsEditor" timestamp="1596086543753">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="221" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1596086543753" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1595904229068">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594940359558" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595904229068" />
-    <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595630068396">
+    <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596086490017">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="287" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1595630068396" />
+    <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596086490017" />
     <state x="347" y="166" width="672" height="677" key="run.anything.popup" timestamp="1595889902366">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
