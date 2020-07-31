@@ -275,37 +275,122 @@ div.social-media {
 .btn.btn-primary {
   border-radius: 15px; }
 
-#learn-more-card {
+.home-card {
   position: relative;
   width: 100%;
-  height: 85vh; }
+  height: 100vh; }
 
-#curve {
+#university-application-card {
+  background-color: #333366; }
+
+.home-card .card-body {
+  z-index: 1;
   position: absolute;
+  left: 8%;
+  top: 20%;
+  width: 84%; }
+
+#university-application-card .card-body {
+  text-align: right; }
+
+#high-school-card .card-body {
+  border: 15px solid #71c8f0;
+  background-color: white;
+  left: -20px;
+  border-radius: 15px;
+  padding-left: 10vw;
+  width: 70%;
+  min-width: 280px;
+  box-shadow: 12vw 80px rgba(113, 200, 240, 0.2); }
+
+.home-card .card-body h3 {
+  font: 60px bolder, "Open Sans", sans-serif;
+  margin-bottom: 20px; }
+
+#learn-more-card .card-body h3, #high-school-card .card-body h3 {
+  color: #000033; }
+
+#university-application-card .card-body h3 {
+  color: white; }
+
+.home-card .card-body h4 {
+  font: 36px bolder, "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  padding-top: 30px; }
+
+#learn-more-card .card-body h4, #high-school-card .card-body h4 {
+  color: #333366; }
+
+#university-application-card .card-body h4 {
+  color: white; }
+
+.home-card .card-body a {
+  font: 25px bolder, "Open Sans", sans-serif;
+  display: block;
+  padding-top: 30px; }
+
+@media screen and (max-width: 1000px) {
+  .home-card .card-body {
+    left: 8%;
+    top: 20%;
+    width: 84%; }
+  .home-card .card-body h3 {
+    font-size: 8vw;
+    margin-bottom: 20px; }
+  .home-card .card-body h4 {
+    font: 36px bolder, "Open Sans", sans-serif;
+    margin-bottom: 20px;
+    padding-top: 30px; }
+  .home-card .card-body a {
+    font: 25px bolder, "Open Sans", sans-serif;
+    display: block;
+    padding-top: 30px; } }
+
+#curve1 {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   fill: white; }
 
-#card-grid pattern {
+#high-school-card svg pattern {
+  stroke: #fd63a3;
+  position: absolute; }
+
+#card-grid-1 pattern {
   stroke: #71c8f0;
   position: absolute; }
 
-#learn-more-card-body {
-  z-index: 1;
+.dotted-grid {
   position: absolute;
-  left: 8vw;
-  top: 20%;
-  width: 40%; }
+  top: 40%;
+  left: 5%;
+  height: 50%;
+  width: 50%;
+  opacity: 50%;
+  background-image: url("/src/assets/Index/dot_grid.svg");
+  background-size: cover; }
 
-#learn-more-card-body h3 {
-  color: #71c8f0;
-  font: 50px bolder, "Open Sans", sans-serif;
-  margin-bottom: 20px; }
+.rect-1 {
+  position: absolute;
+  top: -110px;
+  left: 200px;
+  border-radius: 25px;
+  background: #71c8f0;
+  padding: 20px;
+  width: 500px;
+  height: 160px; }
 
-#learn-more-card-body h4 {
-  color: #000033;
-  font: 30px bolder, "Open Sans", sans-serif;
-  margin-bottom: 20px; }
+.rect-2 {
+  position: absolute;
+  top: -10px;
+  left: 40%;
+  border-radius: 25px;
+  background: #B44C78;
+  padding: 20px;
+  width: 300px;
+  height: 120px; }
 
 #page-description {
   background-color: #71c8f0; }
