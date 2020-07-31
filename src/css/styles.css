@@ -329,10 +329,10 @@ div.social-media {
   display: block;
   padding-top: 30px; }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 601px) and (max-width: 1000px) {
   .home-card .card-body {
     left: 8%;
-    top: 20%;
+    top: 6vw;
     width: 84%; }
   .home-card .card-body h3 {
     font-size: 8vw;
@@ -344,7 +344,9 @@ div.social-media {
   .home-card .card-body a {
     font: 25px bolder, "Open Sans", sans-serif;
     display: block;
-    padding-top: 30px; } }
+    padding-top: 30px; }
+  #high-school-card .card-body {
+    width: 90%; } }
 
 #curve1 {
   position: absolute;
@@ -375,7 +377,7 @@ div.social-media {
 .rect-1 {
   position: absolute;
   top: -110px;
-  left: 200px;
+  left: 15%;
   border-radius: 25px;
   background: #71c8f0;
   padding: 20px;
@@ -391,6 +393,37 @@ div.social-media {
   padding: 20px;
   width: 300px;
   height: 120px; }
+
+@media screen and (max-width: 600px) {
+  .home-card .card-body {
+    left: 4%;
+    width: 92%;
+    top: 4vw; }
+  .home-card .card-body h3 {
+    font-size: 11vw;
+    margin-bottom: 0px; }
+  .home-card .card-body h4 {
+    font: 26px bolder, "Open Sans", sans-serif;
+    margin-bottom: 20px;
+    padding-top: 30px; }
+  .home-card .card-body a {
+    font: 23px bolder, "Open Sans", sans-serif;
+    display: block;
+    padding-top: 30px; }
+  #high-school-card .card-body {
+    width: 90%; }
+  .rect-1 {
+    top: -80px;
+    left: 0;
+    width: 90%;
+    border-radius: 0 20px 20px 0;
+    height: 100px; }
+  .rect-2 {
+    top: -10px;
+    left: 0px;
+    width: 95%;
+    height: 120px;
+    border-radius: 0 20px 20px 0; } }
 
 #page-description {
   background-color: #71c8f0; }
