@@ -18,19 +18,15 @@
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit3.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit4.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit5.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit6.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit7.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit8.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/campus.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Index/campus.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/grid1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/ocad.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Index/ocad.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/u_of_t.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Index/u_of_t.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/waterloo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Index/waterloo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/western.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Index/western.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/sidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/Index" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -75,15 +71,15 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\assets\Index" />
       <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\pages\subjects" />
       <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\pages\subjects\math" />
       <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\ui_animations" />
       <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\page_functionality" />
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.react_testing.js">
@@ -111,7 +107,7 @@
       <workItem from="1595863915417" duration="15031000" />
       <workItem from="1596064324653" duration="4320000" />
       <workItem from="1596153768108" duration="8308000" />
-      <workItem from="1596202729720" duration="8185000" />
+      <workItem from="1596202729720" duration="23309000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -193,10 +189,11 @@
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594940772710" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1596203362097" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1594943389369">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1596211814097">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594943389369" />
+    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1596211814097" />
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1595344351357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

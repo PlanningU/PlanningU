@@ -194,11 +194,11 @@ div.social-media {
 }
 
 
-
-#main-info{
+#main-info {
   margin-top: 54px;
 }
-#main-info.alongside-sidebar, #sidebar{
+
+#main-info.alongside-sidebar, #sidebar {
   margin-top: 0px;
   padding-top: 54px;
 }
@@ -415,48 +415,163 @@ div.social-media {
   border-radius: 15px;
 }
 
+
 //Home Page Cards
-#learn-more-card {
+.home-card {
   position: relative;
   width: 100%;
-  height: 85vh;
+  height: 100vh;
+}
+
+#university-application-card {
+  background-color: $dark;
+}
+
+.home-card .card-body {
+  z-index: 1;
+  position: absolute;
+  //color: $primary;
+  left: 8%;
+  top: 20%;
+  width: 84%
+}
+
+#university-application-card .card-body {
+  text-align: right;
+}
+
+#high-school-card .card-body {
+  border: 15px solid $primary;
+  background-color: white;
+  left: -20px;
+  border-radius: 15px;
+  padding-left: 10vw;
+  width: 70%;
+  min-width: 280px;
+  box-shadow: 12vw 80px rgba(113, 200, 240, 0.2);
+}
+
+
+.home-card .card-body h3 {
+  font: 60px bolder, "Open Sans", sans-serif;
+  margin-bottom: 20px;
+
+}
+
+#learn-more-card .card-body h3, #high-school-card .card-body h3 {
+  color: $darker;
+}
+
+#university-application-card .card-body h3 {
+  color: white;
+}
+
+.home-card .card-body h4 {
+  font: 36px bolder, "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+#learn-more-card .card-body h4, #high-school-card .card-body h4 {
+  color: $dark;
+}
+
+#university-application-card .card-body h4 {
+  color: white;
+}
+
+.home-card .card-body a {
+  font: 25px bolder, "Open Sans", sans-serif;
+  display: block;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 1000px){
+
+  .home-card .card-body {
+    left: 8%;
+    top: 20%;
+    width: 84%
+  }
+  .home-card .card-body h3 {
+    font-size: 8vw;
+
+
+    margin-bottom: 20px;
+
+  }
+  .home-card .card-body h4 {
+    font: 36px bolder, "Open Sans", sans-serif;
+    margin-bottom: 20px;
+    padding-top: 30px;
+  }
+  .home-card .card-body a {
+    font: 25px bolder, "Open Sans", sans-serif;
+    display: block;
+    padding-top: 30px;
+  }
 
 
 }
 
-#curve {
+
+#curve1 {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  fill: white;;
+  fill: white;
 }
 
-#card-grid pattern {
+#high-school-card svg pattern {
+
+  stroke: #fd63a3;
+  position: absolute;
+}
+
+
+#card-grid-1 pattern {
   stroke: $primary;
   position: absolute;
 
 }
 
-#learn-more-card-body {
-  z-index: 1;
+
+.dotted-grid {
   position: absolute;
-  //color: $primary;
-  left: 8vw;
-  top: 20%;
-  width: 40%
+  top: 40%;
+  left: 5%;
+
+  height: 50%;
+  width: 50%;
+  opacity: 50%;
+  background-image: url("/src/assets/Index/dot_grid.svg");
+  background-size: cover;
 }
 
-#learn-more-card-body h3 {
-  color: $primary;
-  font: 50px bolder, "Open Sans", sans-serif;
-  margin-bottom: 20px;
+.rect-1 {
+  position: absolute;
+  top: -110px;
+  left: 200px;
+  border-radius: 25px;
+  background: $primary;
+  padding: 20px;
+  width: 500px;
+  height: 160px;
 }
 
-#learn-more-card-body h4 {
-  color: $darker;
-  font: 30px bolder, "Open Sans", sans-serif;
-  margin-bottom: 20px;
+.rect-2 {
+  position: absolute;
+  top: -10px;
+  left: 40%;
+  border-radius: 25px;
+  background: #B44C78;
+  padding: 20px;
+  width: 300px;
+  height: 120px;
 }
+
 
 #page-description {
   background-color: $primary;
@@ -552,7 +667,7 @@ div.social-media {
 .wrapper {
   display: flex;
   width: 100%;
- // position: relative;
+  // position: relative;
   flex-direction: row;
 
 }
@@ -593,6 +708,7 @@ div.social-media {
   transform: rotate(90deg);
   text-decoration: none;
 }
+
 .sidebar-nav a.icon:hover {
   color: $primary;
 }
@@ -625,7 +741,7 @@ div.social-media {
 }
 
 @media screen and (max-width: 800px) {
-  #nav-bar.alongside-sidebar{
+  #nav-bar.alongside-sidebar {
     position: relative;
   }
   .wrapper {
@@ -646,7 +762,7 @@ div.social-media {
     background: white;
     position: sticky;
     position: -webkit-sticky; /* for Safari */
-      top: 0;
+    top: 0;
     align-self: flex-start;
     width: 100%;
     min-height: 55px;
@@ -654,18 +770,17 @@ div.social-media {
     padding-top: 5px;
 
   }
-  #sidebar-components{
-    margin:0;
+  #sidebar-components {
+    margin: 0;
   }
-  #main-info.alongside-sidebar{
+  #main-info.alongside-sidebar {
     padding-top: 0;
 
   }
 
 
-
   #sidebar .sidebar-header {
-   display: inline-block;
+    display: inline-block;
   }
   .sidebar-nav .sidebar-components .sidebar-item {
     display: none;
@@ -678,7 +793,6 @@ div.social-media {
   }
 
 
-
   .sidebar-nav.responsive {
     //position: relative;
   }
@@ -689,8 +803,6 @@ div.social-media {
     width: 100%;
     text-align: left;
   }
-
-
 
 
 }
