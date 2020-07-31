@@ -117,7 +117,7 @@ div.social-media {
   padding-top: 9px; }
 
 #main-info, #sidebar {
-  padding-top: 56px; }
+  padding-top: 54px; }
 
 #footer > * {
   padding-left: 11vw;
@@ -391,7 +391,7 @@ div.social-media {
 .wrapper {
   display: flex;
   width: 100%;
-  position: relative; }
+  flex-direction: row; }
 
 #sidebar-div {
   padding-top: 15px; }
@@ -400,7 +400,7 @@ div.social-media {
   width: 250px;
   top: 0;
   left: 0;
-  height: 100vh;
+  min-height: 100vh;
   position: sticky;
   background: white;
   color: #333366;
@@ -408,15 +408,20 @@ div.social-media {
   border-right: 2px solid #e8e9f0; }
 
 #sidebar .sidebar-header {
-  padding-left: 10px; }
+  padding-left: 20px; }
 
 #sidebar ul {
   padding-left: 0;
   list-style-type: none; }
 
+.sidebar-nav a.icon {
+  font-size: 28px;
+  display: none;
+  background-color: black; }
+
 #sidebar .sidebar-components .sidebar-item a {
   color: #333366;
-  padding-left: 10px;
+  padding-left: 20px;
   padding-bottom: 10px;
   padding-top: 10px;
   display: block;
@@ -430,8 +435,39 @@ div.social-media {
   font-size: 13px; }
 
 #sidebar .sidebar-components .sidebar-item .course-unit-dropdown li a {
-  padding-left: 20px;
+  padding-left: 30px;
   display: block; }
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    flex-direction: column; }
+  #sidebar {
+    min-height: 20px;
+    width: 100%;
+    border-right: 0;
+    position: fixed;
+    max-height: 95vw;
+    overflow: auto; }
+  #sidebar-div {
+    min-height: 100px;
+    border-right: 0;
+    padding-top: 5px; }
+  #main-info {
+    padding-top: 0; }
+  #sidebar .sidebar-header {
+    display: inline-block; }
+  .sidebar-nav .sidebar-components .sidebar-item {
+    display: none; }
+  .sidebar-nav a.icon {
+    float: right;
+    display: inline; }
+  .sidebar-nav.responsive {
+    position: relative; }
+  .sidebar-nav.responsive .sidebar-components .sidebar-item {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; } }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
