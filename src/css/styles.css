@@ -37,11 +37,7 @@ button.btn.btn-primary {
 
 button.btn.btn-lang {
   background-color: transparent;
-  border: none;
-  padding: 5;
-  width: 40;
-  height: 40;
-  border-radius: 40; }
+  border: none; }
 
 #button-animate {
   position: absolute;
@@ -99,8 +95,10 @@ button.btn.btn-lang:focus {
 ul.dropdown-menu.dropdown-menu-left {
   color: white;
   background-color: #333366;
-  left: -10px;
-  top: 45px; }
+  left: 12px;
+  top: 43px;
+  border-radius: 0 0 3px 3px;
+  width: 150px; }
 
 ul.dropdown-menu.dropdown-menu-left li a,
 ul.dropdown-menu.dropdown-menu-left li button,
@@ -123,6 +121,60 @@ div.nav-vertical-divider {
 li.nav-item {
   padding-left: 0.5vw;
   padding-right: 0.5vw; }
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px; }
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0; }
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #075AAA;
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+#language-toggle-item {
+  padding-top: 7px; }
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 3px;
+  background: url("/src/assets/uk_flag.png") center/cover;
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+input:checked + .slider:before {
+  background: url("/src/assets/chinese_flag.png") center/cover; }
+
+input:checked + .slider {
+  background-color: #BD132D; }
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px); }
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 5px; }
+
+.slider.round:before {
+  border-radius: 10%; }
 
 a.fa {
   padding: 0;
