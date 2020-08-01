@@ -16,11 +16,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="">
+    <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="updated business courses">
+      <change afterPath="$PROJECT_DIR$/pages/applications/applications-sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/applications/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/applications/queens.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/applications/uwaterloo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/applications/western.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/page_functionality/appsidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +73,14 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/applications" />
+      <recent name="$PROJECT_DIR$/pages/subjects/business/cia4u" />
       <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\assets\Index" />
       <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\pages\subjects" />
       <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\pages\subjects\math" />
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\ui_animations" />
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\page_functionality" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.react_testing.js">
+  <component name="RunManager">
     <configuration name="react_testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/react_testing.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
@@ -123,7 +128,35 @@
       <option name="project" value="LOCAL" />
       <updated>1596203363571</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated sidebar">
+      <created>1596234658083</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596234658083</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated sidebar again">
+      <created>1596235559303</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596235559303</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated header to have business">
+      <created>1596235673760</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596235673760</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated business courses">
+      <created>1596236923024</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596236923024</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +191,11 @@
     <MESSAGE value="Starting Tests" />
     <MESSAGE value="messed around with testing page and changed language toggler" />
     <MESSAGE value="Sidebar navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sidebar navigation" />
+    <MESSAGE value="updated sidebar" />
+    <MESSAGE value="updated sidebar again" />
+    <MESSAGE value="updated header to have business" />
+    <MESSAGE value="updated business courses" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated business courses" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Deployment" timestamp="1594940725998">
@@ -223,15 +260,19 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="221" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1596086543753" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1595904229068">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1596236940242">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594940359558" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595904229068" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1596236940242" />
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596086490017">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596086490017" />
+    <state x="370" y="128" width="626" height="512" key="find.popup" timestamp="1596236462615">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="370" y="128" width="626" height="512" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1596236462615" />
     <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1596203373326">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
