@@ -674,7 +674,7 @@ div.social-media {
 .wrapper #main-info h2 {
   font-size: 30px; }
 
-.wrapper #main-info p, .wrapper #main-info ul li, .wrapper #main-info ul li a {
+.wrapper #main-info p, .wrapper #main-info ul li, .wrapper #main-info ul li a, .wrapper #main-info ol li {
   font-size: 18px;
   font-family: "Lato Medium", sans-serif;
   color: #6666ad; }
@@ -682,7 +682,7 @@ div.social-media {
 .wrapper #main-info p {
   padding-top: 25px; }
 
-.wrapper #main-info ul {
+.wrapper #main-info ul, .wrapper #main-info ol {
   margin-left: 2%; }
 
 .wrapper #main-info p.difficulty-stars {
