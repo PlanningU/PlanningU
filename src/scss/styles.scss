@@ -17,6 +17,10 @@
   src: url('/src/assets/fonts/SoleilW01Bold.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   url('/src/assets/fonts/SoleilW01Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
+@font-face {
+  font-family: 'Fjalla One Regular';
+  src: url('/src/assets/fonts/FjallaOne-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
@@ -852,9 +856,7 @@ div.social-media {
   }
 
 
-  .sidebar-nav.responsive {
-    //position: relative;
-  }
+
 
   .sidebar-nav.responsive .sidebar-components .sidebar-item {
     float: none;
@@ -863,6 +865,59 @@ div.social-media {
     text-align: left;
   }
 }
+
+//Course information
+
+
+ .course-title{
+  height: 65vh;
+  background-image: linear-gradient(rgba(0, 0, 51, 0.7), rgba(0, 0, 51, 0.7)), url("/src/assets/university_backdrop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+   box-shadow: #cbcbcb 0 25px;
+
+
+}
+.wrapper #main-info .course-title .title{
+position: absolute;
+  top: 35%;
+  left: 10%;
+
+}
+
+.course-vertical-bar{
+  position: absolute;
+  transform: translateY(-50%);
+  left: 5%;
+  top: 50%;
+  width: 5px;
+  background-color: white;
+  height: 70%;
+}
+.wrapper #main-info > *:not(:first-child){
+  padding-left: 8%;
+  padding-right: 8%;
+}
+.course-heading{
+  padding-top: 80px;
+  font-size: 50px;
+}
+.course-heading, .course-subheading{
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font: $dark "Fjalla One Regular", sans-serif;
+  color: $dark;
+}
+p.coursebody{
+font-size: 18px;
+  font-family: "Lato Medium", sans-serif;
+  color: $secondary;
+
+}
+
+//Footer
 
 #footer-container, #copyright{
   text-align: center;
