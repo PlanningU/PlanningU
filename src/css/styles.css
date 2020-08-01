@@ -7,6 +7,16 @@
   src: url("/src/assets/fonts/PingFangSCRegular.woff") format("woff"), url("/src/assets/fonts/PingFangSCRegular.ttf") format("truetype");
   /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
 
+@font-face {
+  font-family: 'Soleil Bold';
+  src: url("/src/assets/fonts/transat_medium-webfont.woff") format("woff"), url("/src/assets/fonts/transat_medium-webfont.woff") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
+
+@font-face {
+  font-family: 'Brandon Grotesque Medium';
+  src: url("/src/assets/fonts/SoleilW01Bold.woff") format("woff"), url("/src/assets/fonts/SoleilW01Bold.ttf") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
+
 ::-webkit-scrollbar {
   background-color: transparent;
   width: 12px; }
@@ -63,7 +73,7 @@ button.btn.btn-lang:focus {
 #nav-bar .navbar-brand {
   color: white;
   padding-left: 3vw;
-  font: bold 30px Poppins, serif; }
+  font: bold 30px Poppins, sans-serif; }
 
 #nav-bar .navbar-brand:hover {
   color: white; }
@@ -411,7 +421,7 @@ div.social-media {
     display: block;
     padding-top: 30px; }
   #high-school-card .card-body {
-    width: 90%; }
+    width: 95%; }
   .rect-1 {
     top: -80px;
     left: 0;
@@ -609,6 +619,46 @@ div.social-media {
     display: block;
     width: 100%;
     text-align: left; } }
+
+#footer-container, #copyright {
+  text-align: center;
+  color: white; }
+
+#footer-container {
+  background-color: #000033;
+  padding-bottom: 20px; }
+
+#footer-container h3 {
+  font: 26px "Brandon Grotesque M", sans-serif; }
+
+#footer-container a {
+  font: 15px "Brandon Grotesque M", sans-serif;
+  color: white; }
+
+#copyright {
+  background-color: #71c8f0;
+  font: 10px "Soleil Bold", sans-serif; }
+
+#copyright h3 {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 17px; }
+
+.header-nav {
+  font: 20px "Soleil Bold", sans-serif;
+  padding-top: 15px; }
+
+.header-nav a {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: white;
+  display: inline; }
+
+.footer-vertical-divider {
+  display: inline-block;
+  width: 1.5px;
+  height: 20px;
+  background-color: #6666ad; }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
