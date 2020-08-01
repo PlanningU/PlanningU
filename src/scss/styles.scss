@@ -25,9 +25,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 
+
 $primary: #71c8f0;
 $secondary: #6666ad;
-$accent: b44c78;
+$accent: #b44c78;
 $gray: #e8e9f0;
 $dark: #333366;
 $darker: #000033;
@@ -825,6 +826,7 @@ div.social-media {
     background: white;
     position: sticky;
     position: -webkit-sticky; /* for Safari */
+    z-index: 100;
     top: 0;
     align-self: flex-start;
     width: 100%;
@@ -878,13 +880,12 @@ div.social-media {
   position: relative;
    box-shadow: #cbcbcb 0 25px;
 
-
 }
 .wrapper #main-info .course-title .title{
-position: absolute;
-  top: 35%;
+  position: absolute;
+  top: 25%;
   left: 10%;
-
+  color: white;
 }
 
 .course-vertical-bar{
@@ -900,45 +901,48 @@ position: absolute;
   padding-left: 8%;
   padding-right: 20%;
 }
-.course-heading{
+@media screen and (max-width: 800px){
+  .wrapper #main-info > *:not(:first-child){
+
+    padding-right: 8%;
+  }
+}
+.wrapper #main-info h1{
   padding-top: 80px;
   font-size: 50px;
 }
-.course-heading, .course-subheading{
+.wrapper #main-info h1:not(:first-child), .wrapper #main-info h2{
   padding-bottom: 10px;
   padding-top: 50px;
   font-family: "Fjalla One Regular", sans-serif;
   color: $dark;
 }
-.course-heading{
+.wrapper #main-info h1{
   font-size: 50px;
 }
-.course-subheading{
+.wrapper #main-info h2{
   font-size: 30px;
 }
 
-p.coursebody, .wrapper #main-info ul li, .wrapper #main-info ul li a{
+.wrapper #main-info p, .wrapper #main-info ul li, .wrapper #main-info ul li a{
 font-size: 18px;
   font-family: "Lato Medium", sans-serif;
   color: $secondary;
 }
+.wrapper #main-info p{
+  padding-top: 25px;
+}
 .wrapper #main-info ul{
-  //list-style: circle inside;
-  //display: table;
   margin-left: 2%;
+}
+
+.wrapper #main-info p.difficulty-stars{
+ // font-size: 180px;
+  font-family: "Brandon Grotesque Medium", sans-serif;
+  color: $accent;
+}
 
 
-}
-.wrapper #main-info ul li{
- // display: table-row;
-  //position: relative;
-  //left: 50px;
-  //padding-left: 1000px;
-}
-.wrapper #main-info ul li:before {
- // content: "•";
-  //display: table-cell;
-}
 
 //Footer
 
