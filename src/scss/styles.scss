@@ -8,12 +8,29 @@
   url('/src/assets/fonts/PingFangSCRegular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
+@font-face {
+  font-family: 'Soleil Bold';
+  src: url('/src/assets/fonts/transat_medium-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('/src/assets/fonts/transat_medium-webfont.woff') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Medium';
+  src: url('/src/assets/fonts/SoleilW01Bold.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('/src/assets/fonts/SoleilW01Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: 'Fjalla One Regular';
+  src: url('/src/assets/fonts/FjallaOne-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 
 $primary: #71c8f0;
 $secondary: #6666ad;
-$accent: b44c78;
+$accent: #b44c78;
 $gray: #e8e9f0;
 $dark: #333366;
 $darker: #000033;
@@ -126,7 +143,7 @@ button.btn.btn-lang:focus {
 #nav-bar .navbar-brand {
   color: white;
   padding-left: 3vw;
-  font: bold 30px Poppins, serif;
+  font: bold 30px Poppins, sans-serif;
 }
 
 #nav-bar .navbar-brand:hover { //What did I do to deserve this
@@ -427,7 +444,6 @@ div.social-media {
 }
 
 
-
 #university-application-card {
   background-color: $dark;
 }
@@ -491,7 +507,7 @@ div.social-media {
   padding-top: 30px;
 }
 
-@media screen and (min-width: 601px) and (max-width: 1000px){
+@media screen and (min-width: 601px) and (max-width: 1000px) {
 
   .home-card .card-body {
     left: 8%;
@@ -580,7 +596,8 @@ div.social-media {
   width: 300px;
   height: 120px;
 }
-@media screen and (max-width: 600px){
+
+@media screen and (max-width: 600px) {
   .home-card .card-body {
     left: 4%;
     width: 92%;
@@ -601,7 +618,7 @@ div.social-media {
     padding-top: 30px;
   }
   #high-school-card .card-body {
-    width: 90%;
+    width: 95%;
   }
 
   .rect-1 {
@@ -811,6 +828,7 @@ div.social-media {
     background: white;
     position: sticky;
     position: -webkit-sticky; /* for Safari */
+    z-index: 100;
     top: 0;
     align-self: flex-start;
     width: 100%;
@@ -842,18 +860,147 @@ div.social-media {
   }
 
 
-  .sidebar-nav.responsive {
-    //position: relative;
-  }
-
   .sidebar-nav.responsive .sidebar-components .sidebar-item {
     float: none;
     display: block;
     width: 100%;
     text-align: left;
   }
+}
 
 
+//Course information
+.course-title {
+  height: 65vh;
+  background-image: linear-gradient(rgba(0, 0, 51, 0.7), rgba(0, 0, 51, 0.7)), url("/src/assets/university_backdrop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: #cbcbcb 0 25px;
+
+}
+
+.wrapper #main-info .course-title .title {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: white;
+}
+
+.course-vertical-bar {
+  position: absolute;
+  transform: translateY(-50%);
+  left: 5%;
+  top: 50%;
+  width: 5px;
+  background-color: white;
+  height: 70%;
+}
+
+.wrapper #main-info > *:not(:first-child) {
+  padding-left: 8%;
+  padding-right: 20%;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper #main-info > *:not(:first-child) {
+    padding-right: 8%;
+  }
+}
+
+.wrapper #main-info h1 {
+  padding-top: 80px;
+  font-size: 50px;
+}
+
+.wrapper #main-info h1:not(:first-child), .wrapper #main-info h2 {
+  padding-bottom: 10px;
+  padding-top: 50px;
+  font-family: "Fjalla One Regular", sans-serif;
+  color: $dark;
+}
+
+.wrapper #main-info h1 {
+  font-size: 50px;
+}
+
+.wrapper #main-info h2 {
+  font-size: 30px;
+}
+
+.wrapper #main-info p, .wrapper #main-info ul li, .wrapper #main-info ul li a, .wrapper #main-info ol li {
+  font-size: 18px;
+  font-family: "Lato Medium", sans-serif;
+  color: $secondary;
+}
+
+.wrapper #main-info p {
+  padding-top: 25px;
+}
+
+.wrapper #main-info ul, .wrapper #main-info ol {
+  margin-left: 2%;
+}
+
+.wrapper #main-info p.difficulty-stars {
+  // font-size: 180px;
+  font-family: "Brandon Grotesque Medium", sans-serif;
+  color: $accent;
+}
+
+
+//Footer
+
+#footer-container, #copyright {
+  text-align: center;
+  color: white;
+}
+
+#footer-container {
+  background-color: $darker;
+  padding-bottom: 20px;
+}
+
+#footer-container h3 {
+  font: 26px "Brandon Grotesque M", sans-serif;
+}
+
+#footer-container a {
+  font: 15px "Brandon Grotesque M", sans-serif;
+  color: white;
+
+}
+
+#copyright {
+  background-color: $primary;
+  font: 10px "Soleil Bold", sans-serif;
+
+}
+
+#copyright h3 {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 17px;
+}
+
+.header-nav {
+  font: 20px "Soleil Bold", sans-serif;
+  padding-top: 15px;
+}
+
+.header-nav a {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: white;
+  display: inline;
+}
+
+.footer-vertical-divider {
+  display: inline-block;
+  width: 1.5px;
+  height: 20px;
+  background-color: $secondary;
 }
 
 
