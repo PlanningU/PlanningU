@@ -10,7 +10,7 @@ var translator = new Translator();
 });*/
 
 $('#header').on('click', 'input', function () {
-   console.log('hi');
+
     if ($('input').prop('checked')===true) {
         translator.load("zh");
     }
