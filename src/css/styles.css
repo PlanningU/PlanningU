@@ -650,7 +650,7 @@ div.social-media {
 
 .wrapper #main-info > *:not(:first-child) {
   padding-left: 8%;
-  padding-right: 8%; }
+  padding-right: 20%; }
 
 .course-heading {
   padding-top: 80px;
@@ -658,14 +658,23 @@ div.social-media {
 
 .course-heading, .course-subheading {
   padding-bottom: 10px;
-  padding-top: 20px;
-  font: #333366 "Fjalla One Regular", sans-serif;
+  padding-top: 50px;
+  font-family: "Fjalla One Regular", sans-serif;
   color: #333366; }
 
-p.coursebody {
+.course-heading {
+  font-size: 50px; }
+
+.course-subheading {
+  font-size: 30px; }
+
+p.coursebody, .wrapper #main-info ul li, .wrapper #main-info ul li a {
   font-size: 18px;
   font-family: "Lato Medium", sans-serif;
   color: #6666ad; }
+
+.wrapper #main-info ul {
+  margin-left: 2%; }
 
 #footer-container, #copyright {
   text-align: center;
