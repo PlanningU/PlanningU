@@ -115,10 +115,10 @@ a.nav-link {
   font: 15px "Open Sans", sans-serif; }
 
 div.nav-vertical-divider {
-  width: 2px;
-  height: 30px;
+  /*width: 2px;
+  height: 20px;
   margin-top: 5px;
-  background: white; }
+  background: white;*/ }
 
 li.nav-item {
   padding-left: 0.5vw;
