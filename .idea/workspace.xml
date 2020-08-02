@@ -16,17 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="updated business courses">
-      <change afterPath="$PROJECT_DIR$/pages/applications/applications-sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/applications/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/applications/queens.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/applications/uwaterloo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/applications/western.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/page_functionality/appsidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math.html" afterDir="false" />
-    </list>
+    <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="added applications thingies." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596236923024</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added applications thingies.">
+      <created>1596269392064</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596269392065</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +192,8 @@
     <MESSAGE value="updated sidebar again" />
     <MESSAGE value="updated header to have business" />
     <MESSAGE value="updated business courses" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated business courses" />
+    <MESSAGE value="added applications thingies." />
+    <option name="LAST_COMMIT_MESSAGE" value="added applications thingies." />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Deployment" timestamp="1594940725998">
@@ -260,11 +258,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="221" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1596086543753" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1596236940242">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1596269414794">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594940359558" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1596236940242" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1596269414794" />
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596086490017">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
