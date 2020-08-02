@@ -7,6 +7,21 @@
   src: url("/src/assets/fonts/PingFangSCRegular.woff") format("woff"), url("/src/assets/fonts/PingFangSCRegular.ttf") format("truetype");
   /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
 
+@font-face {
+  font-family: 'Soleil Bold';
+  src: url("/src/assets/fonts/transat_medium-webfont.woff") format("woff"), url("/src/assets/fonts/transat_medium-webfont.woff") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
+
+@font-face {
+  font-family: 'Brandon Grotesque Medium';
+  src: url("/src/assets/fonts/SoleilW01Bold.woff") format("woff"), url("/src/assets/fonts/SoleilW01Bold.ttf") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
+
+@font-face {
+  font-family: 'Fjalla One Regular';
+  src: url("/src/assets/fonts/FjallaOne-Regular.ttf") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
+
 ::-webkit-scrollbar {
   background-color: transparent;
   width: 12px; }
@@ -22,11 +37,7 @@ button.btn.btn-primary {
 
 button.btn.btn-lang {
   background-color: transparent;
-  border: none;
-  padding: 5;
-  width: 40;
-  height: 40;
-  border-radius: 40; }
+  border: none; }
 
 #button-animate {
   position: absolute;
@@ -63,7 +74,7 @@ button.btn.btn-lang:focus {
 #nav-bar .navbar-brand {
   color: white;
   padding-left: 3vw;
-  font: bold 30px Poppins, serif; }
+  font: bold 30px Poppins, sans-serif; }
 
 #nav-bar .navbar-brand:hover {
   color: white; }
@@ -84,8 +95,10 @@ button.btn.btn-lang:focus {
 ul.dropdown-menu.dropdown-menu-left {
   color: white;
   background-color: #333366;
-  left: -10px;
-  top: 45px; }
+  left: 12px;
+  top: 43px;
+  border-radius: 0 0 3px 3px;
+  width: 150px; }
 
 ul.dropdown-menu.dropdown-menu-left li a,
 ul.dropdown-menu.dropdown-menu-left li button,
@@ -100,14 +113,68 @@ a.nav-link {
   font: 15px "Open Sans", sans-serif; }
 
 div.nav-vertical-divider {
-  width: 2px;
-  height: 30px;
+  /*width: 2px;
+  height: 20px;
   margin-top: 5px;
-  background: white; }
+  background: white;*/ }
 
 li.nav-item {
   padding-left: 0.5vw;
   padding-right: 0.5vw; }
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px; }
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0; }
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #075AAA;
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+#language-toggle-item {
+  padding-top: 7px; }
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 3px;
+  background: url("/src/assets/uk_flag.png") center/cover;
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+input:checked + .slider:before {
+  background: url("/src/assets/chinese_flag.png") center/cover; }
+
+input:checked + .slider {
+  background-color: #BD132D; }
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px); }
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 5px; }
+
+.slider.round:before {
+  border-radius: 10%; }
 
 a.fa {
   padding: 0;
@@ -411,7 +478,7 @@ div.social-media {
     display: block;
     padding-top: 30px; }
   #high-school-card .card-body {
-    width: 90%; }
+    width: 95%; }
   .rect-1 {
     top: -80px;
     left: 0;
@@ -522,7 +589,8 @@ div.social-media {
   width: 250px;
   top: 0;
   left: 0;
-  min-height: 100vh;
+  max-height: 90vh;
+  overflow-y: scroll;
   position: sticky;
   background: white;
   color: #333366;
@@ -585,6 +653,7 @@ div.social-media {
     position: sticky;
     position: -webkit-sticky;
     /* for Safari */
+    z-index: 100;
     top: 0;
     align-self: flex-start;
     width: 100%;
@@ -609,6 +678,112 @@ div.social-media {
     display: block;
     width: 100%;
     text-align: left; } }
+
+.course-title {
+  height: 65vh;
+  background-image: linear-gradient(rgba(0, 0, 51, 0.7), rgba(0, 0, 51, 0.7)), url("/src/assets/university_backdrop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: #cbcbcb 0 25px; }
+
+.wrapper #main-info .course-title .title {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: white; }
+
+.course-vertical-bar {
+  position: absolute;
+  transform: translateY(-50%);
+  left: 5%;
+  top: 50%;
+  width: 5px;
+  background-color: white;
+  height: 70%; }
+
+.wrapper #main-info > *:not(:first-child) {
+  padding-left: 8%;
+  padding-right: 20%; }
+
+.wrapper #main-info {
+  padding-bottom: 100px; }
+
+@media screen and (max-width: 800px) {
+  .wrapper #main-info > *:not(:first-child) {
+    padding-right: 8%; } }
+
+.wrapper #main-info h1 {
+  padding-top: 80px;
+  font-size: 50px; }
+
+.wrapper #main-info h1:not(:first-child), .wrapper #main-info h2 {
+  padding-bottom: 10px;
+  padding-top: 50px;
+  font-family: "Fjalla One Regular", sans-serif;
+  color: #333366; }
+
+.wrapper #main-info h1 {
+  font-size: 50px; }
+
+.wrapper #main-info h2 {
+  font-size: 30px; }
+
+.wrapper #main-info p, .wrapper #main-info ul li, .wrapper #main-info ul li a, .wrapper #main-info ol li {
+  font-size: 18px;
+  font-family: "Lato Medium", sans-serif;
+  color: #6666ad; }
+
+.wrapper #main-info p {
+  padding-top: 25px; }
+
+.wrapper #main-info ul, .wrapper #main-info ol {
+  margin-left: 2%; }
+
+.wrapper #main-info p.difficulty-stars {
+  font-family: "Brandon Grotesque Medium", sans-serif;
+  color: #b44c78; }
+
+#footer-container, #copyright {
+  text-align: center;
+  color: white; }
+
+#footer-container {
+  background-color: #000033;
+  padding-bottom: 20px; }
+
+#footer-container h3 {
+  font: 26px "Brandon Grotesque M", sans-serif; }
+
+#footer-container a {
+  font: 15px "Brandon Grotesque M", sans-serif;
+  color: white; }
+
+#copyright {
+  background-color: #71c8f0;
+  font: 10px "Soleil Bold", sans-serif; }
+
+#copyright h3 {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 17px; }
+
+.header-nav {
+  font: 20px "Soleil Bold", sans-serif;
+  padding-top: 15px; }
+
+.header-nav a {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: white;
+  display: inline; }
+
+.footer-vertical-divider {
+  display: inline-block;
+  width: 1.5px;
+  height: 20px;
+  background-color: #6666ad; }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
