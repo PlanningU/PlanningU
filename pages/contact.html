@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-    <title>Courses</title>
+    <title>Test</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name="The one stop shop for all your Canadian University Needs"
+          content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
     <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/src/css/bootstrap.css">
     <link rel="stylesheet" href="/src/css/styles.css">
+    <!-- stupid mistake here,     ^  I initially had /src instead of src - this caused the path to be absolute and not relative, thus breaking the css -->
 </head>
-
 
 <body>
 
@@ -21,7 +22,6 @@
 
 
 <div id="header"></div>
-
 <div class="wrapper">
 
     <div id="sidebar-div"></div>
@@ -31,37 +31,29 @@
         <div class="container-fluid text-white course-title bg-primary">
             <div class="course-vertical-bar"></div>
             <div class="title">
-                <h1>Business Courses</h1>
+                <h1>Contact Us</h1>
             </div>
         </div>
-
-
-        <h1>
-            High School Business Courses
-        </h1>
-        <p>
-            There are four grade 12 level business courses offered in the Ontario Curriculum: Accounting (BAT4M),
-            Economics (CIA4U), International Business (BBB4M), and Business Leadership (BOH4M). Although business
-            courses are not the prerequisite courses for any university programs, it is recommended that students take
-            those courses if they are heading into a business program in university. Accounting and economics are the
-            two courses that focus on a more specialized content; International Business and Business Leadership focus
-            more on the generic understanding of business, case studies, and report writing. Our website provides notes,
-            practice tests and studying tips for each course. Feel free to send us an email with any questions and
-            feedback you may have regarding the content.
-        </p>
-
+<br>
+        <center>
+            <iframe id="contact-form"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSfwScvZ1BXj5xnUogc-uRMRYzPED4OTQmml3YqgGCBNpsxYFw/viewform?embedded=true"
+                    width="90%" height="800" frameborder="0" marginheight="0" marginwidth="0">loading…
+            </iframe>
+        </center>
     </div>
-
 </div>
-
 <div id="footer"></div>
 
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
 <script type="text/javascript" src="/src/js/ui_animations/buttonAnimation.js"></script>
 <script type="module" src="/src/js/page_functionality/translate.js"></script>
+<script type="module" src="/src/js/page_functionality/contact_trans.js"></script>
+<script type="text/javascript" src="/src/js/page_functionality/like_button.js"></script>
 <script src="/src/js/page_functionality/header_footer.js"></script>
 
-<script src="/src/js/page_functionality/sidebar.js"></script>
 
 </body>
 

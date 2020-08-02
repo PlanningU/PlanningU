@@ -17,13 +17,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/subjects/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/page_functionality/contact_trans.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/applications-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/applications-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/queens.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/queens/commerce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/uwaterloo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uwaterloo/cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/western.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/western/ivey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/ui_animations/slideshow_animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/ui_animations/slideshow_animate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,18 +75,18 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/applications/western" />
+      <recent name="$PROJECT_DIR$/pages/applications/uwaterloo" />
+      <recent name="$PROJECT_DIR$/pages/applications/queens" />
+      <recent name="$PROJECT_DIR$/pages/applications/uoft" />
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\assets\Index" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\assets\Index" />
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\pages\subjects" />
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\pages\subjects\math" />
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\ui_animations" />
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\page_functionality" />
-    </key>
   </component>
-  <component name="RunManager" selected="Node.js.react_testing.js">
+  <component name="RunManager">
     <configuration name="react_testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/react_testing.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
@@ -243,9 +251,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="347" y="166" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1595889902366" />
-    <state x="290" y="127" width="672" height="678" key="search.everywhere.popup" timestamp="1596311022603">
+    <state x="290" y="127" width="672" height="678" key="search.everywhere.popup" timestamp="1596345709666">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="290" y="127" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1596311022603" />
+    <state x="290" y="127" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1596345709666" />
   </component>
 </project>
