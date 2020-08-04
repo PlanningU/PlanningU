@@ -17,15 +17,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="added more pages. created contact form.">
-      <change afterPath="$PROJECT_DIR$/pages/translations/en.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/translations/zh.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/jquery.csv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/papaparse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/papaparse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Index/GlobeGraphic.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +102,7 @@
       <workItem from="1596064324653" duration="4320000" />
       <workItem from="1596153768108" duration="8308000" />
       <workItem from="1596202729720" duration="26412000" />
+      <workItem from="1596567503502" duration="929000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
