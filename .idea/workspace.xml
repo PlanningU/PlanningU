@@ -17,7 +17,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="added more pages. created contact form.">
-      <change beforePath="$PROJECT_DIR$/pages/applications/applications-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/applications-sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/translations/en.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/translations/zh.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/jquery.csv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/papaparse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/papaparse.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/Index" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/en.csv" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -72,7 +80,7 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.react_testing.js">
     <configuration name="react_testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/react_testing.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
@@ -194,11 +202,11 @@
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594940772710" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1596203362097" />
-    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1596211814097">
+    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1596552204264">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594943389369" />
-    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1596211814097" />
+    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1596552204264" />
     <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1595344351357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
