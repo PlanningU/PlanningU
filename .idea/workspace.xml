@@ -16,8 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="added more pages. created contact form.">
+      <change beforePath="$PROJECT_DIR$/pages/applications/applications-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/applications-sidebar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,18 +61,18 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/applications/western" />
+      <recent name="$PROJECT_DIR$/pages/applications/uwaterloo" />
+      <recent name="$PROJECT_DIR$/pages/applications/queens" />
+      <recent name="$PROJECT_DIR$/pages/applications/uoft" />
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\assets\Index" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\assets\Index" />
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\pages\subjects" />
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\pages\subjects\math" />
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\ui_animations" />
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\page_functionality" />
-    </key>
   </component>
-  <component name="RunManager" selected="Node.js.react_testing.js">
+  <component name="RunManager">
     <configuration name="react_testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/react_testing.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
@@ -98,7 +98,6 @@
       <workItem from="1596064324653" duration="4320000" />
       <workItem from="1596153768108" duration="8308000" />
       <workItem from="1596202729720" duration="26412000" />
-      <workItem from="1596551622545" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -121,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596203363571</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added more pages. created contact form.">
+      <created>1596350027942</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596350027942</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added more pages. created contact form.">
+      <created>1596397245773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596397245773</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +169,8 @@
     <MESSAGE value="Starting Tests" />
     <MESSAGE value="messed around with testing page and changed language toggler" />
     <MESSAGE value="Sidebar navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sidebar navigation" />
+    <MESSAGE value="added more pages. created contact form." />
+    <option name="LAST_COMMIT_MESSAGE" value="added more pages. created contact form." />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Deployment" timestamp="1594940725998">
@@ -221,26 +235,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="221" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1596086543753" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1595904229068">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1596397260795">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594940359558" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1595904229068" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1596397260795" />
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596086490017">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596086490017" />
-    <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1596551682505">
+    <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1596203373326">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="407" y="157" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1596551682505" />
+    <state x="407" y="157" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1596203373326" />
     <state x="347" y="166" width="672" height="677" key="run.anything.popup" timestamp="1595889902366">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="347" y="166" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1595889902366" />
-    <state x="290" y="127" width="672" height="678" key="search.everywhere.popup" timestamp="1596311022603">
+    <state x="290" y="127" width="672" height="678" key="search.everywhere.popup" timestamp="1596345709666">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="290" y="127" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1596311022603" />
+    <state x="290" y="127" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1596345709666" />
   </component>
 </project>
