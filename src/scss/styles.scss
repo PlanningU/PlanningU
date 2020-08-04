@@ -508,6 +508,19 @@ div.social-media {
   //overflow-y: hidden;
 }
 
+#globe-svg{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  bottom: 20px;
+  filter: brightness(70%);
+}
+#learn-more-card-body{
+  z-index: 2;
+}
+
 
 #university-application-card {
   background-color: $dark;
@@ -546,6 +559,7 @@ div.social-media {
 
 #learn-more-card .card-body h3, #high-school-card .card-body h3 {
   color: $darker;
+
 }
 
 #university-application-card .card-body h3 {
