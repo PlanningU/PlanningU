@@ -1,5 +1,4 @@
 import Translator from "./translator.js";
-
 var translator = new Translator();
 
 

@@ -1,7 +1,16 @@
 "use strict"
 
+
 class Translator {
     constructor() {
+        /* jQuery.get('/pages/translations/en.csv', function(data) {
+             Papa.parse(data, {
+                 complete: function(data) {
+                     console.log(data.data[0][0]);
+                 }
+             });
+         });
+ */
         this._lang - this.getLanguage();
         this._elements = document.querySelectorAll("[data-i18n]");
 
@@ -12,14 +21,30 @@ class Translator {
         return lang.substr(0, 2);
     }
 
-    translate(translation){
-        this._elements.forEach((element) => {
-            var keys = element.dataset.i18n.split(".");
-            var text = keys.reduce((obj,i) => obj[i], translation);
+    translate(translation) {
 
-            if (text){
+        /*this._elements.forEach((element) => {
+            var keys = element.dataset.i18n.split(".");
+            var text = keys.reduce((obj, i) => obj[i], translation);
+            console.log(text);
+
+            if (text) {
                 element.innerHTML = text;
             }
+        })*/
+
+
+        this._elements.forEach((element) => {
+
+            element.innerHTML = translation[1][translation[0].indexOf(element.getAttribute("data-i18n"))];
+            /*var keys = element.dataset.i18n.split(".");
+//console.log(keys);
+            var text = keys.reduce((obj, i) => obj[i], translation);
+            console.log(text + "hi");
+
+            if (text) {
+                element.innerHTML = text;
+            }*/
         })
     }
 
@@ -28,18 +53,32 @@ class Translator {
             this._lang = lang;
 
         }
-
-        fetch(`/pages/translations/${this._lang}.json`)
-            .then((res) => res.json())
+        fetch(`/pages/translations/${this._lang}.csv`)
+            .then((raw) => raw.text())
+            .then((data) => Papa.parse(data))
             .then((translation) => {
-                this.translate(translation);
-            })
-            .catch(() => {
-                console.error(`Could not load ${this._lang}.json.`)
+                this.translate(translation.data);
             });
-
-
     }
 
+    /* jQuery.get(`/pages/translations/${this._lang}.csv`, function(data) {
+         Papa.parse(data, {
+             complete: function(data) {
+                 this.translate(translation);
+             }
+         });
+     });*/
+    /* fetch(`/pages/translations/${this._lang}.json`)
+         .then((res) => res.json())
+         .then((translation) => {
+             this.translate(translation);
+         })
+         .catch(() => {
+             console.error(`Could not load ${this._lang}.json.`)
+         });*/
+
+
 }
+
+
 export default Translator;
