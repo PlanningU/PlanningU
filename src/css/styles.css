@@ -22,15 +22,18 @@
   src: url("/src/assets/fonts/FjallaOne-Regular.ttf") format("truetype");
   /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   background-color: transparent;
-  width: 12px; }
+  width: 12px;
+}
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to top, #71c8f0, rgba(21, 238, 1, 0.5));
-  border-radius: 10px 10px 10px 10px;
-  height: 50vh; }
+  background: linear-gradient(to top, $primary, rgba(21, 238, 1, 0.5));
 
+  border-radius: 10px 10px 10px 10px;
+  height: 50vh;
+
+}*/
 button.btn.btn-primary {
   overflow: hidden;
   position: relative; }
@@ -108,19 +111,23 @@ ul.dropdown-menu.dropdown-menu-left li h6 {
 ul.dropdown-menu li a:hover, ul.dropdown-menu li button:hover {
   background-color: blueviolet; }
 
-a.nav-link {
+a.nav-link, #en, #zh {
   color: white;
-  font: 15px "Open Sans", sans-serif; }
+  font: 16px "Brandon Grotesque M", sans-serif;
+  margin-top: 2px; }
+
+#zh {
+  padding-right: 30px; }
+
+li.nav-item {
+  padding-left: 0.5vw;
+  padding-right: 0.5vw; }
 
 div.nav-vertical-divider {
   /*width: 2px;
   height: 20px;
   margin-top: 5px;
   background: white;*/ }
-
-li.nav-item {
-  padding-left: 0.5vw;
-  padding-right: 0.5vw; }
 
 .switch {
   position: relative;
@@ -183,6 +190,10 @@ a.fa {
 div.social-media {
   padding-top: 9px; }
 
+div.social-media a icon {
+  padding-left: 0;
+  padding-right: 0; }
+
 #main-info {
   margin-top: 54px; }
 
@@ -223,7 +234,10 @@ div.social-media {
   transform: translateX(-50%); }
 
 #slogan .col h2 {
-  font: 75px Fjalla One, sans-serif; }
+  font: 80px Fjalla One, sans-serif; }
+
+#slogan .col h3 {
+  font: 30px "Open Sans Light", sans-serif; }
 
 .slideshow-text {
   color: white; }
@@ -601,7 +615,7 @@ div.social-media {
   width: 250px;
   top: 0;
   left: 0;
-  max-height: 90vh;
+  max-height: 60vh;
   overflow-y: scroll;
   position: sticky;
   background: white;
@@ -768,8 +782,12 @@ div.social-media {
 #footer-container h3 {
   font: 26px "Brandon Grotesque M", sans-serif; }
 
-#footer-container a {
+#footer-container .header-nav a, .social-media a {
   font: 15px "Brandon Grotesque M", sans-serif;
+  color: white; }
+
+#email-address-footer {
+  font: 14px "Brandon Grotesque M", sans-serif;
   color: white; }
 
 #copyright {

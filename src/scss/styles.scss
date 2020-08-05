@@ -59,7 +59,7 @@ html, body {
 
 
 //Scrollbar
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   background-color: transparent;
   width: 12px;
 }
@@ -70,7 +70,7 @@ html, body {
   border-radius: 10px 10px 10px 10px;
   height: 50vh;
 
-}
+}*/
 
 //Button Press Animation
 button.btn.btn-primary {
@@ -131,6 +131,7 @@ button.btn.btn-lang:focus {
   padding-left: 3vw;
   padding-right: 3vw;
 
+
 }
 
 
@@ -179,11 +180,26 @@ ul.dropdown-menu li a:hover, ul.dropdown-menu li button:hover {
   background-color: blueviolet; //TODO: Please change
 }
 
-a.nav-link {
+a.nav-link, #en, #zh {
   color: white;
-  font: 15px "Open Sans", sans-serif;
+  font: 16px "Brandon Grotesque M", sans-serif;
+ // display: inline-block;
+  margin-top: 2px;
+
+}
+#zh{
+  padding-right: 30px;
+
 }
 
+
+li.nav-item {
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+
+
+
+}
 
 div.nav-vertical-divider {
   /*width: 2px;
@@ -193,10 +209,7 @@ div.nav-vertical-divider {
 
 }
 
-li.nav-item {
-  padding-left: 0.5vw;
-  padding-right: 0.5vw;
-}
+
 
 //Slider Language///////////
 .switch {
@@ -273,8 +286,13 @@ a.fa {
 
 div.social-media {
   padding-top: 9px;
-}
 
+}
+div.social-media a icon{
+  padding-left: 0;
+  padding-right: 0;
+
+}
 
 #main-info {
   margin-top: 54px;
@@ -332,7 +350,10 @@ div.social-media {
 }
 
 #slogan .col h2 {
-  font: 75px Fjalla One, sans-serif;
+  font: 80px Fjalla One, sans-serif;
+}
+#slogan .col h3{
+  font: 30px "Open Sans Light", sans-serif;
 }
 
 
@@ -827,7 +848,7 @@ div.social-media {
   top: 0;
   left: 0;
  // min-height: 100vh;
-  max-height: 90vh;
+  max-height: 60vh;
   overflow-y: scroll;
   position: sticky;
   background: white;
@@ -867,6 +888,7 @@ div.social-media {
   padding-bottom: 10px;
   padding-top: 10px;
   display: block;
+
   transition: background-color 400ms, color 400ms;
 
 }
@@ -1054,11 +1076,17 @@ div.social-media {
   font: 26px "Brandon Grotesque M", sans-serif;
 }
 
-#footer-container a {
+#footer-container .header-nav a, .social-media a {
   font: 15px "Brandon Grotesque M", sans-serif;
   color: white;
 
 }
+
+#email-address-footer{
+  font: 14px "Brandon Grotesque M", sans-serif;
+  color: white;
+}
+
 
 #copyright {
   background-color: $primary;
@@ -1081,6 +1109,7 @@ div.social-media {
   padding-left: 2vw;
   padding-right: 2vw;
   color: white;
+
   display: inline;
 }
 
