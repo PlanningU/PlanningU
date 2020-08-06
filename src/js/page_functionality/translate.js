@@ -17,8 +17,12 @@ if (getCookie("preferred_language") === '') {
        if (navigator.languages[i].substring(0,2)==="zh"){
            translator.load("zh");
            document.getElementById("language-toggle-input").click();
+           var translate_to_zh = true;
            break;
        }
+   }
+   if (!translate_to_zh){
+       translator.load("en");
    }
 }else{
     translator.load(getCookie("preferred_language"));
