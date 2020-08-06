@@ -1,4 +1,4 @@
-import {getCookie, setCookie, deleteCookie} from "./cookie.js";
+
 loadSideBar();
 
 function loadSideBar() {
