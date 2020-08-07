@@ -1,6 +1,8 @@
-$(function () {
+loadApplicationSideBar();
+
+function loadApplicationSideBar() {
     $("#sidebar-div").load("/pages/applications/applications-sidebar.html");
-});
+}
 
 
 
