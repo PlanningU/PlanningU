@@ -35,10 +35,14 @@ class Translator {
 
 
         this._elements.forEach((element) => {
+            var r = 2;
 
-            element.innerHTML = translation[1][translation[0].indexOf(element.getAttribute("data-i18n"))];
+            if(this._lang == "en"){
+                r = 1;
+            }
+            element.innerHTML = translation[r][translation[0].indexOf(element.getAttribute("data-i18n"))];
             /*var keys = element.dataset.i18n.split(".");
-//console.log(keys);
+            //console.log(keys);
             var text = keys.reduce((obj, i) => obj[i], translation);
             console.log(text + "hi");
 
@@ -53,7 +57,7 @@ class Translator {
             this._lang = lang;
 
         }
-        fetch(`/pages/translations/${this._lang}.csv`)
+        fetch(`/pages/translations/en.csv`)
             .then((raw) => raw.text())
             .then((data) => Papa.parse(data))
             .then((translation) => {

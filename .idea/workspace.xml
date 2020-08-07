@@ -17,21 +17,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="added more pages. created contact form.">
-      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicons/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicons/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicons/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicons/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicons/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicons/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicons/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/applications/uoft/cs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Logos/Logo_BlackBG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/applications-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/applications-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/queens/commerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/queens/commerce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/uoft/rotman.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uoft/rotman.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/uwaterloo/cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uwaterloo/cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/western/ivey.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/western/ivey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/translations/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pages/translations/en.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/translations/zh.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pages/translations/zh.csv.disabled" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -86,7 +82,7 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.react_testing.js">
+  <component name="RunManager">
     <configuration name="react_testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/react_testing.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
@@ -258,10 +254,10 @@
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594940359558" />
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1596397260795" />
-    <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596086490017">
+    <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596782774229">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596086490017" />
+    <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596782774229" />
     <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1596740057743">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
