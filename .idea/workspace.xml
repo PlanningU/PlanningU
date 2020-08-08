@@ -17,10 +17,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="added more pages. created contact form.">
+      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/MHF4U Web Page.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 1/Chapter Tips.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 1/MHF4U - Unit 1 test (Sept 14).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 1/Unit 1 Summary.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 2/Chapter tips.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 2/Test - Jan 2015.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 2/Unit 2 Summary.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 3/Chapter Tips.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 3/MHF4U - Unit 2 - March 2010.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 3/Review questions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 3/Unit 3 Summary.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 4/Chapter Tips.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 4/Unit 4 Summary.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 5/Chapter Tips.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 5/MHF4U - u4 test (october 2012 _ october 2015).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 5/Unit 5 Summary.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 6/Chapter Tips.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 6/Partner Practice.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 6/Unit 5 - Graphing Trig test (November 2014).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 6/Unit 6 Summary.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 7/Chapter Tips_.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 7/MHF - U6 Test(Dec 2013).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 7/Unit 7 Summary.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 8/Chapter Tips.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 8/MHF4U - Log test (June 2010).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 8/Unt 8 Summary.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 9/Chapter Tips.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 9/MHF - Unit 9 (June 2011 _ Jan 14).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 9/Unit 9 Summary.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addfiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/addfiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +99,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
@@ -75,7 +116,7 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.react_testing.js">
+  <component name="RunManager">
     <configuration name="react_testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/react_testing.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
@@ -184,6 +225,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1594940725998" />
+    <state x="170" y="0" key="#Project_Structure" timestamp="1596869267519">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="170" y="0" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1596869267519" />
     <state x="462" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595620885401">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
