@@ -16,10 +16,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="added more pages. created contact form.">
+    <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +103,7 @@
       <workItem from="1596589680643" duration="1150000" />
       <workItem from="1596650892076" duration="8781000" />
       <workItem from="1596735706019" duration="7585000" />
+      <workItem from="1596899307302" duration="405000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -177,7 +176,8 @@
     <MESSAGE value="messed around with testing page and changed language toggler" />
     <MESSAGE value="Sidebar navigation" />
     <MESSAGE value="added more pages. created contact form." />
-    <option name="LAST_COMMIT_MESSAGE" value="added more pages. created contact form." />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Deployment" timestamp="1594940725998">
@@ -196,11 +196,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595881366544" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1596203362097">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1596899677088">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594940772710" />
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1596203362097" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1596899677088" />
     <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1596552204264">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -255,10 +255,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596837559216" />
-    <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1596740057743">
+    <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1596899707081">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="407" y="157" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1596740057743" />
+    <state x="407" y="157" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1596899707081" />
     <state x="347" y="166" width="672" height="677" key="run.anything.popup" timestamp="1595889902366">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
