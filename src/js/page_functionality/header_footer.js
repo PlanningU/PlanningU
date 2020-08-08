@@ -15,10 +15,3 @@ function loadHeaderFooter() {
     $("head").append('<meta name="msapplication-TileColor" content="#da532c">');
     $("head").append('<meta name="theme-color" content="#ffffff">');
 }
-
-
-
-
-
-
-

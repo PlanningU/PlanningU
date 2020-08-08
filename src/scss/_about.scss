@@ -1,0 +1,162 @@
+#about-body {
+  margin-top: 54px;
+  font-size: 1em;
+  background-color: $gray;
+
+}
+
+.banner {
+  text-align: center
+}
+
+#about-line-divider {
+  background-color: $primary;
+  width: 130px;
+  height: 8px;
+}
+
+#about-heading {
+  background-image: linear-gradient(rgba(51, 51, 102, 0.4), rgba(51, 51, 102, 0.4)), url("/src/assets/about_us_background.jpg");
+  height: 60vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+
+}
+#about-heading h1{
+  font: 4em "Soleil Bold", sans-serif;
+
+  text-transform: uppercase;
+
+}
+#about-heading p{
+  margin-top: 13px;
+  font: 1.7em "Open Sans Light", sans-serif;
+
+}
+
+#about-story > * {
+  border-left: 1.6vw solid transparent;
+  border-right: 1.6vw solid transparent;
+  border-bottom: 3vw solid transparent;
+  background-clip: padding-box;
+
+}
+
+#about-story {
+  display: inline-flex;
+  box-sizing: border-box;
+  flex-flow: row wrap;
+  padding: 60px 5vw 0px 5vw;
+  line-height: 1.7em;
+  //margin:0 -15px;
+}
+
+#about-story h2, #about-story h3{
+  font-family:"Soleil Bold", sans-serif;
+  text-transform: uppercase;
+
+}
+#about-story h2{
+  font-weight: bolder;
+}
+
+#about-story-creation {
+  flex: 1 0 65%;
+  background-color: white;
+  padding: 30px 2vw;
+  //margin-right: 50px;
+}
+#about-story-creation h2{
+  color: $dark;
+}
+
+#about-story-creation p {
+
+  margin: 20px 5vw 20px 1.5vw;
+  font: 1em "Open Sans Light", sans-serif;
+  line-height: 1.6em;
+  color: $secondary;
+}
+
+
+#about-story-uni {
+  flex: 1 0 35%;
+  background-color: $darker;
+  padding: 30px 2vw;
+  color: white;
+}
+#about-story-uni h3{
+  font-size: 1.4em;
+}
+#about-story-uni ul{
+  list-style: none;
+  margin: 20px 1vw 0 1vw;
+  overflow: visible;
+  position: relative;
+}
+#about-story-uni ul li{
+  padding: 10px 0;
+  font: 1.1em "Open Sans Light", sans-serif;
+
+
+}
+#about-unis-offer-line{
+  background-color: $primary;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 3px;
+  position: absolute;
+
+}
+
+
+#about-story-message {
+  flex: 0 0 100%; /* Let it fill the entire space horizontally */
+  background-color: white;
+  text-align: center;
+  padding: 30px 5vw;
+}
+#about-story-message h3{
+  color: $dark;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 1000px){
+  #about-story-creation {
+    flex: 1 0 100%;
+  }
+}
+
+
+#down-arrow{
+  stroke: none;
+  fill: $darker;
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#our-team{
+  margin-top: 35px;
+  padding: 30px 5vw;
+  background-color: $darker;
+  color: white;
+
+}
+#our-team h2{
+  font: 2.6em "Soleil Bold", sans-serif;
+  text-transform: uppercase;
+}

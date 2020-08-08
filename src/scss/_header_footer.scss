@@ -1,0 +1,241 @@
+//Top Navigation Page
+
+#nav-bar {
+  top: 0;
+  background-color: $darker;
+  color: #ffffff;
+
+  position: -webkit-sticky;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  padding-left: 3vw;
+  padding-right: 3vw;
+
+
+}
+//Navbar brand
+#nav-bar .navbar-brand {
+  color: white;
+  padding-left: 40px;
+  font: bold 30px Poppins, sans-serif;
+}
+#logo-image{
+  margin-right: -30px;
+  margin-bottom: 15px;
+}
+#nav-bar .navbar-brand:hover { //What did I do to deserve this
+  color: white;
+}
+
+#navbar-btn-toggle {
+  width: 47px;
+  height: 34px;
+  background-color: #ffffff;
+}
+
+#navbar-btn-toggle .line {
+  width: 100%;
+  float: left;
+  height: 3px;
+  background-color: $darker;
+  margin-bottom: 5px;
+  border-radius: 1px 1px 1px 1px;
+}
+
+ul.dropdown-menu.dropdown-menu-left {
+  color: white;
+  background-color: $dark;
+  left: 12px;
+  top: 43px;
+  border-radius: 0 0 3px 3px;
+  width: 150px;
+}
+
+ul.dropdown-menu.dropdown-menu-left li a,
+ul.dropdown-menu.dropdown-menu-left li button,
+ul.dropdown-menu.dropdown-menu-left li h6 {
+  color: white;
+}
+
+ul.dropdown-menu li a:hover, ul.dropdown-menu li button:hover {
+  background-color: blueviolet; //TODO: Please change
+}
+
+a.nav-link, #en, #zh {
+  color: white;
+  font: 16px "Brandon Grotesque M", sans-serif;
+  // display: inline-block;
+  margin-top: 2px;
+
+}
+#zh{
+  padding-right: 30px;
+
+}
+
+
+li.nav-item {
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+
+
+
+}
+
+div.nav-vertical-divider {
+  /*width: 2px;
+  height: 20px;
+  margin-top: 5px;
+  background: white;*/
+
+}
+
+
+
+//Slider Language///////////
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #075AAA;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+#language-toggle-item{
+  padding-top: 7px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 3px;
+  background: url("/src/assets/uk_flag.png") center /cover;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider:before{
+  background: url("/src/assets/chinese_flag.png") center /cover;
+}
+
+input:checked + .slider {
+  background-color: #BD132D;
+}
+
+
+
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 5px;
+}
+
+.slider.round:before {
+  border-radius: 10%;
+}
+/////////
+
+
+
+a.fa {
+  padding: 0;
+  color: white;
+}
+
+div.social-media {
+  padding-top: 9px;
+
+}
+div.social-media a icon{
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+
+
+//FOOTER **************************************************
+
+
+#footer-container, #copyright {
+  text-align: center;
+  color: white;
+}
+
+#footer-container {
+  background-color: $darker;
+  padding-bottom: 20px;
+
+}
+
+#footer-container h3 {
+  font: 26px "Brandon Grotesque M", sans-serif;
+}
+
+#footer-container .header-nav a, .social-media a {
+  font: 15px "Brandon Grotesque M", sans-serif;
+  color: white;
+
+}
+
+#email-address-footer{
+  font: 14px "Brandon Grotesque M", sans-serif;
+  color: white;
+}
+
+
+#copyright {
+  background-color: $primary;
+  font: 10px "Soleil Bold", sans-serif;
+
+}
+
+#copyright h3 {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 17px;
+}
+
+.header-nav {
+  font: 20px "Soleil Bold", sans-serif;
+  padding-top: 15px;
+}
+
+.header-nav a {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: white;
+
+  display: inline;
+}
+
+.footer-vertical-divider {
+  display: inline-block;
+  width: 1.5px;
+  height: 20px;
+  background-color: $secondary;
+}
