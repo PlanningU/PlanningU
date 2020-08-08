@@ -22,46 +22,123 @@
   src: url("/src/assets/fonts/FjallaOne-Regular.ttf") format("truetype");
   /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
 
-/*::-webkit-scrollbar {
-  background-color: transparent;
-  width: 12px;
+html {
+  font-size: 100%; }
+
+#main-info {
+  margin-top: 54px;
+  font-size: 1em; }
+
+#main-info.alongside-sidebar, #sidebar {
+  margin-top: 0px;
+  padding-top: 54px; }
+
+/*.dropdown-submenu {
+  position: relative;
 }
 
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(to top, $primary, rgba(21, 238, 1, 0.5));
+.dropdown-submenu > .dropdown-menu {
 
-  border-radius: 10px 10px 10px 10px;
-  height: 50vh;
+  transform: translate(0, -8%);
+  position: relative;
 
+
+  border-radius: 6px 6px 6px 6px;
+
+}
+
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: left;
+  transform: scaleX(-1);
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px;
+  margin-left: -20px;
+}
+
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+.dropdown-menu {
+  min-width: 50px !important;
 }*/
-button.btn.btn-primary {
-  overflow: hidden;
-  position: relative; }
+#page-description {
+  background-color: #71c8f0; }
 
-button.btn.btn-lang {
-  background-color: transparent;
-  border: none; }
+#page-description p, #page-description h2 {
+  color: white; }
 
-#button-animate {
-  position: absolute;
-  background: #fff;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  border-radius: 50%;
-  animation: animate 1s linear infinite; }
+#reasons {
+  list-style: none; }
 
-button.btn.btn-lang:focus {
-  outline: 0; }
+#reasons li::before {
+  content: "★";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #71c8f0;
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */ }
 
-@keyframes animate {
-  0% {
-    width: 0px;
-    height: 0px;
-    opacity: 0.5; }
-  100% {
-    width: 150px;
-    height: 150px;
-    opacity: 0.5; } }
+#landscape-image img {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* Make the picture taking the size of it's parent */
+  width: 100%;
+  /* This if for the object-fit */
+  height: 100%;
+  /* This if for the object-fit */
+  object-fit: cover;
+  /* Equivalent of the background-size: cover; of a background-image */
+  object-position: center; }
+
+.card-text {
+  color: #AAAAAA; }
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%; }
+
+.fa:hover {
+  opacity: 0.7; }
 
 #nav-bar {
   top: 0;
@@ -198,20 +275,49 @@ div.social-media a icon {
   padding-left: 0;
   padding-right: 0; }
 
-#main-info {
-  margin-top: 54px; }
+#footer-container, #copyright {
+  text-align: center;
+  color: white; }
 
-#main-info.alongside-sidebar, #sidebar {
-  margin-top: 0px;
-  padding-top: 54px; }
+#footer-container {
+  background-color: #000033;
+  padding-bottom: 20px; }
 
-#footer > * {
-  padding-left: 11vw;
-  padding-right: 11vw; }
+#footer-container h3 {
+  font: 26px "Brandon Grotesque M", sans-serif; }
 
-.jumbotron {
-  background-color: #ffffff !important;
-  border-top: 3px solid #dbdbdb; }
+#footer-container .header-nav a, .social-media a {
+  font: 15px "Brandon Grotesque M", sans-serif;
+  color: white; }
+
+#email-address-footer {
+  font: 14px "Brandon Grotesque M", sans-serif;
+  color: white; }
+
+#copyright {
+  background-color: #71c8f0;
+  font: 10px "Soleil Bold", sans-serif; }
+
+#copyright h3 {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 17px; }
+
+.header-nav {
+  font: 20px "Soleil Bold", sans-serif;
+  padding-top: 15px; }
+
+.header-nav a {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: white;
+  display: inline; }
+
+.footer-vertical-divider {
+  display: inline-block;
+  width: 1.5px;
+  height: 20px;
+  background-color: #6666ad; }
 
 .slideshow-container {
   position: relative; }
@@ -314,51 +420,6 @@ div.social-media a icon {
     opacity: .8; }
   to {
     opacity: 1; } }
-
-.dropdown-submenu {
-  position: relative; }
-
-.dropdown-submenu > .dropdown-menu {
-  transform: translate(0, -8%);
-  position: relative;
-  border-radius: 6px 6px 6px 6px; }
-
-.dropdown-submenu:hover > .dropdown-menu {
-  display: block; }
-
-.dropdown-submenu > a:after {
-  display: block;
-  content: " ";
-  float: left;
-  transform: scaleX(-1);
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #ccc;
-  margin-top: 5px;
-  margin-right: -10px;
-  margin-left: -20px; }
-
-.dropdown-submenu:hover > a:after {
-  border-left-color: #fff; }
-
-.dropdown-submenu.pull-left {
-  float: none; }
-
-.dropdown-submenu.pull-left > .dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  -webkit-border-radius: 6px 0 6px 6px;
-  -moz-border-radius: 6px 0 6px 6px;
-  border-radius: 6px 0 6px 6px; }
-
-.dropdown-menu {
-  min-width: 50px !important; }
-
-.btn.btn-primary {
-  border-radius: 15px; }
 
 .home-card {
   position: relative;
@@ -522,95 +583,77 @@ div.social-media a icon {
     height: 120px;
     border-radius: 0 20px 20px 0; } }
 
-#page-description {
-  background-color: #71c8f0; }
-
-#page-description p, #page-description h2 {
-  color: white; }
-
-#reasons {
-  list-style: none; }
-
-#reasons li::before {
-  content: "★";
-  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #71c8f0;
-  /* Change the color */
-  font-weight: bold;
-  /* If you want it to be bold */
-  display: inline-block;
-  /* Needed to add space between the bullet and the text */
-  width: 1em;
-  /* Also needed for space (tweak if needed) */
-  margin-left: -1em;
-  /* Also needed for space (tweak if needed) */ }
-
-#landscape-image img {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  /* Make the picture taking the size of it's parent */
-  width: 100%;
-  /* This if for the object-fit */
-  height: 100%;
-  /* This if for the object-fit */
-  object-fit: cover;
-  /* Equivalent of the background-size: cover; of a background-image */
-  object-position: center; }
-
-.card-text {
-  color: #AAAAAA; }
-
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%; }
-
-.fa:hover {
-  opacity: 0.7; }
-
-#subscribe {
-  border-radius: 0px 15px 15px 0px; }
-
-#email-input {
-  border-radius: 15px 0px 0px 15px; }
-
-.col-lg-3.col-md-6.col-sm-12 ul {
-  list-style: none; }
-
-.col-lg-3.col-md-6.col-sm-12 ul li::before {
-  content: "›";
-  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #71c8f0;
-  /* Change the color */
-  font-weight: 900;
-  /* If you want it to be bold */
-  font-size: 20px;
-  display: inline-block;
-  /* Needed to add space between the bullet and the text */
-  width: 1em;
-  /* Also needed for space (tweak if needed) */
-  margin-left: -1em;
-  /* Also needed for space (tweak if needed) */ }
-
-.input-group.mb-3 .form-control::placeholder {
-  font-size: 13px; }
-
-#copyright h6 {
-  font-size: 10px; }
-
-#copyright {
-  background: rgba(0, 0, 0, 0.24); }
-
 .wrapper {
   display: flex;
   width: 100%;
   flex-direction: row; }
+
+.course-title {
+  height: 65vh;
+  background-image: linear-gradient(rgba(0, 0, 51, 0.7), rgba(0, 0, 51, 0.7)), url("/src/assets/university_backdrop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: #cbcbcb 0 25px; }
+
+.wrapper #main-info .course-title .title {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  color: white; }
+
+.course-vertical-bar {
+  position: absolute;
+  transform: translateY(-50%);
+  left: 5%;
+  top: 50%;
+  width: 5px;
+  background-color: white;
+  height: 70%; }
+
+.wrapper #main-info > *:not(:first-child) {
+  padding-left: 8%;
+  padding-right: 20%; }
+
+.wrapper #main-info {
+  padding-bottom: 100px; }
+
+@media screen and (max-width: 800px) {
+  .wrapper #main-info > *:not(:first-child) {
+    padding-right: 8%; } }
+
+.wrapper #main-info h1 {
+  padding-top: 80px;
+  font-size: 50px; }
+
+@media screen and (max-width: 400px) {
+  .wrapper #main-info h1 {
+    font-size: 40px; } }
+
+.wrapper #main-info h1:not(:first-child), .wrapper #main-info h2 {
+  padding-bottom: 10px;
+  padding-top: 50px;
+  font-family: "Fjalla One Regular", sans-serif;
+  color: #333366; }
+
+.wrapper #main-info h2 {
+  font-size: 30px; }
+
+.wrapper #main-info p, .wrapper #main-info ul li, .wrapper #main-info ul li a, .wrapper #main-info ol li {
+  font-size: 18px;
+  font-family: "Lato Medium", sans-serif;
+  color: #6666ad; }
+
+.wrapper #main-info p {
+  padding-top: 25px; }
+
+.wrapper #main-info ul, .wrapper #main-info ol {
+  margin-left: 2%; }
+
+.wrapper #main-info p.difficulty-stars {
+  font-family: "Brandon Grotesque Medium", sans-serif;
+  color: #b44c78; }
 
 #sidebar-div {
   padding-top: 15px; }
@@ -709,116 +752,20 @@ div.social-media a icon {
     width: 100%;
     text-align: left; } }
 
-.course-title {
-  height: 65vh;
-  background-image: linear-gradient(rgba(0, 0, 51, 0.7), rgba(0, 0, 51, 0.7)), url("/src/assets/university_backdrop.jpg");
+.banner {
+  text-align: center; }
+
+#about-heading {
+  background-image: linear-gradient(rgba(51, 51, 102, 0.4), rgba(51, 51, 102, 0.4)), url("/src/assets/about_us_background.jpg");
+  height: 60vh;
+  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  box-shadow: #cbcbcb 0 25px; }
-
-.wrapper #main-info .course-title .title {
-  position: absolute;
-  top: 25%;
-  left: 10%;
-  color: white; }
-
-.course-vertical-bar {
-  position: absolute;
-  transform: translateY(-50%);
-  left: 5%;
-  top: 50%;
-  width: 5px;
-  background-color: white;
-  height: 70%; }
-
-.wrapper #main-info > *:not(:first-child) {
-  padding-left: 8%;
-  padding-right: 20%; }
-
-.wrapper #main-info {
-  padding-bottom: 100px; }
-
-@media screen and (max-width: 800px) {
-  .wrapper #main-info > *:not(:first-child) {
-    padding-right: 8%; } }
-
-.wrapper #main-info h1 {
-  padding-top: 80px;
-  font-size: 50px; }
-
-@media screen and (max-width: 400px) {
-  .wrapper #main-info h1 {
-    font-size: 40px; } }
-
-.wrapper #main-info h1:not(:first-child), .wrapper #main-info h2 {
-  padding-bottom: 10px;
-  padding-top: 50px;
-  font-family: "Fjalla One Regular", sans-serif;
-  color: #333366; }
-
-.wrapper #main-info h2 {
-  font-size: 30px; }
-
-.wrapper #main-info p, .wrapper #main-info ul li, .wrapper #main-info ul li a, .wrapper #main-info ol li {
-  font-size: 18px;
-  font-family: "Lato Medium", sans-serif;
-  color: #6666ad; }
-
-.wrapper #main-info p {
-  padding-top: 25px; }
-
-.wrapper #main-info ul, .wrapper #main-info ol {
-  margin-left: 2%; }
-
-.wrapper #main-info p.difficulty-stars {
-  font-family: "Brandon Grotesque Medium", sans-serif;
-  color: #b44c78; }
-
-#footer-container, #copyright {
-  text-align: center;
-  color: white; }
-
-#footer-container {
-  background-color: #000033;
-  padding-bottom: 20px; }
-
-#footer-container h3 {
-  font: 26px "Brandon Grotesque M", sans-serif; }
-
-#footer-container .header-nav a, .social-media a {
-  font: 15px "Brandon Grotesque M", sans-serif;
-  color: white; }
-
-#email-address-footer {
-  font: 14px "Brandon Grotesque M", sans-serif;
-  color: white; }
-
-#copyright {
-  background-color: #71c8f0;
-  font: 10px "Soleil Bold", sans-serif; }
-
-#copyright h3 {
-  padding-top: 17px;
-  padding-bottom: 17px;
-  font-size: 17px; }
-
-.header-nav {
-  font: 20px "Soleil Bold", sans-serif;
-  padding-top: 15px; }
-
-.header-nav a {
-  padding-left: 2vw;
-  padding-right: 2vw;
-  color: white;
-  display: inline; }
-
-.footer-vertical-divider {
-  display: inline-block;
-  width: 1.5px;
-  height: 20px;
-  background-color: #6666ad; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)

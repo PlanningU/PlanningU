@@ -1,0 +1,22 @@
+.banner{
+  text-align: center
+}
+.line-divider{
+
+}
+#about-heading{
+  background-image: linear-gradient(rgba(51,51,102, 0.4), rgba(51,51,102, 0.4)), url("/src/assets/about_us_background.jpg");
+  height: 60vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}

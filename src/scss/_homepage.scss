@@ -1,0 +1,361 @@
+
+//SlideShow on homepage
+
+.slideshow-container {
+  position: relative;
+}
+
+.slide {
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.slideshow-container .slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+
+}
+
+
+.slideshow-text #slogan {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  top: 14vw;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#slogan .col h2 {
+  font: 80px Fjalla One, sans-serif;
+}
+#slogan .col h3{
+  font: 30px "Open Sans Light", sans-serif;
+}
+
+
+.slideshow-text {
+  color: white;
+}
+
+
+#slogan-vertical-divider {
+  width: 5px;
+  height: 80px;
+  background: white;
+
+}
+
+@media (max-width: 768px) {
+  #slogan-vertical-divider {
+    position: absolute;
+    top: -4vw;
+    width: 5px;
+    height: 80px;
+    background: white;
+    transform: rotate(90deg);
+  }
+  #row-vertical-divider {
+    // min-height: 20px;
+    position: relative;
+    height: 40px;
+  }
+  #slogan .col h2 {
+    font: 70px Fjalla One, sans-serif;
+  }
+}
+
+@media (max-width: 450px) {
+  #slogan .col h2 {
+    font: 15vw Fjalla One, sans-serif;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-vertical-divider {
+    all: initial;
+
+    * {
+      all: unset;
+    }
+
+  }
+
+}
+
+/* Next & previous buttons */
+.slideshow-container a.prev, .slideshow-container a.next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  opacity: 50%;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .8
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .8
+  }
+  to {
+    opacity: 1
+  }
+}
+//**************************
+
+
+//Home Page Cards
+.home-card {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+
+  //overflow-y: hidden;
+}
+
+#globe-svg{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  bottom: 20px;
+  filter: brightness(70%);
+}
+#learn-more-card-body{
+  z-index: 2;
+}
+
+
+#university-application-card {
+  background-color: $dark;
+}
+
+.home-card .card-body {
+  z-index: 1;
+  position: absolute;
+  //color: $primary;
+  left: 8%;
+  top: 20%;
+  width: 84%
+}
+
+#university-application-card .card-body {
+  text-align: right;
+}
+
+#high-school-card .card-body {
+  border: 15px solid $primary;
+  background-color: white;
+  left: -20px;
+  border-radius: 15px;
+  padding-left: 10vw;
+  width: 70%;
+  min-width: 280px;
+  box-shadow: 12vw 80px rgba(113, 200, 240, 0.2);
+}
+
+
+.home-card .card-body h3 {
+  font: 60px bolder, "Open Sans", sans-serif;
+  margin-bottom: 20px;
+
+}
+
+#learn-more-card .card-body h3, #high-school-card .card-body h3 {
+  color: $darker;
+
+}
+
+#university-application-card .card-body h3 {
+  color: white;
+}
+
+.home-card .card-body h4 {
+  font: 36px bolder, "Open Sans", sans-serif;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+#learn-more-card .card-body h4, #high-school-card .card-body h4 {
+  color: $dark;
+}
+
+#university-application-card .card-body h4 {
+  color: white;
+}
+
+.home-card .card-body a {
+  font: 25px bolder, "Open Sans", sans-serif;
+  display: block;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+
+  .home-card .card-body {
+    left: 8%;
+    top: 6vw;
+    width: 84%
+  }
+  .home-card .card-body h3 {
+    font-size: 8vw;
+    margin-bottom: 20px;
+  }
+  .home-card .card-body h4 {
+    font: 36px bolder, "Open Sans", sans-serif;
+    margin-bottom: 20px;
+    padding-top: 30px;
+  }
+  .home-card .card-body a {
+    font: 25px bolder, "Open Sans", sans-serif;
+    display: block;
+    padding-top: 30px;
+  }
+  #high-school-card .card-body {
+
+    width: 90%;
+
+  }
+
+
+}
+
+
+#curve1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  fill: white;
+}
+
+#high-school-card svg pattern {
+
+  stroke: #fd63a3;
+  position: absolute;
+}
+
+
+#card-grid-1 pattern {
+  stroke: $primary;
+  position: absolute;
+
+}
+
+
+.dotted-grid {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+
+  height: 50%;
+  width: 50%;
+  opacity: 50%;
+  background-image: url("/src/assets/Index/dot_grid.svg");
+  background-size: cover;
+}
+
+.rect-1 {
+  position: absolute;
+  top: -110px;
+  left: 15%;
+
+  border-radius: 25px;
+  background: $primary;
+  padding: 20px;
+  width: 500px;
+
+  height: 160px;
+}
+
+.rect-2 {
+  position: absolute;
+  top: -10px;
+  left: 40%;
+  border-radius: 25px;
+  background: #B44C78;
+  padding: 20px;
+  width: 300px;
+  height: 120px;
+}
+
+@media screen and (max-width: 600px) {
+  .home-card .card-body {
+    left: 4%;
+    width: 92%;
+    top: 4vw;
+  }
+  .home-card .card-body h3 {
+    font-size: 11vw;
+    margin-bottom: 0px;
+  }
+  .home-card .card-body h4 {
+    font: 26px bolder, "Open Sans", sans-serif;
+    margin-bottom: 20px;
+    padding-top: 30px;
+  }
+  .home-card .card-body a {
+    font: 23px bolder, "Open Sans", sans-serif;
+    display: block;
+    padding-top: 30px;
+  }
+  #high-school-card .card-body {
+    width: 95%;
+  }
+
+  .rect-1 {
+    top: -80px;
+    left: 0;
+    width: 90%;
+    border-radius: 0 20px 20px 0;
+    height: 100px;
+  }
+
+  .rect-2 {
+    top: -10px;
+    left: 0px;
+    width: 95%;
+    height: 120px;
+    border-radius: 0 20px 20px 0;
+  }
+}

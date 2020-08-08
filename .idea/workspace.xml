@@ -17,48 +17,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="added more pages. created contact form.">
-      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/MHF4U Web Page.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 1/Chapter Tips.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 1/MHF4U - Unit 1 test (Sept 14).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 1/Unit 1 Summary.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 2/Chapter tips.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 2/Test - Jan 2015.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 2/Unit 2 Summary.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 3/Chapter Tips.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 3/MHF4U - Unit 2 - March 2010.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 3/Review questions.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 3/Unit 3 Summary.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 4/Chapter Tips.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 4/Unit 4 Summary.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 5/Chapter Tips.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 5/MHF4U - u4 test (october 2012 _ october 2015).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 5/Unit 5 Summary.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 6/Chapter Tips.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 6/Partner Practice.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 6/Unit 5 - Graphing Trig test (November 2014).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 6/Unit 6 Summary.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 7/Chapter Tips_.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 7/MHF - U6 Test(Dec 2013).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 7/Unit 7 Summary.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 8/Chapter Tips.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 8/MHF4U - Log test (June 2010).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 8/Unt 8 Summary.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 9/Chapter Tips.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 9/MHF - Unit 9 (June 2011 _ Jan 14).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 9/Unit 9 Summary.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/about_us_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_content_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_header_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_homepage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_uni_highschool.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addfiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/addfiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit8.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/translations/en - Copy.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/translations/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pages/translations/en.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +88,7 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.react_testing.js">
     <configuration name="react_testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/react_testing.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
@@ -300,6 +272,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596837559216" />
+    <state x="404" y="0" width="883" height="768" key="find.popup" timestamp="1596904438864">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="404" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1596904438864" />
     <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1596740057743">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -308,9 +284,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="347" y="166" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1595889902366" />
-    <state x="290" y="127" width="672" height="678" key="search.everywhere.popup" timestamp="1596345709666">
+    <state x="348" y="224" width="672" height="678" key="search.everywhere.popup" timestamp="1596901798926">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="290" y="127" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1596345709666" />
+    <state x="348" y="224" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1596901798926" />
   </component>
 </project>
