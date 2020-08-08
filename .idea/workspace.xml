@@ -18,6 +18,9 @@
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/about_us_background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/about_us_background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_about.scss" afterDir="false" />
     </list>
@@ -157,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596920307585</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Removed padding on about-us page for mobile devices">
+      <created>1596921223209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596921223209</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +205,8 @@
     <MESSAGE value="added more pages. created contact form." />
     <MESSAGE value="Minor updates to translation, reworking about page" />
     <MESSAGE value="Updated content + design of about us page - not fully completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated content + design of about us page - not fully completed" />
+    <MESSAGE value="Removed padding on about-us page for mobile devices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed padding on about-us page for mobile devices" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Deployment" timestamp="1594940725998">
@@ -218,11 +229,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595881366544" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1596920305506">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1596921221968">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594940772710" />
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1596920305506" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1596921221968" />
     <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1596552204264">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -264,11 +275,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="221" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1596086543753" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1596920324410">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1596921229041">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594940359558" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1596920324410" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1596921229041" />
     <state x="413" y="189" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1596834461575">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
