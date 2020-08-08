@@ -860,10 +860,6 @@ div.social-media a icon {
   color: #333366;
   font-weight: bolder; }
 
-@media screen and (max-width: 1000px) {
-  #about-story-creation {
-    flex: 1 0 100%; } }
-
 #down-arrow {
   stroke: none;
   fill: #000033;
@@ -881,6 +877,21 @@ div.social-media a icon {
 #our-team h2 {
   font: 2.6em "Soleil Bold", sans-serif;
   text-transform: uppercase; }
+
+@media screen and (max-width: 1000px) {
+  #about-story-creation {
+    flex: 1 0 100%; } }
+
+@media screen and (max-width: 600px) {
+  #about-story {
+    padding: 60px 0vw 0px 0vw; }
+  #about-story > * {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background-clip: padding-box; }
+  #down-arrow {
+    margin-top: 50px; } }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
