@@ -20,9 +20,28 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/about_us_background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/about_us_background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/business/bbb4m/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/bbb4m/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/translations/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pages/translations/en.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/MHF4U Web Page.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/MHF4U Web Page.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 1/Chapter Tips.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 1/Chapter Tips.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 1/Unit 1 Summary.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 1/Unit 1 Summary.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 2/Chapter tips.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 2/Chapter tips.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 2/Unit 2 Summary.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 2/Unit 2 Summary.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 3/Chapter Tips.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 3/Chapter Tips.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 3/Unit 3 Summary.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 3/Unit 3 Summary.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 4/Chapter Tips.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 4/Chapter Tips.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 4/Unit 4 Summary.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 4/Unit 4 Summary.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 5/Chapter Tips.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 5/Chapter Tips.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 5/Unit 5 Summary.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 5/Unit 5 Summary.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 6/Chapter Tips.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 6/Chapter Tips.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 6/Unit 6 Summary.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 6/Unit 6 Summary.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 7/Chapter Tips_.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 7/Chapter Tips_.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 7/Unit 7 Summary.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 7/Unit 7 Summary.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 8/Chapter Tips.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 8/Chapter Tips.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 8/Unt 8 Summary.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 8/Unt 8 Summary.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 9/Chapter Tips.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 9/Chapter Tips.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MHF4U/Unit 9/Unit 9 Summary.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/MHF4U/Unit 9/Unit 9 Summary.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +99,7 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.react_testing.js">
+  <component name="RunManager">
     <configuration name="react_testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/react_testing.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
