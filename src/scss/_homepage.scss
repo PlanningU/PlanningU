@@ -29,7 +29,7 @@
   align-items: center;
   position: absolute;
   width: 100%;
-  top: 14.5vw;
+  top: 14vw;
   left: 50%;
   transform: translateX(-50%);
   padding: 0 2vw;
@@ -47,6 +47,7 @@
 }
 
 #slogan h3 {
+  margin-top: 20px;
   font: 30px "Open Sans Light", sans-serif;
   flex: 0 0 100%;
 }
@@ -87,46 +88,6 @@
     font-size: 30px;
   }
 }
-
-/*
-
-@media (max-width: 768px) {
-  #slogan-vertical-divider {
-    position: absolute;
-    top: -4vw;
-    width: 5px;
-    height: 80px;
-    background: white;
-    transform: rotate(90deg);
-  }
-  #row-vertical-divider {
-    // min-height: 20px;
-    position: relative;
-    height: 40px;
-  }
-  #slogan .col h2 {
-    font: 70px Fjalla One, sans-serif;
-  }
-}
-
-@media (max-width: 450px) {
-  #slogan .col h2 {
-    font: 15vw Fjalla One, sans-serif;
-  }
-}
-
-@media (max-width: 992px) {
-  .nav-vertical-divider {
-    all: initial;
-
-    * {
-      all: unset;
-    }
-
-  }
-
-}
-*/
 
 /* Next & previous buttons */
 .slideshow-container a.prev, .slideshow-container a.next {
