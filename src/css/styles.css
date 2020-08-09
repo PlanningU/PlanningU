@@ -335,27 +335,54 @@ div.social-media a icon {
   object-fit: cover;
   filter: brightness(50%); }
 
-.slideshow-text #slogan {
-  pointer-events: none;
+#slogan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   width: 100%;
-  top: 14vw;
+  top: 14.5vw;
   left: 50%;
-  transform: translateX(-50%); }
+  transform: translateX(-50%);
+  padding: 0 2vw; }
 
-#slogan .col h2 {
-  font: 80px Fjalla One, sans-serif; }
+#slogan > * {
+  text-align: center; }
 
-#slogan .col h3 {
-  font: 30px "Open Sans Light", sans-serif; }
+#slogan h2 {
+  font: 80px Fjalla One, sans-serif;
+  margin: 0; }
+
+#slogan h3 {
+  font: 30px "Open Sans Light", sans-serif;
+  flex: 0 0 100%; }
 
 .slideshow-text {
   color: white; }
 
 #slogan-vertical-divider {
   width: 5px;
+  max-width: 80px;
   height: 80px;
-  background: white; }
+  background: white;
+  margin: 20px 40px; }
+
+@media (max-width: 1068px) {
+  #slogan > * {
+    flex: 0 0 100%;
+    text-align: center; }
+  #slogan-vertical-divider {
+    width: 80px;
+    height: 5px; } }
+
+@media (max-width: 420px) {
+  #slogan h2 {
+    font-size: 70px; }
+  #slogan h3 {
+    font-size: 30px; } }
+
+/*
 
 @media (max-width: 768px) {
   #slogan-vertical-divider {
@@ -364,23 +391,36 @@ div.social-media a icon {
     width: 5px;
     height: 80px;
     background: white;
-    transform: rotate(90deg); }
+    transform: rotate(90deg);
+  }
   #row-vertical-divider {
+    // min-height: 20px;
     position: relative;
-    height: 40px; }
+    height: 40px;
+  }
   #slogan .col h2 {
-    font: 70px Fjalla One, sans-serif; } }
+    font: 70px Fjalla One, sans-serif;
+  }
+}
 
 @media (max-width: 450px) {
   #slogan .col h2 {
-    font: 15vw Fjalla One, sans-serif; } }
+    font: 15vw Fjalla One, sans-serif;
+  }
+}
 
 @media (max-width: 992px) {
   .nav-vertical-divider {
-    all: initial; }
-    .nav-vertical-divider * {
-      all: unset; } }
+    all: initial;
 
+    * {
+      all: unset;
+    }
+
+  }
+
+}
+*/
 /* Next & previous buttons */
 .slideshow-container a.prev, .slideshow-container a.next {
   cursor: pointer;
