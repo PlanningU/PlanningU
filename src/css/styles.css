@@ -329,6 +329,15 @@ div.social-media a icon {
   height: 20px;
   background-color: #6666ad; }
 
+.no-margin {
+  margin-bottom: 0; }
+
+#qrmenu {
+  background: #71c8f0; }
+
+#qrmenudown {
+  pointer-events: none; }
+
 .slideshow-container {
   position: relative; }
 
