@@ -1,6 +1,5 @@
 #sidebar-div {
-  // padding-left: 1vw;
-  padding-top: 15px;
+
 }
 
 #sidebar {
@@ -8,7 +7,8 @@
   top: 0;
   left: 0;
   // min-height: 100vh;
-  max-height: 60vh;
+  //height: 98vh;
+  max-height: 98vh;
   overflow-y: scroll;
   position: sticky;
   background: white;
@@ -17,10 +17,15 @@
   border-right: 2px solid $gray;
 
 
+
+
 }
 
 #sidebar .sidebar-header {
   padding-left: 20px;
+}
+#sidebar .sidebar-header h3{
+padding-top: 10px;
 }
 
 #sidebar ul {
@@ -79,7 +84,7 @@
     top: 0px;
   }
   #sidebar {
-    min-height: 20px;
+    min-height: 60px;
     border-right: 0;
     width: 100%;
     max-height: 70vw;
@@ -118,7 +123,7 @@
   .sidebar-nav a.icon {
     position: absolute;
     right: 40px;
-    top: -30px;
+    top: -20px;
     display: block;
   }
 
