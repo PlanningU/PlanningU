@@ -37,7 +37,7 @@ html {
   font-size: 100%; }
 
 #main-info {
-  margin-top: 54px;
+  margin-top: 57px;
   font-size: 1em; }
 
 #main-info.alongside-sidebar, #sidebar {
@@ -336,9 +336,9 @@ div.social-media a icon {
   align-items: center;
   position: absolute;
   width: 100%;
-  top: 14vw;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -60%);
   padding: 0 2vw; }
 
 #slogan > * {
@@ -373,9 +373,9 @@ div.social-media a icon {
 
 @media (max-width: 420px) {
   #slogan h2 {
-    font-size: 70px; }
+    font-size: 17vw; }
   #slogan h3 {
-    font-size: 30px; } }
+    font-size: 25px; } }
 
 /* Next & previous buttons */
 .slideshow-container a.prev, .slideshow-container a.next {
@@ -420,10 +420,7 @@ div.social-media a icon {
 .home-card {
   position: relative;
   width: 100%;
-  height: 100vh; }
-
-#learn-more-link {
-  color: #1b7742; }
+  height: 600px; }
 
 #globe-svg {
   width: 500px;
@@ -456,9 +453,9 @@ div.social-media a icon {
   left: -20px;
   border-radius: 15px;
   padding-left: 10vw;
-  width: 70%;
+  width: 90%;
   min-width: 280px;
-  box-shadow: 12vw 80px rgba(113, 200, 240, 0.2); }
+  box-shadow: 5vw 10px rgba(113, 200, 240, 0.2); }
 
 .home-card .card-body h3 {
   font: 60px bolder, "Open Sans", sans-serif;
@@ -483,8 +480,15 @@ div.social-media a icon {
 
 .home-card .card-body a {
   font: 25px bolder, "Open Sans", sans-serif;
-  display: block;
-  padding-top: 30px; }
+  display: inline-block;
+  background-color: #71c8f0;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 @media screen and (min-width: 601px) and (max-width: 1000px) {
   .home-card .card-body {
@@ -492,16 +496,15 @@ div.social-media a icon {
     top: 6vw;
     width: 84%; }
   .home-card .card-body h3 {
-    font-size: 8vw;
+    font-size: 6vw;
     margin-bottom: 20px; }
   .home-card .card-body h4 {
-    font: 36px bolder, "Open Sans", sans-serif;
+    font: 34px bolder, "Open Sans", sans-serif;
     margin-bottom: 20px;
     padding-top: 30px; }
   .home-card .card-body a {
     font: 25px bolder, "Open Sans", sans-serif;
-    display: block;
-    padding-top: 30px; }
+    display: inline-block; }
   #high-school-card .card-body {
     width: 90%; } }
 
@@ -565,8 +568,7 @@ div.social-media a icon {
     padding-top: 30px; }
   .home-card .card-body a {
     font: 23px bolder, "Open Sans", sans-serif;
-    display: block;
-    padding-top: 30px; }
+    display: inline-block; }
   #high-school-card .card-body {
     width: 95%; }
   .rect-1 {
@@ -621,12 +623,12 @@ div.social-media a icon {
   background-color: white;
   height: 70%; }
 
-.wrapper #main-info > *:not(:first-child) {
+.wrapper #main-info > *:not(:first-child):not(:last-child) {
   padding-left: 8%;
   padding-right: 20%; }
 
-.wrapper #main-info {
-  padding-bottom: 100px; }
+#main-info #footer {
+  margin-top: 100px; }
 
 @media screen and (max-width: 800px) {
   .wrapper #main-info > *:not(:first-child) {
@@ -667,14 +669,11 @@ div.social-media a icon {
   font-family: "Brandon Grotesque Medium", sans-serif;
   color: #b44c78; }
 
-#sidebar-div {
-  padding-top: 15px; }
-
 #sidebar {
   width: 250px;
   top: 0;
   left: 0;
-  max-height: 60vh;
+  max-height: 98vh;
   overflow-y: scroll;
   position: sticky;
   background: white;
@@ -684,6 +683,9 @@ div.social-media a icon {
 
 #sidebar .sidebar-header {
   padding-left: 20px; }
+
+#sidebar .sidebar-header h3 {
+  padding-top: 10px; }
 
 #sidebar ul {
   padding-left: 0;
@@ -727,7 +729,7 @@ div.social-media a icon {
     position: relative;
     top: 0px; }
   #sidebar {
-    min-height: 20px;
+    min-height: 60px;
     border-right: 0;
     width: 100%;
     max-height: 70vw;
@@ -756,7 +758,7 @@ div.social-media a icon {
   .sidebar-nav a.icon {
     position: absolute;
     right: 40px;
-    top: -30px;
+    top: -20px;
     display: block; }
   .sidebar-nav.responsive .sidebar-components .sidebar-item {
     float: none;
@@ -765,7 +767,7 @@ div.social-media a icon {
     text-align: left; } }
 
 #about-body {
-  margin-top: 54px;
+  margin-top: 57px;
   font-size: 1em;
   background-color: #e8e9f0; }
 

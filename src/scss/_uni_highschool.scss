@@ -52,15 +52,17 @@ filter: brightness(0.6);
   height: 70%;
 }
 
-.wrapper #main-info > *:not(:first-child) {
+.wrapper #main-info > *:not(:first-child):not(:last-child) {
   padding-left: 8%;
   padding-right: 20%;
 }
 .wrapper #main-info {
-  padding-bottom: 100px;
+  //padding-bottom: 100px;
 }
 
-
+#main-info #footer{
+ margin-top: 100px;
+}
 
 @media screen and (max-width: 800px) {
   .wrapper #main-info > *:not(:first-child) {
