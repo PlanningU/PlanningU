@@ -5,37 +5,36 @@
 //PingFang
 @font-face {
   font-family: 'PingFang';
-  src: url('/src/assets/fonts/PingFangSCRegular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  url('/src/assets/fonts/PingFangSCRegular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
+  src: url('../../src/assets/fonts/PingFangSCRegular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('../../src/assets/fonts/PingFangSCRegular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 
 
 @font-face {
   font-family: 'Soleil Regular';
-  src: url('/src/assets/fonts/soleil.woff') format('woff') /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url('../../src/assets/fonts/soleil.woff') format('woff') /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 @font-face {
   font-family: 'Soleil Bold';
-  src: url('/src/assets/fonts/soleil-bold.woff') format('woff') /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url('../../src/assets/fonts/soleil-bold.woff') format('woff') /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 @font-face {
   font-family: 'Soleil Book';
-  src: url('/src/assets/fonts/soleilbk.woff') format('woff') /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url('../../src/assets/fonts/soleilbk.woff') format('woff') /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 @font-face {
   font-family: 'Soleil SemiBold';
-  src: url('/src/assets/fonts/soleilsb.woff') format('woff') /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url('../../src/assets/fonts/soleilsb.woff') format('woff') /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 @font-face {
   font-family: 'Brandon Grotesque Medium';
-  src: url('/src/assets/fonts/transat_medium-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  url('/src/assets/fonts/transat_medium-webfont.woff') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  src: url('../../src/assets/fonts/transat_medium-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  url('../../src/assets/fonts/transat_medium-webfont.woff') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 @font-face {
   font-family: 'Fjalla One Regular';
-  src: url('/src/assets/fonts/FjallaOne-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  src: url('../../src/assets/fonts/FjallaOne-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
