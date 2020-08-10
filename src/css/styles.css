@@ -313,8 +313,7 @@ div.social-media a icon {
   pointer-events: none; }
 
 .slideshow-container {
-  position: relative;
-  background-color: black; }
+  position: relative; }
 
 .slide {
   display: none;
@@ -338,7 +337,7 @@ div.social-media a icon {
   width: 100%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, -55%);
   padding: 0 2vw; }
 
 #slogan > * {
@@ -371,7 +370,7 @@ div.social-media a icon {
     width: 80px;
     height: 5px; } }
 
-@media (max-width: 420px) {
+@media (max-width: 490px) {
   #slogan h2 {
     font-size: 17vw; }
   #slogan h3 {
@@ -385,7 +384,7 @@ div.social-media a icon {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: black;
+  color: white;
   opacity: 50%;
   font-weight: bold;
   font-size: 40px;
