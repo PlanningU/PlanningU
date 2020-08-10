@@ -54,7 +54,7 @@ filter: brightness(0.6);
 
 .wrapper #main-info > *:not(:first-child):not(:last-child) {
   padding-left: 8%;
-  padding-right: 20%;
+  padding-right: 15%;
 }
 .wrapper #main-info {
   //padding-bottom: 100px;
@@ -65,7 +65,7 @@ filter: brightness(0.6);
 }
 
 @media screen and (max-width: 800px) {
-  .wrapper #main-info > *:not(:first-child) {
+  .wrapper #main-info > *:not(:first-child):not(:last-child) {
     padding-right: 8%;
   }
 }
