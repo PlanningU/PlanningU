@@ -8,13 +8,24 @@
   /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
 
 @font-face {
+  font-family: 'Soleil Regular';
+  src: url("/src/assets/fonts/Soleil.woff") format("woff"); }
+
+@font-face {
   font-family: 'Soleil Bold';
-  src: url("/src/assets/fonts/transat_medium-webfont.woff") format("woff"), url("/src/assets/fonts/transat_medium-webfont.woff") format("truetype");
-  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
+  src: url("/src/assets/fonts/Soleil-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Soleil Book';
+  src: url("/src/assets/fonts/SoleilBk.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Soleil SemiBold';
+  src: url("/src/assets/fonts/SoleilSb.woff") format("woff"); }
 
 @font-face {
   font-family: 'Brandon Grotesque Medium';
-  src: url("/src/assets/fonts/SoleilW01Bold.woff") format("woff"), url("/src/assets/fonts/SoleilW01Bold.ttf") format("truetype");
+  src: url("/src/assets/fonts/transat_medium-webfont.woff") format("woff"), url("/src/assets/fonts/transat_medium-webfont.woff") format("truetype");
   /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
 
 @font-face {
@@ -894,7 +905,7 @@ div.social-media a icon {
 
 #profiles {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   justify-content: center; }
 
 .profile-card {
@@ -916,19 +927,68 @@ div.social-media a icon {
   bottom: 0px;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: rgba(0, 0, 51, 0.75);
+  padding: 10px 15px;
   overflow: hidden;
   width: 100%;
-  height: 60px;
+  height: 130px;
   transition: .5s ease; }
 
+.profile-horizontal-div {
+  width: 80%;
+  height: 2px;
+  background-color: white;
+  margin: 10px 0; }
+
+.profile-horizontal-div-2 {
+  width: 21px;
+  height: 3px;
+  background-color: #71c8f0;
+  margin: 10px 0; }
+
 .profile-overlay > * {
-  display: block; }
+  display: block;
+  color: white; }
+
+.profile-overlay .mobile-open-arrow {
+  position: absolute;
+  width: 25px;
+  top: 20px;
+  right: 30px;
+  transition: .5s ease; }
+
+.profile-overlay:hover .mobile-open-arrow {
+  transform: rotate(180deg); }
 
 .profile-image {
-  display: block;
+  position: absolute;
   width: 100%;
-  height: auto; }
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover; }
+
+.profile-overlay h4 {
+  font-family: "Soleil Book", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase; }
+
+.profile-overlay h5 {
+  font: 1em "Soleil Regular", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100; }
+
+.profile-overlay h6 {
+  font-family: "Soleil Regular", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase; }
+
+.profile-overlay h6[data-i18n="profile-role-heading"] {
+  margin-top: 20px; }
+
+.profile-overlay li, .profile-overlay p {
+  font: 0.9em "Open Sans Light", sans-serif;
+  line-height: 1.7em; }
 
 @media screen and (max-width: 1000px) {
   #about-story-creation {
