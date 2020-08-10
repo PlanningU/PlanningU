@@ -422,6 +422,9 @@ div.social-media a icon {
   width: 100%;
   height: 100vh; }
 
+#learn-more-link {
+  color: #1b7742; }
+
 #globe-svg {
   width: 500px;
   height: 500px;
