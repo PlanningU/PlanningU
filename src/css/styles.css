@@ -72,7 +72,7 @@ html {
   width: 0;
   height: 0;
   border-color: transparent;
-  border-style: solid;
+  border-: solid;
   border-width: 5px 0 5px 5px;
   border-left-color: #ccc;
   margin-top: 5px;
@@ -313,7 +313,8 @@ div.social-media a icon {
   pointer-events: none; }
 
 .slideshow-container {
-  position: relative; }
+  position: relative;
+  background-color: black; }
 
 .slide {
   display: none;
@@ -384,7 +385,7 @@ div.social-media a icon {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: black;
   opacity: 50%;
   font-weight: bold;
   font-size: 40px;
@@ -420,6 +421,9 @@ div.social-media a icon {
   position: relative;
   width: 100%;
   height: 600px; }
+
+#learn-more-link {
+  color: #1b7742; }
 
 #globe-svg {
   width: 500px;
