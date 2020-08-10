@@ -2,6 +2,7 @@
 
 .slideshow-container {
   position: relative;
+  background-color: black;
 }
 
 .slide {
@@ -97,7 +98,7 @@
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: black;
   opacity: 50%;
   font-weight: bold;
   font-size: 40px;
@@ -118,24 +119,24 @@
   -webkit-animation-fill-mode: forwards;
   animation-name: fade;
   animation-duration: 1.5s;
-  animation-fill-mode: forwards
+  animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes fade {
   from {
-    opacity: .8
+    opacity: .8;
   }
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
 @keyframes fade {
   from {
-    opacity: .8
+    opacity: .8;
   }
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
