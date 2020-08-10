@@ -17,24 +17,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/translations/en_backup.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Fonts/Soleil-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Fonts/Soleil.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Fonts/SoleilBk.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Fonts/SoleilSb.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/about/White_Arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/about/about_us_top_triangle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/about/haonan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/about/isaac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/about/jessica.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/ui_animations/profile_hover_mobile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/translations/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pages/translations/en.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/translations/en_old.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Fonts/SoleilW01Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Fonts/SoleilW01Bold.woff" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/ui_animations/buttonAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/ui_animations/buttonAnimation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -207,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597003869208</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="About Page Progress">
+      <created>1597023995941</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597023995941</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +249,8 @@
     <MESSAGE value="Fixed home page hero text" />
     <MESSAGE value="Added account links" />
     <MESSAGE value="University Application Background Images" />
-    <option name="LAST_COMMIT_MESSAGE" value="University Application Background Images" />
+    <MESSAGE value="About Page Progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="About Page Progress" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Deployment" timestamp="1594940725998">
@@ -276,11 +273,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1595881366544" />
-    <state x="259" y="0" key="CommitChangelistDialog2" timestamp="1597003866657">
+    <state x="259" y="0" key="CommitChangelistDialog2" timestamp="1597023990397">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1594940772710" />
-    <state x="259" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1597003866657" />
+    <state x="259" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1597023990396" />
     <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1596552204264">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -322,11 +319,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="221" y="13" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1596086543753" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1597003881552">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1597024034986">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1594940359558" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1597003881552" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1597024034986" />
     <state x="413" y="189" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1596834461575">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

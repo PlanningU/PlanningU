@@ -906,12 +906,13 @@ div.social-media a icon {
 #profiles {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  padding: 50px 3px; }
 
 .profile-card {
   width: 400px;
   height: 500px;
-  border-style: solid;
+  margin: 20px 10px;
   position: relative;
   overflow: hidden; }
 
@@ -919,20 +920,23 @@ div.social-media a icon {
   width: 30px;
   transform: rotate(180deg); }
 
-.profile-card:hover .profile-overlay {
-  height: 100%; }
-
 .profile-overlay {
   position: absolute;
   bottom: 0px;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 51, 0.75);
+  background-color: rgba(0, 0, 51, 0.8);
   padding: 10px 15px;
   overflow: hidden;
   width: 100%;
   height: 130px;
   transition: .5s ease; }
+
+@media (hover: hover) {
+  .profile-card:hover .profile-overlay {
+    height: 100%; }
+  .profile-card:hover .mobile-open-arrow {
+    transform: rotate(180deg); } }
 
 .profile-horizontal-div {
   width: 80%;
@@ -957,9 +961,6 @@ div.social-media a icon {
   right: 30px;
   transition: .5s ease; }
 
-.profile-overlay:hover .mobile-open-arrow {
-  transform: rotate(180deg); }
-
 .profile-image {
   position: absolute;
   width: 100%;
@@ -976,7 +977,9 @@ div.social-media a icon {
 .profile-overlay h5 {
   font: 1em "Soleil Regular", sans-serif;
   text-transform: uppercase;
-  font-weight: 100; }
+  font-weight: 100;
+  margin-right: 10px;
+  min-height: 40px; }
 
 .profile-overlay h6 {
   font-family: "Soleil Regular", sans-serif;
@@ -985,6 +988,9 @@ div.social-media a icon {
 
 .profile-overlay h6[data-i18n="profile-role-heading"] {
   margin-top: 20px; }
+
+.flip {
+  transform: rotate(-180deg); }
 
 .profile-overlay li, .profile-overlay p {
   font: 0.9em "Open Sans Light", sans-serif;
@@ -1005,7 +1011,11 @@ div.social-media a icon {
     border-bottom: 0;
     background-clip: padding-box; }
   #down-arrow {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+  #profiles {
+    font-size: 14.5px; }
+  .profile-horizontal-div-2 {
+    margin: 14px 0; } }
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
