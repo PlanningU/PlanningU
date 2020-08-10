@@ -795,6 +795,10 @@ div.social-media a icon {
   margin-top: 13px;
   font: 1.7em "Open Sans Light", sans-serif; }
 
+#about-asthetic-triangle {
+  width: 100%;
+  display: block; }
+
 #about-story > * {
   border-left: 1.6vw solid transparent;
   border-right: 1.6vw solid transparent;
