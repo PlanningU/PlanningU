@@ -17,14 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/business/bbb4m/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/bbb4m/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/business/bbb4m/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/bbb4m/resources.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/business/cia4u/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/cia4u/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/business/cia4u/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/cia4u/resources.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +105,7 @@
       <workItem from="1596589680643" duration="1150000" />
       <workItem from="1596650892076" duration="8781000" />
       <workItem from="1596735706019" duration="7585000" />
-      <workItem from="1597067505742" duration="2196000" />
+      <workItem from="1597067505742" duration="2447000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
