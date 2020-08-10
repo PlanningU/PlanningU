@@ -624,13 +624,13 @@ div.social-media a icon {
 
 .wrapper #main-info > *:not(:first-child):not(:last-child) {
   padding-left: 8%;
-  padding-right: 20%; }
+  padding-right: 15%; }
 
 #main-info #footer {
   margin-top: 100px; }
 
 @media screen and (max-width: 800px) {
-  .wrapper #main-info > *:not(:first-child) {
+  .wrapper #main-info > *:not(:first-child):not(:last-child) {
     padding-right: 8%; } }
 
 .wrapper #main-info h1 {
