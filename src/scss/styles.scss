@@ -7,7 +7,7 @@
   font-family: 'PingFang';
   src: url('../../src/assets/fonts/PingFangSCRegular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   url('../../src/assets/fonts/PingFangSCRegular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-
+}
 
 @font-face {
   font-family: 'Soleil Regular';
@@ -148,15 +148,7 @@ html{
   list-style: none;
 }
 
-#reasons li::before {
-  content: "★"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: $primary; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
 
-}
 
 
 #landscape-image img { //for making the image resize when page is adjusted
@@ -175,19 +167,7 @@ html{
   color: #AAAAAA;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
 
-.fa:hover {
-  opacity: 0.7;
-}
 
 
 
@@ -212,7 +192,7 @@ html{
 // Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
 // Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
 // Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "/node_modules/bootstrap/scss/bootstrap";
 
 
 
