@@ -33,13 +33,15 @@
   color: white;
 
 }
-#about-heading h1{
+
+#about-heading h1 {
   font: 4em "Soleil Bold", sans-serif;
 
   text-transform: uppercase;
 
 }
-#about-heading p{
+
+#about-heading p {
   margin-top: 13px;
   font: 1.7em "Open Sans Light", sans-serif;
 
@@ -62,12 +64,13 @@
   //margin:0 -15px;
 }
 
-#about-story h2, #about-story h3{
-  font-family:"Soleil Bold", sans-serif;
+#about-story h2, #about-story h3 {
+  font-family: "Soleil Bold", sans-serif;
   text-transform: uppercase;
 
 }
-#about-story h2{
+
+#about-story h2 {
   font-weight: bolder;
 }
 
@@ -77,7 +80,8 @@
   padding: 30px 2vw;
   //margin-right: 50px;
 }
-#about-story-creation h2{
+
+#about-story-creation h2 {
   color: $dark;
 }
 
@@ -96,21 +100,24 @@
   padding: 30px 2vw;
   color: white;
 }
-#about-story-uni h3{
+
+#about-story-uni h3 {
   font-size: 1.4em;
 }
-#about-story-uni ul{
+
+#about-story-uni ul {
   list-style: none;
   margin: 20px 1vw 0 1vw;
   overflow: visible;
   position: relative;
 }
-#about-story-uni ul li{
+
+#about-story-uni ul li {
   padding: 10px 0;
   font: 1.1em "Open Sans Light", sans-serif;
 }
 
-#about-unis-offer-line{
+#about-unis-offer-line {
   background-color: $primary;
   left: 20px;
   top: 50%;
@@ -128,15 +135,14 @@
   text-align: center;
   padding: 30px 5vw;
 }
-#about-story-message h3{
+
+#about-story-message h3 {
   color: $dark;
   font-weight: bolder;
 }
 
 
-
-
-#down-arrow{
+#down-arrow {
   stroke: none;
   fill: $darker;
   width: 50px;
@@ -144,80 +150,147 @@
   margin-left: auto;
   margin-right: auto;
 }
-#our-team{
+
+#our-team {
   margin-top: 35px;
   padding: 30px 5vw;
   background-color: $darker;
   color: white;
 
 }
-#our-team h2{
+
+#our-team h2 {
   font: 2.6em "Soleil Bold", sans-serif;
   text-transform: uppercase;
 }
 
-#profiles{
+#profiles {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   justify-content: center;
+  padding: 50px 3px;
 }
 
-.profile-card{
- width: 400px;
+.profile-card {
+  width: 400px;
   height: 500px;
-  border-style: solid;//debugging
+  margin: 20px 10px;
+
   position: relative;
   overflow: hidden;
 }
-.profile-card svg{
+
+.profile-card svg {
   width: 30px;
   transform: rotate(180deg);
 }
 
-.profile-card:hover .profile-overlay {
-  height: 100%;
-}
+
+
 
 .profile-overlay {
   position: absolute;
   bottom: 0px;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: rgba(0, 0, 51, 0.80);
+  padding: 10px 15px;
   overflow: hidden;
   width: 100%;
-  height: 60px;
+  height: 130px;
   transition: .5s ease;
 }
-.profile-overlay > *{
-  display: block;
+
+@media (hover: hover) {
+  .profile-card:hover .profile-overlay {
+    height: 100%;
+  }
+  .profile-card:hover .mobile-open-arrow {
+    transform: rotate(180deg);
+
+  }
 }
-.profile-image{
+
+.profile-horizontal-div {
+  width: 80%;
+  height: 2px;
+  background-color: white;
+  margin: 10px 0;
+}
+
+.profile-horizontal-div-2 {
+  width: 21px;
+  height: 3px;
+  background-color: $primary;
+  margin: 10px 0;
+}
+
+.profile-overlay > * {
   display: block;
+  color: white;
+}
+
+.profile-overlay .mobile-open-arrow {
+  position: absolute;
+  width: 25px;
+  top: 20px;
+  right: 30px;
+  transition: .5s ease;
+}
+
+
+.profile-image {
+  position: absolute;
   width: 100%;
-  height: auto;
-
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 
+.profile-overlay h4 {
+  font-family: "Soleil Book", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
 
+.profile-overlay h5 {
+  font: 1em "Soleil Regular", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-right: 10px;
+  min-height: 40px;
+}
 
+.profile-overlay h6 {
+  font-family: "Soleil Regular", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
 
+.profile-overlay h6[data-i18n="profile-role-heading"] {
+  margin-top: 20px;
+}
 
+.flip { transform: rotate(-180deg);}
 
+.profile-overlay li, .profile-overlay p {
+  font: 0.9em "Open Sans Light", sans-serif;
+  line-height: 1.7em;
+}
 
-
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
   #about-story-creation {
     flex: 1 0 100%;
   }
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   #about-story {
     padding: 60px 0vw 0px 0vw;
   }
-  #about-story h2, #about-story h3{
+  #about-story h2, #about-story h3 {
     text-align: center;
   }
   #about-story > * {
@@ -227,7 +300,15 @@
     background-clip: padding-box;
 
   }
-  #down-arrow{
+  #down-arrow {
     margin-top: 50px;
+  }
+  #profiles {
+    font-size: 14.5px;
+  }
+  .profile-horizontal-div-2 {
+
+
+    margin: 14px 0;
   }
 }
