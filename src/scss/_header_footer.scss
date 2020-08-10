@@ -190,6 +190,7 @@ div.social-media a icon{
   background-color: $darker;
   padding-bottom: 20px;
 
+
 }
 
 #footer-container h3 {
@@ -238,4 +239,16 @@ div.social-media a icon{
   width: 1.5px;
   height: 20px;
   background-color: $secondary;
+}
+
+.no-margin{
+    margin-bottom:0;
+}
+
+#qrmenu{
+    background: #71c8f0;
+}
+
+#qrmenudown{
+    pointer-events: none;
 }
