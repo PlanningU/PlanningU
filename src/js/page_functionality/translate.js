@@ -34,6 +34,7 @@ window.onload = function() {
         }
     }
 };
+
 $('#header').on('click', 'input', function () {
 
     if ($('input').prop('checked')===true) {
