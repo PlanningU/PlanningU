@@ -156,7 +156,7 @@ html {
 #navbar-btn-toggle .line {
   width: 100%;
   float: left;
-  height: 3px;
+  height: 3.5px;
   background-color: #000033;
   margin-bottom: 5px;
   border-radius: 1px 1px 1px 1px; }
@@ -264,9 +264,11 @@ div.social-media a icon {
   padding: 0 5px; }
 
 #qrmenu {
-  background: #71c8f0; }
+  background: #333366; }
 
 #qrmenudown {
+  color: white;
+  text-align: center;
   pointer-events: none; }
 
 .collapse.show .nav-item:last-child {
@@ -946,6 +948,14 @@ button.readmore-toggle {
   flex-wrap: wrap;
   justify-content: center;
   padding: 50px 3px; }
+
+#profiles hr {
+  width: 100%;
+  opacity: 0; }
+
+@media screen and (max-width: 900px) {
+  #profiles hr {
+    display: none; } }
 
 .profile-card {
   width: 400px;

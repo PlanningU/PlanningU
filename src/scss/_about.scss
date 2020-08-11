@@ -47,10 +47,10 @@
 
 }
 
-#about-asthetic-triangle{
+#about-asthetic-triangle {
   width: 100%;
   //height: 50px;
- // object-fit: fill;
+  // object-fit: fill;
   display: block;
 }
 
@@ -100,22 +100,22 @@
   color: $secondary;
 }
 
-button.readmore-toggle{
-  display:none;
+button.readmore-toggle {
+  display: none;
 }
 
-@media (max-width: 800px){//The readmore toggle
-  #about-story-creation{
+@media (max-width: 800px) { //The readmore toggle
+  #about-story-creation {
     height: 350px;
     overflow: hidden;
     margin-bottom: 50px;
     position: relative;
     transition: 2s ease-in-out;
   }
-  #about-story-creation p{
+  #about-story-creation p {
     margin-bottom: 45px;
   }
-  button.readmore-toggle{
+  button.readmore-toggle {
     display: inline-block;
     background-color: $secondary;
     padding: 24px;
@@ -126,30 +126,29 @@ button.readmore-toggle{
     right: 30px;
   }
 
-  button.readmore-toggle:focus{
+  button.readmore-toggle:focus {
     outline: none;
   }
 
-  button.readmore-toggle span{
+  button.readmore-toggle span {
     position: absolute;
     background-color: white;
     border-radius: 2px;
     transition: 1s;
   }
-  button.readmore-toggle span:first-of-type{
+  button.readmore-toggle span:first-of-type {
     top: 25%;
     bottom: 25%;
     width: 10%;
     left: 45%;
   }
-  button.readmore-toggle span:last-of-type{
+  button.readmore-toggle span:last-of-type {
     left: 25%;
     right: 25%;
     height: 10%;
     top: 45%;
   }
 }
-
 
 
 #about-story-uni {
@@ -227,13 +226,24 @@ button.readmore-toggle{
   flex-wrap: wrap;
   justify-content: center;
   padding: 50px 3px;
+  //max-width: 150px;
+}
+#profiles hr{
+  width: 100%;
+  opacity: 0;
+}
+
+@media screen and (max-width: 900px) {
+  #profiles hr {
+    display: none;
+
+  }
 }
 
 .profile-card {
   width: 400px;
   height: 500px;
   margin: 20px 10px;
-
   position: relative;
   overflow: hidden;
 }
@@ -242,8 +252,6 @@ button.readmore-toggle{
   width: 30px;
   transform: rotate(180deg);
 }
-
-
 
 
 .profile-overlay {
@@ -330,7 +338,9 @@ button.readmore-toggle{
   margin-top: 20px;
 }
 
-.flip { transform: rotate(-180deg);}
+.flip {
+  transform: rotate(-180deg);
+}
 
 .profile-overlay li, .profile-overlay p {
   font: 0.9em "Open Sans Light", sans-serif;
