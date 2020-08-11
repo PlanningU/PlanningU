@@ -43,6 +43,8 @@
   border-radius: 1px 1px 1px 1px;
 }
 
+
+
 ul.dropdown-menu.dropdown-menu-left {
   color: white;
   background-color: $dark;
@@ -176,6 +178,17 @@ div.social-media a icon{
 
 }
 
+.social-media a i{
+  font-size: 23px;
+  padding: 0 5px;
+}
+#qrmenu{
+  background: #71c8f0;
+}
+
+#qrmenudown{
+  pointer-events: none;
+}
 
 
 //FOOTER **************************************************
@@ -194,7 +207,7 @@ div.social-media a icon{
 }
 
 #footer-container h3 {
-  font: 26px "Brandon Grotesque M", sans-serif;
+  font: 23px "Brandon Grotesque M", sans-serif;
 }
 
 #footer-container .header-nav a, .social-media a {
@@ -204,7 +217,7 @@ div.social-media a icon{
 }
 
 #email-address-footer{
-  font: 14px "Brandon Grotesque M", sans-serif;
+  font: 16px "Brandon Grotesque M", sans-serif;
   color: white;
 }
 
@@ -245,10 +258,3 @@ div.social-media a icon{
     margin-bottom:0;
 }
 
-#qrmenu{
-    background: #71c8f0;
-}
-
-#qrmenudown{
-    pointer-events: none;
-}
