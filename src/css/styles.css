@@ -845,6 +845,45 @@ div.social-media a icon {
   line-height: 1.6em;
   color: #6666ad; }
 
+button.readmore-toggle {
+  display: none; }
+
+@media (max-width: 800px) {
+  #about-story-creation {
+    height: 350px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    position: relative;
+    transition: 2s ease-in-out; }
+  #about-story-creation p {
+    margin-bottom: 45px; }
+  button.readmore-toggle {
+    display: inline-block;
+    background-color: #6666ad;
+    padding: 24px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    bottom: 20px;
+    right: 30px; }
+  button.readmore-toggle:focus {
+    outline: none; }
+  button.readmore-toggle span {
+    position: absolute;
+    background-color: white;
+    border-radius: 2px;
+    transition: 1s; }
+  button.readmore-toggle span:first-of-type {
+    top: 25%;
+    bottom: 25%;
+    width: 10%;
+    left: 45%; }
+  button.readmore-toggle span:last-of-type {
+    left: 25%;
+    right: 25%;
+    height: 10%;
+    top: 45%; } }
+
 #about-story-uni {
   flex: 1 0 35%;
   background-color: #000033;
