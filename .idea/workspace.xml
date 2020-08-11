@@ -19,7 +19,7 @@
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_uni_highschool.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_uni_highschool.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_header_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_header_footer.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +108,7 @@
       <workItem from="1596650892076" duration="8781000" />
       <workItem from="1596735706019" duration="7585000" />
       <workItem from="1597067505742" duration="3065000" />
+      <workItem from="1597154978455" duration="3809000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>

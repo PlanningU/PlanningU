@@ -259,6 +259,19 @@ div.social-media a icon {
   padding-left: 0;
   padding-right: 0; }
 
+.social-media a i {
+  font-size: 23px;
+  padding: 0 5px; }
+
+#qrmenu {
+  background: #71c8f0; }
+
+#qrmenudown {
+  pointer-events: none; }
+
+.collapse.show .nav-item:last-child {
+  margin-bottom: 15px; }
+
 #footer-container, #copyright {
   text-align: center;
   color: white; }
@@ -268,14 +281,14 @@ div.social-media a icon {
   padding-bottom: 20px; }
 
 #footer-container h3 {
-  font: 26px "Brandon Grotesque M", sans-serif; }
+  font: 23px "Brandon Grotesque M", sans-serif; }
 
 #footer-container .header-nav a, .social-media a {
   font: 15px "Brandon Grotesque M", sans-serif;
   color: white; }
 
 #email-address-footer {
-  font: 14px "Brandon Grotesque M", sans-serif;
+  font: 16px "Brandon Grotesque M", sans-serif;
   color: white; }
 
 #copyright {
@@ -305,12 +318,6 @@ div.social-media a icon {
 
 .no-margin {
   margin-bottom: 0; }
-
-#qrmenu {
-  background: #71c8f0; }
-
-#qrmenudown {
-  pointer-events: none; }
 
 .slideshow-container {
   position: relative; }
@@ -487,7 +494,7 @@ div.social-media a icon {
   padding: 10px;
   border-radius: 3px;
   margin-top: 30px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1); }
 
 @media screen and (min-width: 601px) and (max-width: 1000px) {
   .home-card .card-body {
