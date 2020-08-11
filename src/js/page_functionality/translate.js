@@ -10,30 +10,30 @@ var translator = new Translator();
 
 
 
+window.onload = function() {
+    if (getCookie("preferred_language") === '') {
+        for (var i in navigator.languages) {
 
-if (getCookie("preferred_language") === '') {
-   for (var i in navigator.languages){
+            if (navigator.languages[i].substring(0, 2) === "zh") {
+                translator.load("zh");
+                document.getElementById("language-toggle-input").click();
+                var translate_to_zh = true;
+                break;
+            }
+        }
+        if (!translate_to_zh) {
+            translator.load("en");
+        }
+    } else {
+        translator.load(getCookie("preferred_language"));
+        if (getCookie("preferred_language") === "zh") {
+            document.getElementById("language-toggle-input").checked = true;
 
-       if (navigator.languages[i].substring(0,2)==="zh"){
-           translator.load("zh");
-           document.getElementById("language-toggle-input").click();
-           var translate_to_zh = true;
-           break;
-       }
-   }
-   if (!translate_to_zh){
-       translator.load("en");
-   }
-}else{
-    translator.load(getCookie("preferred_language"));
-    if (getCookie("preferred_language")==="zh"){
-        document.getElementById("language-toggle-input").checked = true;
-
-    }else{
-        document.getElementById("language-toggle-input").checked = false;
+        } else {
+            document.getElementById("language-toggle-input").checked = false;
+        }
     }
-}
-
+};
 $('#header').on('click', 'input', function () {
 
     if ($('input').prop('checked')===true) {

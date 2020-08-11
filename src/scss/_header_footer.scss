@@ -37,7 +37,7 @@
 #navbar-btn-toggle .line {
   width: 100%;
   float: left;
-  height: 3px;
+  height: 3.5px;
   background-color: $darker;
   margin-bottom: 5px;
   border-radius: 1px 1px 1px 1px;
@@ -183,10 +183,12 @@ div.social-media a icon{
   padding: 0 5px;
 }
 #qrmenu{
-  background: #71c8f0;
+  background: $dark;
 }
 
 #qrmenudown{
+  color: white;
+  text-align: center;
   pointer-events: none;
 }
 
