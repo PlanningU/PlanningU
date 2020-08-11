@@ -269,6 +269,9 @@ div.social-media a icon {
 #qrmenudown {
   pointer-events: none; }
 
+.collapse.show .nav-item:last-child {
+  margin-bottom: 15px; }
+
 #footer-container, #copyright {
   text-align: center;
   color: white; }
