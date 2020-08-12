@@ -1,13 +1,13 @@
-#sidebar-div {
-
+#sidebar-div{
+  //position:relative;
 }
-
 #sidebar {
   width: 250px;
-  top: 0;
+  top: 59px;
   left: 0;
   // min-height: 100vh;
   //height: 98vh;
+
   max-height: 98vh;
   overflow-y: scroll;
   position: sticky;
@@ -75,13 +75,14 @@ padding-top: 10px;
 }
 
 @media screen and (max-width: 800px) {
-  #nav-bar.alongside-sidebar {
+
+  #header.alongside-sidebar{
     position: relative;
   }
   .wrapper {
     flex-direction: column;
     position: relative;
-    top: 0px;
+    margin-top: 0;
   }
   #sidebar {
     min-height: 60px;
@@ -96,7 +97,7 @@ padding-top: 10px;
     background: white;
     position: sticky;
     position: -webkit-sticky; /* for Safari */
-    z-index: 100;
+    z-index: 99;
     top: 0;
     align-self: flex-start;
     width: 100%;

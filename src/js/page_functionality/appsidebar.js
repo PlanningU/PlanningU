@@ -2,6 +2,13 @@ loadApplicationSideBar();
 
 function loadApplicationSideBar() {
     $("#sidebar-div").load("/pages/applications/applications-sidebar.html");
+
+//This prevents the header from being fixed on mobile on application and high school pages
+    var x = document.getElementById("header");
+    x.className += "alongside-sidebar";
+
+    x = document.getElementById("main-info");
+    x.className += " alongside-sidebar";
 }
 
 
