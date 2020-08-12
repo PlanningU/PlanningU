@@ -37,6 +37,7 @@ html {
   font-size: 100%; }
 
 #main-info {
+  margin-top: 57px;
   font-size: 1em; }
 
 /*.dropdown-submenu {
@@ -593,7 +594,6 @@ div.social-media a icon {
 .wrapper {
   display: flex;
   width: 100%;
-  margin-top: 59px;
   flex-direction: row; }
 
 .course-title {
@@ -774,6 +774,7 @@ div.social-media a icon {
     text-align: left; } }
 
 #about-body {
+  margin-top: 57px;
   font-size: 1em;
   background-color: #e8e9f0; }
 
