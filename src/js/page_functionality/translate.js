@@ -11,6 +11,7 @@ var translator = new Translator();
 
 
 window.onload = function() {
+
     if (getCookie("preferred_language") === '') {
         for (var i in navigator.languages) {
 

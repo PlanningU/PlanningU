@@ -858,7 +858,7 @@ button.readmore-toggle {
     overflow: hidden;
     margin-bottom: 50px;
     position: relative;
-    transition: 2s ease-in-out; }
+    transition: 1s ease-in-out; }
   #about-story-creation p {
     margin-bottom: 45px; }
   button.readmore-toggle {
