@@ -36,6 +36,9 @@
 html {
   font-size: 100%; }
 
+* {
+  box-sizing: border-box; }
+
 #main-info {
   margin-top: 57px;
   font-size: 1em; }
