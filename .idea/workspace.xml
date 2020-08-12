@@ -17,18 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
-      <change afterPath="$PROJECT_DIR$/pages/articles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/page_functionality/display_articles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_articles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/video_metadata.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/translations/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pages/translations/en.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/ui_animations/flagraise.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/display_articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/display_articles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +110,7 @@
       <workItem from="1596735706019" duration="7585000" />
       <workItem from="1597067505742" duration="3065000" />
       <workItem from="1597154978455" duration="22828000" />
-      <workItem from="1597237584746" duration="11192000" />
+      <workItem from="1597237584746" duration="18321000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
