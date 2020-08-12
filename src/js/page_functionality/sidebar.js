@@ -1,8 +1,13 @@
-
 loadSideBar();
 
 function loadSideBar() {
     $("#sidebar-div").load("/pages/subjects/subjects_sidebar.html");
+    var x = document.getElementById("header");
+    x.className += "alongside-sidebar";
+
+    x = document.getElementById("main-info");
+    x.className += " alongside-sidebar";
+
 
 
 }
@@ -20,9 +25,9 @@ $(document).ready(function () {
 
 $('#sidebar-div').on('click', '.sidebar-item ul li a', function () {
     setCookie("current_course", $(this).parents(':eq(1)').attr('id'), 10)
-    // document.cookie = "current_course= " + $(this).parents(':eq(1)').attr('id');
 
 });
+
 $('#header').on('click', 'a', function () {
     try {
         deleteCookie("current_course");
@@ -41,13 +46,8 @@ $('#sidebar-div').on('click', '.sidebar-item > a', function () {
 });
 
 
+window.onload = function () {
 
-
-window.onload = (event) => {
-    var x = document.getElementById("nav-bar");
-    x.className += " alongside-sidebar"
-    x = document.getElementById("main-info");
-    x.className += " alongside-sidebar"
 };
 
 

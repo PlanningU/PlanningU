@@ -6,7 +6,7 @@ function loadHeaderFooter() {
 
     $("body").append('<script type="text/javascript" src="/src/js/page_functionality/cookie.js"></script>');
     $("body").append('<script src="/src/js/papaparse.min.js"></script> ');
-    $("body").append('<script type="module" src="/src/js/page_functionality/translate.js"></script> ');
+    $("body").append('<script type="module" src="/src/js/page_functionality/translate.js"></script>');
     $("head").append('<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">');
     $("head").append('<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">');
     $("head").append('<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">');

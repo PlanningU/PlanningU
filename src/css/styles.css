@@ -40,10 +40,6 @@ html {
   margin-top: 57px;
   font-size: 1em; }
 
-#main-info.alongside-sidebar, #sidebar {
-  margin-top: 0px;
-  padding-top: 54px; }
-
 /*.dropdown-submenu {
   position: relative;
 }
@@ -125,16 +121,20 @@ html {
 .card-text {
   color: #AAAAAA; }
 
-#nav-bar {
+#header {
+  min-height: 59px;
   top: 0;
   background-color: #000033;
   color: #ffffff;
-  position: -webkit-sticky;
   position: fixed;
   width: 100%;
   z-index: 100;
   padding-left: 3vw;
   padding-right: 3vw; }
+
+#nav-bar {
+  min-height: 59px;
+  z-index: 100; }
 
 #nav-bar .navbar-brand {
   color: white;
@@ -268,8 +268,7 @@ div.social-media a icon {
 
 #qrmenudown {
   color: white;
-  text-align: center;
-  pointer-events: none; }
+  text-align: center; }
 
 .collapse.show .nav-item:last-child {
   margin-bottom: 15px; }
@@ -679,7 +678,7 @@ div.social-media a icon {
 
 #sidebar {
   width: 250px;
-  top: 0;
+  top: 59px;
   left: 0;
   max-height: 98vh;
   overflow-y: scroll;
@@ -730,12 +729,12 @@ div.social-media a icon {
   display: block; }
 
 @media screen and (max-width: 800px) {
-  #nav-bar.alongside-sidebar {
+  #header.alongside-sidebar {
     position: relative; }
   .wrapper {
     flex-direction: column;
     position: relative;
-    top: 0px; }
+    margin-top: 0; }
   #sidebar {
     min-height: 60px;
     border-right: 0;
@@ -748,7 +747,7 @@ div.social-media a icon {
     position: sticky;
     position: -webkit-sticky;
     /* for Safari */
-    z-index: 100;
+    z-index: 99;
     top: 0;
     align-self: flex-start;
     width: 100%;
