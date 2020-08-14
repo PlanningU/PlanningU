@@ -16,13 +16,13 @@ function loadHeaderFooter() {
 }
 
 $(document).ready(function(){
-    $(".dropdown").click(function () {
-        if (!($(this).hasClass("show"))) {
-            $(this).addClass("show");
-        } else {
-            $(this).removeClass("show");
-        }
-    });
+    if (window.matchMedia('(max-width: 1080px)').matches) {
+        $("a[data-i18n='nav-school-classes']").attr("href", "/pages/subjects/home.html");
+    } else {
+        $("a[data-i18n='nav-school-classes']").attr("href", "javascript:void(0)");
+    }
+
+
 
     var els = document.getElementsByClassName("wechat-modal-link");
     // Get the button that opens the modal

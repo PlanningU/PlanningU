@@ -60,6 +60,22 @@ a.nav-link {
   margin-top: -4px;
   font: 1rem "Open Sans Light", sans-serif;
   white-space: nowrap;
+  position: relative;
+}
+
+a.nav-link:before{
+  content: '';
+  position: absolute;
+  top: 70%;
+  transition: width 500ms ease;
+  width: 0;
+  height: 1px;
+  //border-radius: 5%;
+  background-color: rgba(255, 255, 255, 0.8)
+}
+a.nav-link:hover:before{
+
+  width: 100%;
 
 }
 
@@ -69,14 +85,44 @@ a.nav-link {
 }
 
 .dropdown-content {
-  display: none;
+  //display: none;
+  overflow: hidden;
   position: absolute;
+  left: 0;
   background: $darker;
   list-style: none;
   padding-left: 0;
+  max-height: 0;
+  transition: max-height 0.8s;
 
 }
 
+.dropdown:hover{
+  background-color: #004;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #004;
+  max-height: 200px;
+}
+
+.dropdown .toggle-dropdown::after {
+  content: ">";
+  //transform: rotate(90deg);
+  position: relative;
+  font-size: 10px;
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: scaleX(2.2) rotate(90deg);
+  margin-left: 10px;
+
+
+
+}
 
 .dropdown-content a {
   float: none;
@@ -89,12 +135,10 @@ a.nav-link {
 }
 
 .dropdown-content a:hover {
-  background-color: rgb(24, 24, 57);
+  background-color: #005;
 }
 
-.show .dropdown-content {
-  display: block;
-}
+
 
 //Slider Language///////////
 .switch {
@@ -125,6 +169,9 @@ a.nav-link {
 
 #language-toggle-item span {
   font: 1rem "Open Sans Light", sans-serif;
+}
+#language-toggle-item:hover #en,#language-toggle-item:hover #zh {
+  opacity: 80%;
 }
 
 .slider:before {
@@ -186,10 +233,14 @@ div.social-media a icon {
   padding: 0 5px;
 }
 
-
-.collapse.show .nav-item:last-child {
-  margin-bottom: 15px;
+.social-media a i:hover{
+  opacity: 90%;
 }
+.social-media a:link{
+  text-decoration: none;
+}
+
+
 
 //The collapsible
 @media (max-width: 1080px) {
@@ -214,9 +265,9 @@ div.social-media a icon {
     right: calc(2vw + 20px);
     top: 50%;
     transform: translateY(-50%);
-    width: 50px;
-    height: 40px;
-    background-color: #ffffff;
+    width: 45px;
+    height: 35px;
+    background-color: transparent;
     border-radius: 15%;
     display: flex;
     flex-direction: column;
@@ -227,49 +278,81 @@ div.social-media a icon {
   .nav-toggle-label .line {
     width: 60%;
     //float: left;
-    height: 4px;
-    background-color: $darker;
+    height: 2px;
+    background-color: white;
     margin-bottom: 5px;
-    border-radius: 1px 1px 1px 1px;
+    border-radius: 2px;
     pointer-events: none;
+    transition: all 0.3s linear;
   }
+
   .nav-items {
     position: absolute;
     text-align: left;
     top: 98%;
     left: 0;
     background: $darker;
+
     width: 100%;
-    //transform: scale(1, 0);
-    //transform-origin: top;
-    height:0;
-    transition: height 1s ease-in-out;
+    height: 0;
+    transition: height 1.2s ease;
+
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     overflow: hidden;
+    z-index: -5;
   }
 
   .nav-item {
     opacity: 0;
-    transition: opacity 600ms ease-in-out;
     padding: 0;
+    transition: opacity 600ms ease-in-out;
+
 
   }
-  a.nav-link{
+
+  a.nav-link {
     width: 100vw;
-    padding: 25px 0 0 calc(10vw + 5px);
+    padding: 4vh 0 0 calc(10vw + 5px);
     font: 1.3rem "Open Sans Light", sans-serif;
+
+
+  }
+  a.nav-link, a.dropdown-item{
+    box-shadow: inset 0 0 0px 0 rgba(212, 212, 212, 0);
+    transition: box-shadow 200ms ease;
+  }
+  a.nav-link:active, a.dropdown-item:active{
+    box-shadow: inset 100vw 0 0px 0px rgba(212, 212, 212, 0.17);
+  }
+
+  a.nav-link:before{
+    display: none;
   }
   #language-toggle-item span {
     font: 1.3rem "Open Sans Light", sans-serif;
   }
 
   .nav-toggle:checked ~ .nav-items {
-    //transform: scale(1, 1);
     height: 100vh;
+  }
+
+  .nav-toggle:checked ~ .nav-toggle-label .line:first-child,
+  .nav-toggle:checked ~ .nav-toggle-label .line:last-child{
+    position: absolute;
+    width: 40%;
 
 
+    transform:  rotate(-45deg) scaleX(1.3);
+    margin: 0;
+  }
+  .nav-toggle:checked ~ .nav-toggle-label .line:nth-child(2){
+    height: 0;
+    margin: 0;
+  }
+  .nav-toggle:checked ~ .nav-toggle-label .line:last-child{
+    transform: rotate(45deg) scaleX(1.3);
   }
 
   .nav-toggle:checked ~ .nav-items .nav-item {
@@ -277,41 +360,50 @@ div.social-media a icon {
     transition: opacity 250ms ease-in-out 250ms;
   }
 
+
+
+  .dropdown:hover .dropdown-content {
+    background-color: initial;
+  }
+  .dropdown:hover{
+    background-color: initial;
+  }
+
   .dropdown-content {
+    max-height: initial;
     display: block;
     position: initial;
     background: $darker;
     list-style: none;
     padding-left: calc(10vw + 25px);
   }
-  .dropdown-content a{
+  .dropdown-content a {
     font: 1.2rem "Open Sans Light", sans-serif;
   }
-  .dropdown-content a:hover{
+  .dropdown-content a:hover {
     background-color: inherit;
   }
 
-  .nav-item:last-child > *:first-child{
-    padding: 15px calc(10vw + 5px);
+  .nav-item:last-child > *:first-child {
+    padding: 4vh calc(10vw + 5px);
     width: 100vw;
   }
   #language-toggle-item div {
-    padding: 15px calc(10vw + 5px);
+    padding: 2vh calc(10vw + 5px);
     width: 100vw;
   }
-  .dropdown .toggle-dropdown::after{
+  .dropdown .toggle-dropdown::after {
     appearance: none;
     content: '';
     display: block;
-
+    //width: 100%;
+    transform: initial;
     margin-top: 4px;
     margin-left: 0;
     margin-right: calc(5vw + 20px);
-
     height: 1px;
     background-color: rgba(255, 255, 255, 0.47)
   }
-
 
 
   .nav-item:not(:first-child)::before {
@@ -325,9 +417,22 @@ div.social-media a icon {
     background-color: rgba(255, 255, 255, 0.47)
 
   }
+  .nav-item:first-child::before {
+    content: '';
+    display: block;
+    margin-top: 4px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.47)
+  }
+
+  .social-media a i {
+    font-size: 35px;
+    padding: 0 5px;
+  }
 
 
 }
+
 @media (max-width: 400px) {
   .logo-container {
     position: relative;
@@ -337,77 +442,10 @@ div.social-media a icon {
     font-size: 1.2rem;
   }
 
-  .dropdown-content a{
+  .dropdown-content a {
     font: 1rem "Open Sans Light", sans-serif;
   }
 }
-/*//Navbar brand
-#nav-bar .navbar-brand {
-  color: white;
-  padding-left: 40px;
-  font: bold 30px Poppins, sans-serif;
-}
-#logo-image{
-  margin-right: -30px;
-  margin-bottom: 15px;
-}
-#nav-bar .navbar-brand:hover { //What did I do to deserve this
-  color: white;
-}
-
-#navbar-btn-toggle {
-  width: 47px;
-  height: 34px;
-  background-color: #ffffff;
-}
-
-#navbar-btn-toggle .line {
-  width: 100%;
-  float: left;
-  height: 3.5px;
-  background-color: $darker;
-  margin-bottom: 5px;
-  border-radius: 1px 1px 1px 1px;
-}
-
-
-
-ul.dropdown-menu.dropdown-menu-left {
-  color: white;
-  background-color: $dark;
-  left: 12px;
-  top: 43px;
-  border-radius: 0 0 3px 3px;
-  //width: 150px;
-}
-
-ul.dropdown-menu.dropdown-menu-left li a,
-ul.dropdown-menu.dropdown-menu-left li button,
-ul.dropdown-menu.dropdown-menu-left li h6 {
-  color: white;
-}
-
-ul.dropdown-menu li a:hover, ul.dropdown-menu li button:hover {
-  background-color: blueviolet; //TODO: Please change
-}
-
-a.nav-link, #en, #zh {
-  color: white;
-  font: 16px "Brandon Grotesque M", sans-serif;
-  // display: inline-block;
-  margin-top: 2px;
-
-}
-#zh{
-  padding-right: 30px;
-
-}
-
-
-li.nav-item {
-  padding-left: 0.5vw;
-  padding-right: 0.5vw;
-}*/
 
 
 //FOOTER **************************************************
@@ -487,16 +525,17 @@ li.nav-item {
   width: 100vw;
   height: 100vh;
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
 }
 
 /* Modal Content */
 .popup-content {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 50%;
-  width: 75%;
+  max-width: 40%;
+  min-width: 260px;
   transform: translate(-50%);
   background-color: #ffffff;
   margin: auto;
@@ -516,7 +555,8 @@ li.nav-item {
   font-size: 50px;
   font-weight: bold;
 }
-.popup-content img{
+
+.popup-content img {
   width: 85%;
 
 }
