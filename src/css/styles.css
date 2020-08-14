@@ -905,7 +905,8 @@ div.social-media a icon {
   background: white;
   color: #333366;
   transition: all 0.3s;
-  border-right: 2px solid #e8e9f0; }
+  border-right: 2px solid #e8e9f0;
+  max-height: 100vh; }
 
 .sidebar-header {
   padding-left: 20px; }
@@ -930,14 +931,15 @@ a.icon {
   padding-bottom: 10px;
   padding-top: 10px;
   display: block;
-  transition: background-color 400ms, color 400ms; }
+  transition: all 400ms; }
 
 #sidebar .sidebar-components .sidebar-item a:hover {
   background-color: #333366;
   color: white; }
 
 #sidebar .sidebar-components .sidebar-item .course-unit-dropdown {
-  font-size: 13px; }
+  font-size: 13px;
+  transition: all 1s cubic-bezier(0.17, 0.67, 0.48, 1.04); }
 
 #sidebar .sidebar-components .sidebar-item .course-unit-dropdown li a {
   padding-left: 40px;
@@ -1010,7 +1012,7 @@ a.icon {
     margin: 0;
     overflow: auto;
     max-height: 0px;
-    transition: max-height 2s cubic-bezier(0.17, 0.67, 0.48, 1.04); }
+    transition: max-height 1.2s cubic-bezier(0.17, 0.67, 0.48, 1.04); }
   #main-info.alongside-sidebar {
     margin-top: 0; }
   #sidebar .sidebar-header {
