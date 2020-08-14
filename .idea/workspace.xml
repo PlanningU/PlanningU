@@ -17,12 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_header_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_header_footer.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -112,7 +110,9 @@
       <workItem from="1596735706019" duration="7585000" />
       <workItem from="1597067505742" duration="3065000" />
       <workItem from="1597154978455" duration="22828000" />
-      <workItem from="1597237584746" duration="5877000" />
+      <workItem from="1597237584746" duration="19185000" />
+      <workItem from="1597323639867" duration="40550000" />
+      <workItem from="1597410128439" duration="10620000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -358,18 +358,18 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596837559216" />
-    <state x="404" y="0" width="883" height="768" key="find.popup" timestamp="1597197233238">
+    <state x="404" y="0" width="883" height="768" key="find.popup" timestamp="1597375952880">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="404" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597197233238" />
+    <state x="404" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597375952880" />
     <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1597033056088">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="407" y="157" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1597033056088" />
-    <state x="347" y="166" width="672" height="677" key="run.anything.popup" timestamp="1595889902366">
+    <state x="347" y="166" width="672" height="677" key="run.anything.popup" timestamp="1597351032445">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="347" y="166" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1595889902366" />
+    <state x="347" y="166" width="672" height="677" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1597351032445" />
     <state x="348" y="224" width="672" height="678" key="search.everywhere.popup" timestamp="1597171074355">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

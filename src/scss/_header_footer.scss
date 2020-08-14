@@ -1,99 +1,141 @@
 //Top Navigation Page
-#header{
-  min-height: 59px;
+#header { //This is the element that the js inserts code into (use this only for positioning!!!)
   top: 0;
-  background-color: $darker;
-  color: #ffffff;
-
-  // position: -webkit-sticky;
+  width: 100%;
   position: fixed;
-  width: 100%;
   z-index: 100;
-  padding-left: 3vw;
-  padding-right: 3vw;
-}
-#nav-bar {
-  min-height: 59px;
-  z-index: 100;
-
-}
-//Navbar brand
-#nav-bar .navbar-brand {
-  color: white;
-  padding-left: 40px;
-  font: bold 30px Poppins, sans-serif;
-}
-#logo-image{
-  margin-right: -30px;
-  margin-bottom: 15px;
-}
-#nav-bar .navbar-brand:hover { //What did I do to deserve this
-  color: white;
-}
-
-#navbar-btn-toggle {
-  width: 47px;
-  height: 34px;
-  background-color: #ffffff;
-}
-
-#navbar-btn-toggle .line {
-  width: 100%;
-  float: left;
-  height: 3.5px;
   background-color: $darker;
-  margin-bottom: 5px;
-  border-radius: 1px 1px 1px 1px;
+  display: grid;
+  grid-template-columns: 5% auto minmax(30px, 3fr) 5%;
+  height: 58px;
+
 }
 
-
-
-ul.dropdown-menu.dropdown-menu-left {
-  color: white;
-  background-color: $dark;
-  left: 12px;
-  top: 43px;
-  border-radius: 0 0 3px 3px;
-  //width: 150px;
+#nav-toggle {
+  position: absolute;
+  top: -999px;
+  left: -999px;
 }
 
-ul.dropdown-menu.dropdown-menu-left li a,
-ul.dropdown-menu.dropdown-menu-left li button,
-ul.dropdown-menu.dropdown-menu-left li h6 {
+#header * {
   color: white;
 }
 
-ul.dropdown-menu li a:hover, ul.dropdown-menu li button:hover {
-  background-color: blueviolet; //TODO: Please change
+
+.logo-container {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
 }
 
-a.nav-link, #en, #zh {
-  color: white;
-  font: 16px "Brandon Grotesque M", sans-serif;
-  // display: inline-block;
-  margin-top: 2px;
-
-}
-#zh{
-  padding-right: 30px;
-
-}
-
-
-li.nav-item {
-  padding-left: 0.5vw;
-  padding-right: 0.5vw;
-
+a.navbar-brand {
+  font: 30px "Poppins", sans-serif;
 
 
 }
 
-div.nav-vertical-divider {
-  /*width: 2px;
-  height: 20px;
-  margin-top: 5px;
-  background: white;*/
+#logo-image {
+  margin-right: 10px;
+}
 
+.nav-items {
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.nav-item {
+  //margin: 0 10px;
+  transition: background-color 0.5s ease;
+  padding: 0 12px;
+}
+
+a.nav-link {
+  padding: 20px 0;
+  margin-top: -4px;
+  font: 1rem "Open Sans Light", sans-serif;
+  white-space: nowrap;
+  position: relative;
+}
+
+a.nav-link:before{
+  content: '';
+  position: absolute;
+  top: 70%;
+  transition: width 500ms ease;
+  width: 0;
+  height: 1px;
+  //border-radius: 5%;
+  background-color: rgba(255, 255, 255, 0.8)
+}
+a.nav-link:hover:before{
+
+  width: 100%;
+
+}
+
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  //display: none;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  background: $darker;
+  list-style: none;
+  padding-left: 0;
+  max-height: 0;
+  transition: max-height 0.8s;
+
+}
+
+.dropdown:hover{
+  background-color: #004;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #004;
+  max-height: 200px;
+}
+
+.dropdown .toggle-dropdown::after {
+  content: ">";
+  //transform: rotate(90deg);
+  position: relative;
+  font-size: 10px;
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: scaleX(2.2) rotate(90deg);
+  margin-left: 10px;
+
+
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #005;
 }
 
 
@@ -101,15 +143,17 @@ div.nav-vertical-divider {
 //Slider Language///////////
 .switch {
   position: relative;
-  display: inline-block;
+  margin: 0;
   width: 50px;
   height: 26px;
 }
+
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
+
 .slider {
 
   position: absolute;
@@ -122,8 +166,12 @@ div.nav-vertical-divider {
   -webkit-transition: .4s;
   transition: .4s;
 }
-#language-toggle-item{
-  padding-top: 7px;
+
+#language-toggle-item span {
+  font: 1rem "Open Sans Light", sans-serif;
+}
+#language-toggle-item:hover #en,#language-toggle-item:hover #zh {
+  opacity: 80%;
 }
 
 .slider:before {
@@ -137,18 +185,16 @@ div.nav-vertical-divider {
   -webkit-transition: .4s;
   transition: .4s;
 }
-input:checked + .slider:before{
+
+#language-toggle-input:checked + .slider:before {
   background: url("/src/assets/chinese_flag.png") center /cover;
 }
 
-input:checked + .slider {
+#language-toggle-input:checked + .slider {
   background-color: #BD132D;
 }
 
-
-
-
-input:checked + .slider:before {
+#language-toggle-input:checked + .slider:before {
   -webkit-transform: translateX(18px);
   -ms-transform: translateX(18px);
   transform: translateX(18px);
@@ -162,8 +208,8 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 10%;
 }
-/////////
 
+/////////
 
 
 a.fa {
@@ -172,32 +218,235 @@ a.fa {
 }
 
 div.social-media {
-  padding-top: 9px;
+
 
 }
-div.social-media a icon{
+
+div.social-media a icon {
   padding-left: 0;
   padding-right: 0;
 
 }
 
-.social-media a i{
+.social-media a i {
   font-size: 23px;
   padding: 0 5px;
 }
-#qrmenu{
-  background: $dark;
+
+.social-media a i:hover{
+  opacity: 90%;
+}
+.social-media a:link{
+  text-decoration: none;
 }
 
-#qrmenudown{
-  color: white;
-  text-align: center;
-  //pointer-events: none;
+
+
+//The collapsible
+@media (max-width: 1080px) {
+  #header {
+    display: block;
+  }
+
+  .logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .nav-toggle {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+  }
+  .nav-toggle-label {
+    position: absolute;
+    right: calc(2vw + 20px);
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-toggle-label .line {
+    width: 60%;
+    //float: left;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    pointer-events: none;
+    transition: all 0.3s linear;
+  }
+
+  .nav-items {
+    position: absolute;
+    text-align: left;
+    top: 98%;
+    left: 0;
+    background: $darker;
+
+    width: 100%;
+    height: 0;
+    transition: height 1.2s ease;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    z-index: -5;
+  }
+
+  .nav-item {
+    opacity: 0;
+    padding: 0;
+    transition: opacity 600ms ease-in-out;
+
+
+  }
+
+  a.nav-link {
+    width: 100vw;
+    padding: 4vh 0 0 calc(10vw + 5px);
+    font: 1.3rem "Open Sans Light", sans-serif;
+
+
+  }
+  a.nav-link, a.dropdown-item{
+    box-shadow: inset 0 0 0px 0 rgba(212, 212, 212, 0);
+    transition: box-shadow 200ms ease;
+  }
+  a.nav-link:active, a.dropdown-item:active{
+    box-shadow: inset 100vw 0 0px 0px rgba(212, 212, 212, 0.17);
+  }
+
+  a.nav-link:before{
+    display: none;
+  }
+  #language-toggle-item span {
+    font: 1.3rem "Open Sans Light", sans-serif;
+  }
+
+  .nav-toggle:checked ~ .nav-items {
+    height: 100vh;
+  }
+
+  .nav-toggle:checked ~ .nav-toggle-label .line:first-child,
+  .nav-toggle:checked ~ .nav-toggle-label .line:last-child{
+    position: absolute;
+    width: 40%;
+
+
+    transform:  rotate(-45deg) scaleX(1.3);
+    margin: 0;
+  }
+  .nav-toggle:checked ~ .nav-toggle-label .line:nth-child(2){
+    height: 0;
+    margin: 0;
+  }
+  .nav-toggle:checked ~ .nav-toggle-label .line:last-child{
+    transform: rotate(45deg) scaleX(1.3);
+  }
+
+  .nav-toggle:checked ~ .nav-items .nav-item {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+  }
+
+
+
+  .dropdown:hover .dropdown-content {
+    background-color: initial;
+  }
+  .dropdown:hover{
+    background-color: initial;
+  }
+
+  .dropdown-content {
+    max-height: initial;
+    display: block;
+    position: initial;
+    background: $darker;
+    list-style: none;
+    padding-left: calc(10vw + 25px);
+  }
+  .dropdown-content a {
+    font: 1.2rem "Open Sans Light", sans-serif;
+  }
+  .dropdown-content a:hover {
+    background-color: inherit;
+  }
+
+  .nav-item:last-child > *:first-child {
+    padding: 4vh calc(10vw + 5px);
+    width: 100vw;
+  }
+  #language-toggle-item div {
+    padding: 2vh calc(10vw + 5px);
+    width: 100vw;
+  }
+  .dropdown .toggle-dropdown::after {
+    appearance: none;
+    content: '';
+    display: block;
+    //width: 100%;
+    transform: initial;
+    margin-top: 4px;
+    margin-left: 0;
+    margin-right: calc(5vw + 20px);
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.47)
+  }
+
+
+  .nav-item:not(:first-child)::before {
+    content: '';
+    display: block;
+    margin-top: 4px;
+    margin-left: calc(10vw + 5px);
+    margin-right: calc(5vw + 20px);
+    //width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.47)
+
+  }
+  .nav-item:first-child::before {
+    content: '';
+    display: block;
+    margin-top: 4px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.47)
+  }
+
+  .social-media a i {
+    font-size: 35px;
+    padding: 0 5px;
+  }
+
+
 }
 
-.collapse.show .nav-item:last-child {
-  margin-bottom: 15px;
+@media (max-width: 400px) {
+  .logo-container {
+    position: relative;
+    padding-left: 15px;
+  }
+  a.nav-link, #language-toggle-item span {
+    font-size: 1.2rem;
+  }
+
+  .dropdown-content a {
+    font: 1rem "Open Sans Light", sans-serif;
+  }
 }
+
 
 //FOOTER **************************************************
 
@@ -224,7 +473,7 @@ div.social-media a icon{
 
 }
 
-#email-address-footer{
+#email-address-footer {
   font: 16px "Brandon Grotesque M", sans-serif;
   color: white;
 }
@@ -262,7 +511,59 @@ div.social-media a icon{
   background-color: $secondary;
 }
 
-.no-margin{
-    margin-bottom:0;
+.no-margin {
+  margin-bottom: 0;
 }
 
+//WECHAT MODAL
+/* The Modal (background) */
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+
+  width: 100vw;
+  height: 100vh;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.popup-content {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  max-width: 40%;
+  min-width: 260px;
+  transform: translate(-50%);
+  background-color: #ffffff;
+  margin: auto;
+  padding-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.popup-content img {
+  width: 85%;
+
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

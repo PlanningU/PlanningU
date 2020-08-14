@@ -11,6 +11,7 @@ var translator = new Translator();
 
 
 window.onload = function() {
+
     if (getCookie("preferred_language") === '') {
         for (var i in navigator.languages) {
 
@@ -35,9 +36,9 @@ window.onload = function() {
     }
 };
 
-$('#header').on('click', 'input', function () {
+$('#header').on('click', '#language-toggle-input', function () {
 
-    if ($('input').prop('checked')===true) {
+    if ($('#language-toggle-input').prop('checked')===true) {
         translator.load("zh");
         setCookie("preferred_language", "zh", 100)
     }

@@ -63,7 +63,7 @@ html{
   font-size: 100%;
 }
 
-*{
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
@@ -191,6 +191,7 @@ html{
 @import "uni_highschool.scss";////content_sidebar must be after uni_highschool
 @import "content_sidebar.scss";
 @import "about.scss";
+@import "articles.scss";
 //*************
 //*************
 // Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
