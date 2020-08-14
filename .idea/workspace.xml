@@ -18,9 +18,10 @@
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/applications-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/applications-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/header_footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_header_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_header_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_content_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_content_sidebar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,7 @@
       <workItem from="1597154978455" duration="22828000" />
       <workItem from="1597237584746" duration="19185000" />
       <workItem from="1597323639867" duration="40550000" />
-      <workItem from="1597410128439" duration="10620000" />
+      <workItem from="1597410128439" duration="19262000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
