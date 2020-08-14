@@ -1,103 +1,106 @@
-<nav class="navbar navbar-expand-xl py-0" id="nav-bar">
-    <div class="logo-container">
-        <img src="/src/assets/Logos/Logo_White.svg" alt="Logo Image" height="35" id="logo-image">
-        <a class="navbar-brand" href="/index.html" data-i18n="navbar-brand">PlanningU</a>
-    </div>
+<div class="logo-container">
+    <img src="/src/assets/Logos/Logo_White.svg" alt="Logo Image" height="35" id="logo-image">
+    <a class="navbar-brand" href="/index.html" data-i18n="navbar-brand">PlanningU</a>
+</div>
 
+<input class="nav-toggle" type="checkbox" id="nav-toggle">
+<ul class="nav-items">
+    <li class="nav-item">
+        <a class="nav-link" href="/index.html" data-i18n="nav-home">Home</a>
+    </li>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            id="navbar-btn-toggle">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line" style="margin-bottom: 0;"></span>
-    </button>
+    <li class="nav-item">
+        <a class="nav-link" href="/pages/about.html" data-i18n="nav-about">About</a>
+    </li>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <li class="nav-item dropdown">
+        <a class="toggle-dropdown nav-link" href="#" data-i18n="nav-school-classes">
+            High School
 
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="/index.html" data-i18n="nav-home">Home</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="/pages/about.html" data-i18n="nav-about">About</a>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown"
-                   data-i18n="nav-school-classes">
-                    High School Classes
+        </a>
+        <ul class="dropdown-content">
+            <li>
+                <a class="dropdown-item" href="/pages/subjects/home.html" data-i18n="courses-overview">
+                    Help Overview
                 </a>
-                <ul class="dropdown-menu dropdown-menu-left">
-                    <!--  <li><h6 class="dropdown-header">Math</h6></li>-->
-                    <!-- <li><a class="dropdown-item" href="/pages/math_equations.html">Math Equations (Math Jax) ignore
-                         this</a></li>-->
-                    <li><a class="dropdown-item" href="/pages/subjects/home.html" data-i18n="courses-overview">Help
-                        Overview
-                    </a>
-                    </li>
-                    <li><a class="dropdown-item" href="/pages/subjects/math.html" data-i18n="highschool-math">Math</a>
-                    </li>
-                    <li><a class="dropdown-item" href="/pages/subjects/business.html" data-i18n="highschool-business">Business</a>
-                    </li>
-                    <!--<li>
-                        <div class="dropdown-divider"></div>
-                    </li>
-                    <li class="dropdown-submenu dropleft ml-1">
-                        <a class="dropdown-item" tabindex="-1" href="#">Hover me for more options!</a>
-                        <ul class="dropdown-menu dropdown-menu-right">
-                            <li class="dropdown-item"><a tabindex="-1" href="#">Second level</a></li>
-                            <li class="dropdown-item"><a href="#">Second level</a></li>
-                            <li class="dropdown-item"><a href="#">Second level</a></li>
-                        </ul>
-                    </li>-->
-                </ul>
             </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="/pages/applications/home.html" data-i18n="nav-applications">University
-                    Applications</a>
+            <li>
+                <a class="dropdown-item" href="/pages/subjects/math.html" data-i18n="highschool-math">
+                    Math
+                </a>
             </li>
-
-            <li class="nav-item" id="language-toggle-item">
-                <span class="en-toggle" id="en">
-                    EN
-                </span>
-                <label class="switch">
-                    <input type="checkbox" id="language-toggle-input">
-                    <span class="slider round"></span>
-                </label>
-                <span class="zh-toggle" id="zh">
-                    中文
-                </span>
-            </li>
-            <li class="nav-item">
-                <div class="social-media">
-                    <a href="#" id="qrDropdown" data-toggle="dropdown">
-                        <i href="#" class="fa fa-wechat" style="display:inline"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right" id="qrmenu">
-                        <div class="dropdown-item" id="qrmenudown">
-                            <h2>搏U大家庭</h2>
-                            <img src="/src/assets/qr.jpg" height="200" alt="Wechat qr code">
-                            <br>
-                            <h2 data-i18n="enterchat">扫码即可进群</h2>
-                        </div>
-                    </div>
-                    <a target="_blank" href="http://weibo.com/u/7487776662">
-                        <i href="#" class="fa fa-weibo" style="display:inline"></i>
-                    </a>
-                    <a target="_blank" href="https://instagram.com/planningforuni?igshid=1a06yqzi9jl2h">
-                        <i href="#" class="fa fa-instagram" style="display:inline"></i>
-                    </a>
-                    <a target="_blank" href="https://www.snapchat.com/add/planningu">
-                        <i href="#" class="fa fa-snapchat" style="display:inline"></i>
-                    </a>
-                </div>
-
-
+            <li>
+                <a class="dropdown-item" href="/pages/subjects/business.html" data-i18n="highschool-business">
+                    Business
+                </a>
             </li>
 
         </ul>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="/pages/applications/home.html" data-i18n="nav-applications">University
+            Applications</a>
+    </li>
+
+    <li class="nav-item" id="language-toggle-item">
+        <div>
+            <span class="en-toggle" id="en">
+                EN
+            </span>
+            <label class="switch">
+                <input type="checkbox" id="language-toggle-input">
+                <span class="slider round"></span>
+            </label>
+            <span class="zh-toggle" id="zh">
+                    中文
+            </span>
+        </div>
+    </li>
+
+    <li class="nav-item">
+        <div class="social-media">
+            <a href="#" class="wechat-modal-link" >
+                <i href="#" class="fa fa-wechat" style="display:inline"></i>
+            </a>
+            <a target="_blank" href="http://weibo.com/u/7487776662">
+                <i href="#" class="fa fa-weibo" style="display:inline"></i>
+            </a>
+            <a target="_blank" href="https://instagram.com/planningforuni?igshid=1a06yqzi9jl2h">
+                <i href="#" class="fa fa-instagram" style="display:inline"></i>
+            </a>
+            <a target="_blank" href="https://www.snapchat.com/add/planningu">
+                <i href="#" class="fa fa-snapchat" style="display:inline"></i>
+            </a>
+        </div>
+
+
+    </li>
+
+</ul>
+
+
+<label for="nav-toggle" class="nav-toggle-label">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line" style="margin-bottom:0px"></span>
+</label>
+
+<div id="wechat-modal" class="popup">
+    <!-- Modal content -->
+    <div class="popup-content">
+        <span class="close" style="color: #474747">&times;</span>
+        <h2 style="color: #474747">搏U大家庭</h2>
+        <img src="/src/assets/qr.jpg" alt="Wechat qr code">
+        <h2 style="color: #474747" data-i18n="enterchat">扫码即可进群</h2>
+
     </div>
-</nav>
+
+</div>
+
+<script>
+
+
+
+
+</script>

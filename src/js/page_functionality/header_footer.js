@@ -14,3 +14,35 @@ function loadHeaderFooter() {
     $("head").append('<meta name="msapplication-TileColor" content="#da532c">');
     $("head").append('<meta name="theme-color" content="#ffffff">');
 }
+
+$(document).ready(function(){
+    $(".dropdown").click(function () {
+        if (!($(this).hasClass("show"))) {
+            $(this).addClass("show");
+        } else {
+            $(this).removeClass("show");
+        }
+    });
+
+    var els = document.getElementsByClassName("wechat-modal-link");
+    // Get the button that opens the modal
+    Array.from(els).forEach((el) =>{
+        el.addEventListener("click", function () {
+
+            var modal = document.getElementById("wechat-modal");
+            var span = document.getElementsByClassName("close")[0];
+            modal.style.display = "block";
+            span.onclick = function () {
+                modal.style.display = "none";
+            };
+
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            };
+        })
+    });
+});

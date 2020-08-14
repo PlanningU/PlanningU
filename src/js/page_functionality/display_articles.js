@@ -1,23 +1,47 @@
 "use strict"
+import {loadItems} from "./parse_json.js";
 
-loadItems();
+/*CSV DATA AS OF 2020-08-03:
+[i][0]: Title
+[i][1]: Video Description
+[i][2]: Video Link
+[i][3]: Video Thumbnail link
+[i][4]: List of tags, separated by a comma
+*/
 
+
+
+//When a video-card is clicked, open new page and pass the item's index as var in url
 class VideoCard {
 
+    constructor() {
+        loadItems("/src/assets/articles/video_metadata.csv").then(data =>{
 
-    constructor(json) {
-        this.data = json;
-        this.parent = document.getElementById("video-section");
-        this.createCards(this.data, this.parent, "div", "video-card");
-        this.cards = document.getElementsByClassName("video-card");
+            this.parent = document.getElementById("video-section");
+            this.createCards(data, this.parent, "div", "video-card");
+            this.cards = document.getElementsByClassName("video-card");
+            Array.from(this.cards).forEach((card, index) => {
+                this.addData(card, index + 1, data);
+                //index is +1 because the first row of data (json file) is the column headers
+            });
 
-        Array.from(this.cards).forEach((card, index) => {
-            this.addData(card, index + 1, this.data);
-            //index is +1 because the first row of data (json file) is the column headers
-        });
+            const video_cards = document.querySelectorAll('.video-card');
+
+            for (let i = 0; i < video_cards.length; i++) {
+                video_cards[i].addEventListener('click', ((j) => {
+                    return function () {
+                        window.location.replace("/pages/watch.html?videoid=" + (j+1));
+                    }
+                })(i));
+            }
+        })
+
+
 
 
     }
+
+
 
     createCards(data, parent, element, class_name) {
 
@@ -29,6 +53,7 @@ class VideoCard {
     }
 
     addData(card, i, data) {
+        //The thumbnail image
         let element;
         element = document.createElement("img");
         element.className = "thumbnail";
@@ -37,6 +62,7 @@ class VideoCard {
         card.appendChild(element);
 
 
+        //Div to store all the text (title, description, tags)
         element = document.createElement("div");
         element.className = "video-text";
         let text_elements = card.appendChild(element);
@@ -74,12 +100,10 @@ class VideoCard {
     }
 
 
+
 }
 
+//Loads the video card data, adds event listeners to each card
+new VideoCard();
 
-function loadItems() {
-    fetch("/src/assets/articles/video_metadata.csv")
-        .then(raw => raw.text())
-        .then(data => Papa.parse(data))
-        .then(json => new VideoCard(json.data));
-}
+
