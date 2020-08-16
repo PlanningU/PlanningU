@@ -33,7 +33,6 @@ $('#header').on('click touchstart', 'a', function () {
     }
 
 })
-console.log("subject");
 
 
 function expandSideBar() {

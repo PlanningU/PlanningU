@@ -1,10 +1,10 @@
 {
-  "name": " ",
+  "name": "planningu",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "description": "A website for PlanningU",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Fred Chen",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
@@ -26,5 +26,14 @@
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  }
+  },
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlanningU/PlanningU.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PlanningU/PlanningU/issues"
+  },
+  "homepage": "https://github.com/PlanningU/PlanningU#readme"
 }

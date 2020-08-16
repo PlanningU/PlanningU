@@ -18,6 +18,11 @@
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/load_contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/load_contents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/subjects_sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/subjects_sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/en.csv" />
@@ -111,7 +117,7 @@
       <workItem from="1597323639867" duration="40550000" />
       <workItem from="1597410128439" duration="20940000" />
       <workItem from="1597504569744" duration="14784000" />
-      <workItem from="1597590188790" duration="5569000" />
+      <workItem from="1597590188790" duration="7886000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>

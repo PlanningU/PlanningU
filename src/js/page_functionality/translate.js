@@ -1,4 +1,5 @@
 import Translator from "./translator.js";
+
 var translator = new Translator();
 
 //Translating the page between en and zh
@@ -10,41 +11,39 @@ var translator = new Translator();
 //4. Run the translator.load() command to translate the page
 
 
-    if(typeof Storage !== "undefined"){ //localStorage and sessionStorage *is* supported
+if (typeof Storage !== "undefined") { //localStorage and sessionStorage *is* supported
 
-        if (localStorage.getItem("preferred_language") === null) {
-            for (let i = 0; i < navigator.languages.length; i++) {
-                if (navigator.languages[i].substring(0, 2) === "zh") {
-                    translator.load("zh");
-                    document.getElementById("language-toggle-input").click();
-                    var translate_to_zh = true;
-                    break;
-                }
-            }
-            if (!translate_to_zh) {
-                translator.load("en");
-            }
-        }else{
-            translator.load(localStorage.getItem("preferred_language"));
-            document.getElementById("language-toggle-input").checked = localStorage.getItem("preferred_language") === "zh";
-        }
-
-        $('#header').on('click touchstart', '#language-toggle-input', function () {
-            if ($('#language-toggle-input').prop('checked')===true) {
+    if (localStorage.getItem("preferred_language") === null) {
+        for (let i = 0; i < navigator.languages.length; i++) {
+            if (navigator.languages[i].substring(0, 2) === "zh") {
                 translator.load("zh");
-                localStorage.setItem("preferred_language", "zh")
+                document.getElementById("language-toggle-input").click();
+                var translate_to_zh = true;
+                break;
             }
-            else {
-                translator.load("en");
-                localStorage.setItem("preferred_language", "en")
-            }
-        });
+        }
+        if (!translate_to_zh) {
+            translator.load("en");
+        }
+    } else {
+        translator.load(localStorage.getItem("preferred_language"));
+        document.getElementById("language-toggle-input").checked = localStorage.getItem("preferred_language") === "zh";
+    }
+
+    $('#header').on('click touchstart', '#language-toggle-input', function () {
+        if ($('#language-toggle-input').prop('checked') === true) {
+            translator.load("zh");
+            localStorage.setItem("preferred_language", "zh")
+        } else {
+            translator.load("en");
+            localStorage.setItem("preferred_language", "en")
+        }
+    });
 
 
-    }
-    else{   //localStorage and sessionStorage *is NOT* supported
-        void(0);
-    }
+} else {   //localStorage and sessionStorage *is NOT* supported
+    void (0);
+}
 
 
 
