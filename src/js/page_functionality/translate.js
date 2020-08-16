@@ -8,7 +8,7 @@ var translator = new Translator();
 //3. If not, go through the browser's default languages and check if there is a 'zh' - if so, the user most likely
 //   speaks chinese, since non-chinese speakers would not have that language as a default language in their browser
 //4. Run the translator.load() command to translate the page
-window.onload = function() {
+
 
     if(typeof Storage !== "undefined"){ //localStorage and sessionStorage *is* supported
 
@@ -46,7 +46,7 @@ window.onload = function() {
         void(0);
     }
 
-};
+
 
 
 

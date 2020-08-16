@@ -3,41 +3,37 @@
 //what this does
 //You might notice that I use sessionStorage instead of localStorage as seen in the translate.js file
 //This is because I am not storing anything important that needs to be kept on the computer - session only
-$(document).ready(function () {
+
+
+try {
+    document.getElementById(sessionStorage.getItem("current_course")).className += " show";
+} catch (typeError) {
+    void (0);
+}
+
+
+$('#sidebar-div').on('click touchstart', '.sidebar-item ul li a', function () {
+    sessionStorage.setItem("current_course", $(this).parents(':eq(1)').attr('id'));
+
+});
+
+$('#sidebar-div').on('click touchstart', '.sidebar-item > a', function () {
     try {
+        sessionStorage.removeItem("current_course");
+    } catch (typeError) {
+        void (0);
+    }
+});
 
-        document.getElementById(sessionStorage.getItem("current_course")).className += " show";
-
+$('#header').on('click touchstart', 'a', function () {
+    try {
+        sessionStorage.removeItem("current_course");
     } catch (typeError) {
         void (0);
     }
 
-
-    $('#sidebar-div').on('click touchstart', '.sidebar-item ul li a', function () {
-        sessionStorage.setItem("current_course", $(this).parents(':eq(1)').attr('id'));
-
-    });
-
-    $('#sidebar-div').on('click touchstart', '.sidebar-item > a', function () {
-        try {
-            sessionStorage.removeItem("current_course");
-        } catch (typeError) {
-            void (0);
-        }
-    });
-
-    $('#header').on('click touchstart', 'a', function () {
-        try {
-            sessionStorage.removeItem("current_course");
-        } catch (typeError) {
-            void (0);
-        }
-
-    })
-
-});
-
-
+})
+console.log("subject");
 
 
 function expandSideBar() {
