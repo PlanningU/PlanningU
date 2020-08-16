@@ -9,7 +9,7 @@
   color: $dark;
   transition: all 0.3s;
   border-right: 2px solid $gray;
-  max-height: 100vh;
+  max-height: calc(100vh - 59px);
 
 
 }
@@ -183,7 +183,8 @@ a.icon {
   }
 
 #sidebar.responsive .sidebar-components{
-  max-height: 100vh;
+  //59 px = height of header, 39px = height of top of sidebar (div.sidebar-header)
+  max-height: calc(100vh - 59px - 39px);
 
 }
 
