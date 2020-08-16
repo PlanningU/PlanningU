@@ -1,7 +1,8 @@
+
 $(document).ready(function () {
 
-    $("head").append('<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175055937-1"></script>');
-    $("head").append('<script async src="/src/js/google_analytics.js"></script>');
+  //  $("head").append('<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175055937-1"></script>');
+   // $("head").append('<script async src="/src/js/google_analytics.js"></script>');
     //Favicons
     $("head").append('<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">');
     $("head").append('<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">');

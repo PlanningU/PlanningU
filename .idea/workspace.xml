@@ -17,7 +17,91 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/libs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.34e73f30.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.34e73f30.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.34e73f30.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.34e73f30.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.81756f0d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.81756f0d.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.cd10b3e1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.cd10b3e1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.f75ed46d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.f75ed46d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/header_footer.29aeb563.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/header_footer.29aeb563.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/header_footer.29fd0bfd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/header_footer.29fd0bfd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/jquery.min.50b998b6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/jquery.min.50b998b6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/jquery.min.f8857e27.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/jquery.min.f8857e27.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popper.min.84526a06.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popper.min.84526a06.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popper.min.dc7a96a6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/popper.min.dc7a96a6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.237c716e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.237c716e.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.237c716e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.237c716e.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.58e2aa20.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.58e2aa20.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/queens/commerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/queens/commerce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/uoft/cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uoft/cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/uoft/rotman.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uoft/rotman.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/uwaterloo/cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uwaterloo/cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/western/ivey.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/western/ivey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dev_testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dev_testing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/math_equations.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/math_equations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/people/isaacdong.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/people/isaacdong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/people/sabchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/people/sabchen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/business/bbb4m/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/bbb4m/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/business/bbb4m/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/bbb4m/resources.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/business/cia4u/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/cia4u/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/business/cia4u/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/cia4u/resources.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit3.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit4.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit5.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit6.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit7.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit8.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit3.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit4.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit5.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit6.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit7.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit8.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit9.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/watch.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/watch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/load_contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/load_contents.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +135,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/en.csv" />
@@ -64,15 +149,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\forfun" />
       <recent name="$PROJECT_DIR$/pages/applications/western" />
       <recent name="$PROJECT_DIR$/pages/applications/uwaterloo" />
       <recent name="$PROJECT_DIR$/pages/applications/queens" />
       <recent name="$PROJECT_DIR$/pages/applications/uoft" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.react_testing.js">
@@ -111,7 +196,7 @@
       <workItem from="1597323639867" duration="40550000" />
       <workItem from="1597410128439" duration="20940000" />
       <workItem from="1597504569744" duration="14784000" />
-      <workItem from="1597590188790" duration="5569000" />
+      <workItem from="1597590188790" duration="16296000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -357,10 +442,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596837559216" />
-    <state x="404" y="0" width="883" height="768" key="find.popup" timestamp="1597597396798">
+    <state x="404" y="0" width="883" height="768" key="find.popup" timestamp="1597616316089">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="404" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597597396798" />
+    <state x="404" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597616316089" />
     <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1597033056088">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
