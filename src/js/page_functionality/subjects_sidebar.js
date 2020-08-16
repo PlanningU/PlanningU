@@ -13,12 +13,12 @@ $(document).ready(function () {
     }
 
 
-    $('#sidebar-div').on('click', '.sidebar-item ul li a', function () {
+    $('#sidebar-div').on('click touchstart', '.sidebar-item ul li a', function () {
         sessionStorage.setItem("current_course", $(this).parents(':eq(1)').attr('id'));
 
     });
 
-    $('#sidebar-div').on('click', '.sidebar-item > a', function () {
+    $('#sidebar-div').on('click touchstart', '.sidebar-item > a', function () {
         try {
             sessionStorage.removeItem("current_course");
         } catch (typeError) {
@@ -26,7 +26,7 @@ $(document).ready(function () {
         }
     });
 
-    $('#header').on('click', 'a', function () {
+    $('#header').on('click touchstart', 'a', function () {
         try {
             sessionStorage.removeItem("current_course");
         } catch (typeError) {

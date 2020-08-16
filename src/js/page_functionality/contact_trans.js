@@ -1,6 +1,6 @@
 var form = document.getElementById('contact-form');
 
-$('#header').on('click', 'input', function () {
+$('#header').on('click touchstart', 'input', function () {
 
     if ($('input').prop('checked')===true) {
         form.src="https://docs.google.com/forms/d/e/1FAIpQLSd1aw-wwrCCtB2U_lXXyKWf-dwnH9F_ykNN2ceZaFAJDQeVNg/viewform?embedded=true";
