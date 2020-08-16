@@ -1,7 +1,8 @@
 "use strict"
 import {loadItems} from "./parse_json.js";
 
-/*CSV DATA AS OF 2020-08-03:
+/*
+CSV DATA AS OF 2020-08-03:
 [i][0]: Title
 [i][1]: Video Description
 [i][2]: Video Link

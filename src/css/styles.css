@@ -906,7 +906,7 @@ div.social-media a icon {
   color: #333366;
   transition: all 0.3s;
   border-right: 2px solid #e8e9f0;
-  max-height: 100vh; }
+  max-height: calc(100vh - 59px); }
 
 .sidebar-header {
   padding-left: 20px; }
@@ -1023,7 +1023,7 @@ a.icon {
     width: 100%;
     text-align: left; }
   #sidebar.responsive .sidebar-components {
-    max-height: 100vh; } }
+    max-height: calc(100vh - 59px - 39px); } }
 
 #about-body {
   margin-top: 57px;

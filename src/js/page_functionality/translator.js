@@ -24,14 +24,6 @@ class Translator {
                 r = 1;
             }
             element.innerHTML = translation[r][translation[0].indexOf(element.getAttribute("data-i18n"))];
-            /*var keys = element.dataset.i18n.split(".");
-            //console.log(keys);
-            var text = keys.reduce((obj, i) => obj[i], translation);
-            console.log(text + "hi");
-
-            if (text) {
-                element.innerHTML = text;
-            }*/
         })
     }
 
