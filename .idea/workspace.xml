@@ -17,9 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/subjects_sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/subjects_sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/translate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/ui_animations/profile_hover_mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/ui_animations/profile_hover_mobile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +111,7 @@
       <workItem from="1597323639867" duration="40550000" />
       <workItem from="1597410128439" duration="20940000" />
       <workItem from="1597504569744" duration="14784000" />
-      <workItem from="1597590188790" duration="2423000" />
+      <workItem from="1597590188790" duration="3679000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -359,10 +357,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596837559216" />
-    <state x="404" y="0" width="883" height="768" key="find.popup" timestamp="1597540225037">
+    <state x="404" y="0" width="883" height="768" key="find.popup" timestamp="1597595489310">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="404" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597540225037" />
+    <state x="404" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597595489310" />
     <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1597033056088">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

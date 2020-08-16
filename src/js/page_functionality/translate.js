@@ -29,7 +29,7 @@ window.onload = function() {
             document.getElementById("language-toggle-input").checked = localStorage.getItem("preferred_language") === "zh";
         }
 
-        $('#header').on('click', '#language-toggle-input', function () {
+        $('#header').on('click touchstart', '#language-toggle-input', function () {
             if ($('#language-toggle-input').prop('checked')===true) {
                 translator.load("zh");
                 localStorage.setItem("preferred_language", "zh")
