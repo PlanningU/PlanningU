@@ -17,113 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
-      <change afterPath="$PROJECT_DIR$/dist/styles.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/app/page_functionality/header_footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/libs/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/libs/r.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/libs/require.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/pages/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/pages/highschool_uni.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/build.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/libs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/libs.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/applications/applications_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/applications_sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/applications/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/applications/queens/commerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/queens/commerce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/applications/uoft/cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uoft/cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/applications/uoft/rotman.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uoft/rotman.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/applications/uwaterloo/cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uwaterloo/cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/applications/western/ivey.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/western/ivey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/articles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/dev_testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dev_testing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/math_equations.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/math_equations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/people/isaacdong.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/people/isaacdong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/people/sabchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/people/sabchen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/business/bbb4m/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/bbb4m/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/business/bbb4m/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/bbb4m/resources.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/business/cia4u/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/cia4u/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/business/cia4u/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/cia4u/resources.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit3.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit4.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit5.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit6.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit7.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit8.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit3.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit4.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit5.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit6.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit7.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit8.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit9.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/watch.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/watch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-utilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-utilities.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-utilities.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-utilities.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.esm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.esm.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.esm.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.esm.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.esm.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/jquery.csv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/jquery.csv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/contact_trans.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/contact_trans.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/cookie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/display_articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/display_articles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/load_contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/load_video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/load_video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/parse_json.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/parse_json.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/subjects_sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/translate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/translator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/papaparse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/papaparse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/papaparse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/papaparse.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/popper.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/ui_animations/profile_hover_mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/ui_animations/profile_hover_mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/ui_animations/readmore_button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/ui_animations/readmore_button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/ui_animations/slideshow_animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/ui_animations/slideshow_animate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app/main.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +117,7 @@
       <workItem from="1597410128439" duration="20940000" />
       <workItem from="1597504569744" duration="14784000" />
       <workItem from="1597590188790" duration="21018000" />
-      <workItem from="1597669514138" duration="18701000" />
+      <workItem from="1597669514138" duration="19227000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -404,10 +300,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="704" y="103" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1595180216827" />
-    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597540294426">
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597692059867">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1597540294426" />
+    <state x="413" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1597692059867" />
     <state x="259" y="0" key="CommitChangelistDialog2" timestamp="1597033294985">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
