@@ -4,7 +4,7 @@ var sass = require('gulp-sass');
 var uglifycss = require('gulp-uglifycss');
 var concat = require('gulp-concat');
 var uglifyjs = require('gulp-uglify');
-
+var rjs = require('requirejs')
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function () {
@@ -16,7 +16,12 @@ gulp.task('sass', function () {
 
 // Uglify CSS
 gulp.task('uglifycss', function () {
-    return gulp.src(['src/css/*.css'])
+    return gulp.src(
+        [
+            'src/css/styles.css',
+            'src/css/bootstrap.css'
+        ])
+        .pipe(concat('styles.min.css'))
         .pipe(uglifycss({
             "uglyComments": true
         }))
@@ -24,18 +29,21 @@ gulp.task('uglifycss', function () {
         .pipe(browserSync.stream());
 })
 
+
 // Move the javascript files into our /src/js folder
 gulp.task('js', function () {
     return gulp.src(
         [
             'node_modules/jquery/dist/jquery.min.js',
-            'node_modules/bootstrap/dist/js/bootstrap.min.js'
+            'node_modules/bootstrap/dist/js/bootstrap.min.js',
+            'src/js/libs/papaparse.min.js'
         ])
         .pipe(concat('libs.min.js'))
         .pipe(uglifyjs())
         .pipe(gulp.dest('dist'))
         .pipe(browserSync.stream());
 });
+
 
 // Static Server + watching scss/html files
 gulp.task('serve', gulp.series('sass', 'uglifycss', function () {

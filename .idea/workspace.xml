@@ -17,51 +17,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/libs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/styles.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/app/page_functionality/header_footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/libs/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/libs/r.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/libs/require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/pages/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/pages/highschool_uni.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.34e73f30.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.34e73f30.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.34e73f30.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.34e73f30.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.81756f0d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.81756f0d.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.cd10b3e1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.cd10b3e1.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.f75ed46d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.f75ed46d.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/header_footer.29aeb563.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/header_footer.29aeb563.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/header_footer.29fd0bfd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/header_footer.29fd0bfd.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/jquery.min.50b998b6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/jquery.min.50b998b6.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/jquery.min.f8857e27.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/jquery.min.f8857e27.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popper.min.84526a06.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popper.min.84526a06.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popper.min.dc7a96a6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/popper.min.dc7a96a6.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.237c716e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.237c716e.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.237c716e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.237c716e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.58e2aa20.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.58e2aa20.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/libs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/libs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/applications_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/applications_sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/applications/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/applications/queens/commerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/queens/commerce.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/applications/uoft/cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uoft/cs.html" afterDir="false" />
@@ -100,8 +81,49 @@
       <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit7.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit8.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit9.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/subjects_sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/watch.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/watch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/load_contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/page_functionality/load_contents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.esm.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.esm.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.esm.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/jquery.csv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/jquery.csv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/contact_trans.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/contact_trans.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/display_articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/display_articles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/load_contents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/load_video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/load_video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/parse_json.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/parse_json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/subjects_sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/translate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/page_functionality/translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/translator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/papaparse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/papaparse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/papaparse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/papaparse.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/ui_animations/profile_hover_mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/ui_animations/profile_hover_mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/ui_animations/readmore_button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/ui_animations/readmore_button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/ui_animations/slideshow_animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/ui_animations/slideshow_animate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +160,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/en.csv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/libs" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -149,22 +171,24 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\forfun" />
-      <recent name="$PROJECT_DIR$/pages/applications/western" />
-      <recent name="$PROJECT_DIR$/pages/applications/uwaterloo" />
-      <recent name="$PROJECT_DIR$/pages/applications/queens" />
-      <recent name="$PROJECT_DIR$/pages/applications/uoft" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\libs" />
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\dist" />
       <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js" />
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\app\page_functionality" />
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\app" />
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\libs" />
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\js" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.react_testing.js">
     <configuration name="react_testing.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/react_testing.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
-    <configuration name="translator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/page_functionality/translator.js" working-dir="$PROJECT_DIR$/src/js">
+    <configuration name="translator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/js/app/page_functionality/translator.js" working-dir="$PROJECT_DIR$/src/js">
       <method v="2" />
     </configuration>
   </component>
@@ -196,7 +220,8 @@
       <workItem from="1597323639867" duration="40550000" />
       <workItem from="1597410128439" duration="20940000" />
       <workItem from="1597504569744" duration="14784000" />
-      <workItem from="1597590188790" duration="16296000" />
+      <workItem from="1597590188790" duration="21018000" />
+      <workItem from="1597669514138" duration="18701000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -442,10 +467,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596837559216" />
-    <state x="404" y="0" width="883" height="768" key="find.popup" timestamp="1597616316089">
+    <state x="425" y="0" width="883" height="768" key="find.popup" timestamp="1597689852271">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="404" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597616316089" />
+    <state x="425" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597689852271" />
     <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1597033056088">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

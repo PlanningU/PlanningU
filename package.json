@@ -21,6 +21,7 @@
     "gulp-uglify": "^3.0.2",
     "gulp-uglifycss": "^1.1.0",
     "parcel-bundler": "^1.12.4",
+    "requirejs": "^2.3.6",
     "uglifycss": "0.0.29"
   },
   "dependencies": {

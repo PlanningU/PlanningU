@@ -1,4 +1,4 @@
-
+define(function(){
 $('#profiles').on('click', '.profile-card', function () {
     if (/Mobi|Android/i.test(navigator.userAgent)) {
         if (!$(this).hasClass("expanded")){
@@ -14,4 +14,5 @@ $('#profiles').on('click', '.profile-card', function () {
         }
 
     }
+});
 });
