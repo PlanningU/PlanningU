@@ -1,15 +1,13 @@
-define(function(require){
+define(function () {
     //Header and Footer
     $("#header").load("/pages/header.html");
-    $("#footer").load("/pages/footer.html");
-
-    $(window).on('load', function () {
+    $("#footer").load("/pages/footer.html", function () {
         //Change "High School" link that functions only for a dropdown to a functioning link if it is on mobile
         if (window.matchMedia('(max-width: 1080px)').matches) {
-            $("a[data-i18n='nav-school-classes']").attr("href", "/pages/subjects/home.html");
+            $("#header a[data-i18n='nav-school-classes']").attr("href", "/pages/subjects/home.html");
 
         } else {
-            $("a[data-i18n='nav-school-classes']").attr("href", "javascript:void(0)");
+            $("#header a[data-i18n='nav-school-classes']").attr("href", "javascript:void(0)");
         }
 
         //Popup for the wechat button
@@ -35,4 +33,7 @@ define(function(require){
         });
 
     });
+
+
+
 });
