@@ -17,13 +17,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
+      <change afterPath="$PROJECT_DIR$/src/css/plyr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/libs/plyr.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/header_footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/translate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/pages/highschool_uni.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/highschool_uni.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +122,7 @@
       <workItem from="1597590188790" duration="21018000" />
       <workItem from="1597669514138" duration="33301000" />
       <workItem from="1597714347908" duration="8612000" />
-      <workItem from="1597756332985" duration="4712000" />
+      <workItem from="1597756332985" duration="6349000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>

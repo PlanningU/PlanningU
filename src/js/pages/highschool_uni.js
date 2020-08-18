@@ -13,7 +13,6 @@ require(['../common'], function (common) {
             var d1 = new $.Deferred();
             var d2 = new $.Deferred();
             var d3 = new $.Deferred();
-
             $.when(d1, d2, d3).then(function () {
 
                 hf.doAfter();

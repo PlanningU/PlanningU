@@ -17,7 +17,7 @@ define(function (require) {
                         def1.resolve();
                     });
                 } else if (window.location.href.indexOf("applications") > -1) {
-                    $("#sidebar-div").load("/pages/subjects/subjects_sidebar.html", function () {
+                    $("#sidebar-div").load("/pages/applications/applications_sidebar.html", function () {
                         def1.resolve();
                     });
                 }
