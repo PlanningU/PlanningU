@@ -7,13 +7,26 @@ require(['../common'], function (common) {
 //file directory (i.e. baseURL, jquery: path, etc.), before we can directly access jquery
     require(['jquery'], function ($) {
 
-        $(document).ready(function () {
-            require(modules_before_translate);
+
+        require(modules_before_translate.concat(['app/page_functionality/translate']), function (hf, s, translate) {
+
+            var d1 = new $.Deferred();
+            var d2 = new $.Deferred();
+            var d3 = new $.Deferred();
+
+            $.when(d1, d2, d3).then(function () {
+
+                hf.doAfter();
+                s.doAfter();
+                translate.translate();
+            });
+
+            hf.loadPages(d1, d2);
+            s.loadPages(d3);
+
+
         });
-        $(document).ready(function () {
-            require(['app/page_functionality/translate']);
-        });
+
 
     });
-
 });
