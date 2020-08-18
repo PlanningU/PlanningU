@@ -17,11 +17,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
-      <change afterPath="$PROJECT_DIR$/src/css/plyr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/libs/plyr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/app/page_functionality/create_cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/libs/plyr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/pages/page_thumbnail_videos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/pages/page_watch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_watch.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/queens/commerce.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/queens/commerce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/uoft/cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uoft/cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/uoft/rotman.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uoft/rotman.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/uwaterloo/cs.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/uwaterloo/cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/applications/western/ivey.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/applications/western/ivey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/people/isaacdong.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/people/isaacdong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/people/sabchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/people/sabchen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/business/bbb4m/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/bbb4m/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/business/bbb4m/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/bbb4m/resources.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/business/cia4u/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/cia4u/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/business/cia4u/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/cia4u/resources.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit3.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit4.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit5.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit6.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit7.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit8.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mcv4u/unit8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit1.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit3.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit4.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit5.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit6.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit7.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit8.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit9.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/math/mhf4u/unit9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/watch.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/watch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/display_articles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/header_footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/load_video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/load_video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/parse_json.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/parse_json.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/pages/highschool_uni.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/highschool_uni.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/translator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/page_about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/highschool_uni.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/page_highschool_uni.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/page_index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +175,7 @@
       <workItem from="1597590188790" duration="21018000" />
       <workItem from="1597669514138" duration="33301000" />
       <workItem from="1597714347908" duration="8612000" />
-      <workItem from="1597756332985" duration="6349000" />
+      <workItem from="1597756332985" duration="17754000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -368,10 +421,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596837559216" />
-    <state x="425" y="0" width="883" height="768" key="find.popup" timestamp="1597714655891">
+    <state x="425" y="0" width="883" height="768" key="find.popup" timestamp="1597768266631">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="425" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597714655891" />
+    <state x="425" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597768266631" />
     <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1597694617483">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

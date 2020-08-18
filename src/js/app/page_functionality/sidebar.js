@@ -10,7 +10,7 @@ define(function (require) {
         require(["bootstrap"]);
 
         return {
-            loadPages: function (def1) {
+            loadContent: function (def1) {
 
                 if (window.location.href.indexOf("subjects") > -1) {
                     $("#sidebar-div").load("/pages/subjects/subjects_sidebar.html", function () {

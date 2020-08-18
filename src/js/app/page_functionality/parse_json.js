@@ -1,7 +1,7 @@
 define(function (require) {
     var Papa = require('papaparse.min');
     return {
-        loadItems: async function(src){
+        parse_csv: async function(src){
 
             return await fetch(src)
                 .then(raw => raw.text())

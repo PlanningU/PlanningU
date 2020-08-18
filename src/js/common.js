@@ -7,6 +7,7 @@ requirejs.config({
         jquery: 'jquery.min',
         papaparse: 'papaparse.min',
         popper: 'popper.min',
+        Plyr: 'plyr'
     },
     shim: {
         bootstrap: ["jquery"],

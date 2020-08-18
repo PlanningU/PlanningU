@@ -16,7 +16,7 @@ require(['../common'], function (common) {
                 translate.translate();
             });
 
-            hf.loadPages(d1, d2);
+            hf.loadContent(d1, d2);
 
 
 

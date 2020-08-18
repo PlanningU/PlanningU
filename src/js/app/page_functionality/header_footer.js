@@ -1,7 +1,7 @@
 define(function () {
     return {
         //Header and Footer
-        loadPages: function (def1, def2) {
+        loadContent: function (def1, def2) {
             $("#footer").load("/pages/footer.html", function () {
                 def2.resolve();
             });
