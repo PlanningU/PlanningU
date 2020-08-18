@@ -192,12 +192,14 @@ html{
 @import "content_sidebar.scss";
 @import "about.scss";
 @import "articles.scss";
+@import "watch.scss";
 //*************
 //*************
 // Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
 // Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
 // Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
 @import "node_modules/bootstrap/scss/bootstrap";
+@import "src/css/plyr";
 
 
 
