@@ -18,8 +18,8 @@
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/header_footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/translate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/pages/highschool_uni.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/highschool_uni.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/index.js" afterDir="false" />
@@ -59,7 +59,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/pages" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -71,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\pages" />
       <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\src\js\libs" />
       <recent name="C:\Users\Emperor Master Chen\PlanningU_Dev\PlanningU\dist" />
       <recent name="$PROJECT_DIR$/src/assets" />
@@ -120,7 +121,7 @@
       <workItem from="1597410128439" duration="20940000" />
       <workItem from="1597504569744" duration="14784000" />
       <workItem from="1597590188790" duration="21018000" />
-      <workItem from="1597669514138" duration="21442000" />
+      <workItem from="1597669514138" duration="32894000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -366,14 +367,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1596837559216" />
-    <state x="425" y="0" width="883" height="768" key="find.popup" timestamp="1597693398869">
+    <state x="425" y="0" width="883" height="768" key="find.popup" timestamp="1597699693608">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="425" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597693398869" />
-    <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1597692462211">
+    <state x="425" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597699693608" />
+    <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1597694617483">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="407" y="157" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1597692462211" />
+    <state x="407" y="157" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1597694617483" />
     <state x="347" y="166" width="672" height="677" key="run.anything.popup" timestamp="1597351032445">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

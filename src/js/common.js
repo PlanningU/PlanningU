@@ -9,7 +9,10 @@ requirejs.config({
         popper: 'popper.min',
     },
     shim: {
-        bootstrap: ["jquery"]
+        bootstrap: ["jquery"],
+        jquery: {
+            exports: '$'
+        }
     },
     map: {
         '*': {
@@ -17,3 +20,4 @@ requirejs.config({
         }
     }
 });
+
