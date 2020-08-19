@@ -33,17 +33,14 @@
 <body>
 
 
-
-
 <div id="header"></div>
 
-<div class="container-fluid px-0" id="about-body">
+<div class="container-fluid px-0 about" id="main-info">
     <div class="banner" id="about-heading">
         <h1 data-i18n="about-mission-heading">Our Mission</h1>
         <div id="about-line-divider"></div>
         <p data-i18n="about-mission-body">To provide a free, open resource for those who dream of going to
             university.</p>
-
 
     </div>
     <img src="/src/assets/about/about_us_top_triangle.svg" alt="Asthetic Triangle" id="about-asthetic-triangle">
@@ -86,21 +83,25 @@
 
             <ul>
                 <div id="about-unis-offer-line"></div>
-                <li data-i18n="about-unis-offer-1">
-                    The University of Toronto
+                <li>
+                    <a data-i18n="about-unis-offer-1" href="/pages/applications/uoft/rotman.html">The University of Toronto</a>
                 </li>
-                <li data-i18n="about-unis-offer-2">
-                    The University of Waterloo
+                <li>
+                    <a data-i18n="about-unis-offer-2" href="/pages/applications/uwaterloo/cs.html">The University of Waterloo</a>
+
                 </li>
-                <li data-i18n="about-unis-offer-3">
-                    The University of Western Ontario
+                <li>
+                    <a data-i18n="about-unis-offer-3" href="/pages/applications/western/ivey.html">The University of Western Ontario</a>
+
                 </li>
-                <li data-i18n="about-unis-offer-4">
-                    Queens’ University
+                <li>
+                    <a data-i18n="about-unis-offer-4" href="/pages/applications/queens/commerce.html">Queens’ University</a>
+
                 </li>
-                <li data-i18n="about-unis-offer-5">
-                    Ontario College of Art & Design University (OCAD)
-                </li>
+                <!--<li>
+                    <a data-i18n="about-unis-offer-5" href="/pages/applications/home.html">Ontario College of Art & Design
+                        University (OCAD)</a>
+                </li>-->
             </ul>
         </div>
         <div id="about-story-message">
@@ -147,6 +148,9 @@
                     <h4 class="profile-name" data-i18n="profile-name-isaac">
                         Isaac Dong
                     </h4>
+                    <h5 class="position" data-i18n="profile-position-isaac">
+                        CEO
+                    </h5>
                     <div class="profile-horizontal-div"></div>
                     <h5 class="profile-uni" data-i18n="profile-uni-isaac">
                         Western University, Economics + Ivey AEO Status
@@ -189,6 +193,9 @@
                     <h4 class="profile-name" data-i18n="profile-name-fred">
                         Fred Chen
                     </h4>
+                    <h5 class="position" data-i18n="profile-position-fred">
+                        CTO
+                    </h5>
                     <div class="profile-horizontal-div"></div>
 
                     <h5 class="profile-uni" data-i18n="profile-uni-fred">
@@ -236,6 +243,9 @@
                     <h4 class="profile-name" data-i18n="profile-name-jess">
                         Jessica Zhu
                     </h4>
+                    <h5 class="position" data-i18n="profile-position-jess">
+                        CDO
+                    </h5>
                     <div class="profile-horizontal-div"></div>
 
                     <h5 class="profile-uni" data-i18n="profile-uni-jess">
@@ -282,6 +292,9 @@
                     <h4 class="profile-name" data-i18n="profile-name-tatsuo">
                         Tatsuo Chin
                     </h4>
+                    <h5 class="position" data-i18n="profile-position-tatsuo">
+                        Programmer
+                    </h5>
                     <div class="profile-horizontal-div"></div>
 
                     <h5 class="profile-uni" data-i18n="profile-uni-tatsuo">
@@ -327,6 +340,9 @@
                     <h4 class="profile-name" data-i18n="profile-name-sab">
                         Sabrina Chen
                     </h4>
+                    <h5 class="position" data-i18n="profile-position-sab">
+                        Content & Marketing Advisor
+                    </h5>
                     <div class="profile-horizontal-div"></div>
 
                     <h5 class="profile-uni" data-i18n="profile-uni-sab">
@@ -372,11 +388,9 @@
 
 <div id="footer"></div>
 
-
 <script data-main="/src/js/pages/page_about" src="/src/js/libs/require.js"></script>
 
-<!--<script type="text/javascript" src="/src/js/app/ui_animations/profile_hover_mobile.js"></script>
-<script type="text/javascript" src="/src/js/app/ui_animations/readmore_button.js"></script>-->
+
 
 
 </body>

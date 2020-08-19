@@ -8,7 +8,6 @@
   display: grid;
   grid-template-columns: 5% auto minmax(30px, 3fr) 5%;
   height: 58px;
-
 }
 
 #nav-toggle {
@@ -94,6 +93,7 @@ a.nav-link:hover:before{
   padding-left: 0;
   max-height: 0;
   transition: max-height 0.8s;
+  min-width: 100%;
 
 }
 
@@ -243,7 +243,7 @@ div.social-media a icon {
 
 
 //The collapsible
-@media (max-width: 1080px) {
+@media (max-width: 1230px) {
   #header {
     display: block;
   }
@@ -314,8 +314,8 @@ div.social-media a icon {
 
   a.nav-link {
     width: 100vw;
-    padding: 4vh 0 0 calc(10vw + 5px);
-    font: 1.3rem "Open Sans Light", sans-serif;
+    padding: 2vh 0 0 calc(10vw + 5px);
+    font: 1.2rem "Open Sans Light", sans-serif;
 
 
   }
@@ -331,7 +331,7 @@ div.social-media a icon {
     display: none;
   }
   #language-toggle-item span {
-    font: 1.3rem "Open Sans Light", sans-serif;
+    font: 1.2rem "Open Sans Light", sans-serif;
   }
 
   .nav-toggle:checked ~ .nav-items {
@@ -378,7 +378,7 @@ div.social-media a icon {
     padding-left: calc(10vw + 25px);
   }
   .dropdown-content a {
-    font: 1.2rem "Open Sans Light", sans-serif;
+    font: 1.1rem "Open Sans Light", sans-serif;
   }
   .dropdown-content a:hover {
     background-color: inherit;
@@ -565,5 +565,46 @@ div.social-media a icon {
 .close:focus {
   color: #000;
   text-decoration: none;
+  cursor: pointer;
+}
+
+
+//FOR WHENEVER WE HAVE AN ALERT BANNER
+
+.alert-banner{
+  background: $accent;
+  width: 100%;
+  padding: 10px 5vw;
+  text-align: center;
+  position: relative;
+ // display: flex;
+}
+.alert-banner > *{
+  font: 1rem "Soleil Regular", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 20px;
+
+}
+
+.alert-banner .alert-text{
+  //white-space: normal;
+  // margin-left: 10vw;
+  display: inline-block;
+  min-width: 200px;
+}
+
+.alert-banner a{
+  white-space: nowrap;
+}
+.alert-banner a:hover{
+  color: white;
+}
+.close-x{
+  font-size: 1.5rem;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  right: 30px;
   cursor: pointer;
 }

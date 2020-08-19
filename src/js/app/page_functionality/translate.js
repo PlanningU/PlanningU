@@ -20,6 +20,8 @@ define(function (require) {
                             Translator.load("zh");
 
 
+
+
                             document.getElementById("language-toggle-input").click();
                             var translate_to_zh = true;
                             break;

@@ -47,6 +47,9 @@ $gray: #e8e9f0;  //e8e9f0
 $dark: #333366; //333366
 $darker: #000033; //000033;
 
+:root{
+  --gray: #e8e9f0;
+}
 
 
 //Adding custom spacers to increase flexibility
@@ -193,6 +196,7 @@ html{
 @import "about.scss";
 @import "articles.scss";
 @import "watch.scss";
+@import "partners.scss";
 //*************
 //*************
 // Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
