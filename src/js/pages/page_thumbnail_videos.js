@@ -12,8 +12,14 @@ require(['../common'], function (common) {
 
             $.when(d1, d2).then(function () {
                 hf.doAfter();
+                new create_cards.VideoCards(
+                    "/src/assets/articles/video_metadata.csv",
+                    "video-section");
+                //console.log(document.querySelector("#video-section .video-card:nth-child(n + 4) .video-description"));
+
 
                 //DO PERSONALIZED CODE HERE===========//
+
 
                 //===================================//
                 //Translate should be last
@@ -23,7 +29,7 @@ require(['../common'], function (common) {
 
             //DO ANYTHING HERE THAT NEEDS TO TRANSLATED ==========//
             hf.loadContent(d1, d2);
-            new create_cards.VideoCards("/src/assets/articles/video_metadata.csv", "video-section");
+
             //===================================================//
 
 
