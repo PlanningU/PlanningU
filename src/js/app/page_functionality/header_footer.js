@@ -7,7 +7,9 @@ define(function () {
             });
 
             $("#header").load("/pages/header.html", function () {
+                $("#main-info").prepend($('<div class="alert_banner"><span>Lorem Ipsum Dolor Si Amet</span><a href="#">Learn how to enter</a></div>'));
                 def1.resolve();
+
             });
 
 

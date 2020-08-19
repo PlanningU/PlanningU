@@ -155,6 +155,9 @@ button.readmore-toggle {
   flex: 1 0 35%;
   background-color: $darker;
   padding: 30px 2vw;
+
+}
+#about-story-uni *{
   color: white;
 }
 
@@ -169,10 +172,11 @@ button.readmore-toggle {
   position: relative;
 }
 
-#about-story-uni ul li {
-  padding: 10px 0;
-  font: 1.1em "Open Sans Light", sans-serif;
+#about-story-uni li {
+  padding: 15px 0;
+  font: 1.2em "Open Sans Light", sans-serif;
 }
+
 
 #about-unis-offer-line {
   background-color: $primary;
@@ -263,7 +267,7 @@ button.readmore-toggle {
   padding: 10px 15px;
   overflow: hidden;
   width: 100%;
-  height: 130px;
+  height: 160px;//This is how much is currently revealed on the profile card
   transition: .5s ease;
 }
 
@@ -325,7 +329,12 @@ button.readmore-toggle {
   text-transform: uppercase;
   font-weight: 100;
   margin-right: 10px;
-  min-height: 40px;
+  //min-height: 40px;
+}
+.profile-overlay h5.position{
+  font: 1em "Open Sans Light", sans-serif;
+  text-transform: none;
+  color: rgb(215, 215, 215);
 }
 
 .profile-overlay h6 {
