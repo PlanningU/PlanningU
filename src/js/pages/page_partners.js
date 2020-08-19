@@ -11,6 +11,9 @@ require(['../common'], function (common) {
             $.when(d1, d2).then(function () {
                 hf.doAfter();
                 translate.translate();
+
+                //For the savvyuni page, if someone goes to the page via clicking the alert banner for the lottery,
+                //auto scroll to the lottery section
                 if(/[?&]promotion=/.test(location.search)){
                     $([document.documentElement, document.body]).animate({
                         scrollTop: $("#lottery-banner").offset().top - 50
@@ -19,6 +22,8 @@ require(['../common'], function (common) {
             });
             hf.loadContent(d1, d2);
         });
+
+        //Logo for the savvyuni page
         $('.partner-logo').on("click", function(){
             window.location.href = "https://savvyuni.com/";
         })

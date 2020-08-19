@@ -17,23 +17,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
-      <change afterPath="$PROJECT_DIR$/src/assets/partners/SavvyUni_Banner.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/partners/savvy_uni_giveaway_qr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/partners/savvyuni_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/_partners.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/partners/savvyuni.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/partners/savvyuni.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/translations/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pages/translations/en.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/articles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/header_footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/create_cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/create_cards.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/translate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/translate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/pages/page_partners.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/page_partners.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_header_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_header_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/page_thumbnail_videos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/page_thumbnail_videos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_articles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_articles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +126,8 @@
       <workItem from="1597590188790" duration="21018000" />
       <workItem from="1597669514138" duration="33301000" />
       <workItem from="1597714347908" duration="8612000" />
-      <workItem from="1597756332985" duration="40018000" />
+      <workItem from="1597756332985" duration="40287000" />
+      <workItem from="1597849426608" duration="11503000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>

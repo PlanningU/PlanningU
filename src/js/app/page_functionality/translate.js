@@ -36,13 +36,31 @@ define(function (require) {
 
                 }
 
+
+
                 $('#header').on('click touchstart', '#language-toggle-input', function () {
+                    //Event handler for the language toggle 'switch'
+
                     if ($('#language-toggle-input').prop('checked') === true) {
                         Translator.load("zh");
                         localStorage.setItem("preferred_language", "zh")
                     } else {
                         Translator.load("en");
                         localStorage.setItem("preferred_language", "en")
+                    }
+                });
+                $('#header').on('click touchstart', '#en', function () {//#en is the text beside the language switch
+                    //Adds support for the language toggle to work even if one clicks the text rather than the button
+                    if(document.getElementById("language-toggle-input").checked === true){
+                        Translator.load("en");
+                        document.getElementById("language-toggle-input").checked = false;
+                    }
+                });
+                $('#header').on('click touchstart', '#zh', function () {//#zh is the text beside the language switch
+                    //Adds support for the language toggle to work even if one clicks the text rather than the button
+                    if(document.getElementById("language-toggle-input").checked === false) {
+                        Translator.load("zh");
+                        document.getElementById("language-toggle-input").checked = true;
                     }
                 });
 
