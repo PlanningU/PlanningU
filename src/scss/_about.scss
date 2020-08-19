@@ -1,4 +1,4 @@
-#about-body {
+.about{
   margin-top: 57px;
   font-size: 1em;
   background-color: $gray;
@@ -6,7 +6,9 @@
 }
 
 .banner {
-  text-align: center
+  text-align: center;
+
+  padding: 30px 5vw;
 }
 
 #about-line-divider {
@@ -214,7 +216,6 @@ button.readmore-toggle {
 
 #our-team {
   margin-top: 35px;
-  padding: 30px 5vw;
   background-color: $darker;
   color: white;
 

@@ -11,11 +11,20 @@ require(['../common'], function (common) {
             $.when(d1, d2).then(function () {
                 hf.doAfter();
                 translate.translate();
+                if(/[?&]promotion=/.test(location.search)){
+                    $([document.documentElement, document.body]).animate({
+                        scrollTop: $("#lottery-banner").offset().top - 50
+                    }, 1000);
+                }
             });
             hf.loadContent(d1, d2);
         });
+        $('.partner-logo').on("click", function(){
+            window.location.href = "https://savvyuni.com/";
+        })
 
-        require(['app/ui_animations/slideshow_animate']);
+
+
 
     });
 

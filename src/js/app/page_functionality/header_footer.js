@@ -7,7 +7,7 @@ define(function () {
             });
 
             $("#header").load("/pages/header.html", function () {
-                $("#main-info").prepend($('<div class="alert_banner"><span>Lorem Ipsum Dolor Si Amet</span><a href="#">Learn how to enter</a></div>'));
+                $("#main-info").prepend($('<div class="alert-banner"><span class="alert-text" data-i18n="banner-text">Our Partner SavvyUni is hosting a giveaway</span><a id="link-to-lottery" href="/pages/partners/savvyuni.html" data-i18n="banner-link">Learn how to enter</a><span class="close-x">×</span></div>'));
                 def1.resolve();
 
             });
@@ -18,6 +18,17 @@ define(function () {
         },
 
         doAfter: function () {
+
+            $('#main-info').on("click touch", "#link-to-lottery", function(){
+               // console.log("hi");
+                $(this).attr('href',"/pages/partners/savvyuni.html?promotion=true");
+               //window.location.href = "/pages/partners/savvyuni.html$promotion=true";
+            })
+
+            $('#main-info').on('click touch', '.close-x', function(){
+                var element = document.getElementsByClassName("alert-banner")[0];
+                element.parentNode.removeChild(element);
+            })
 
             //Change "High School" link that functions only for a dropdown to a functioning link if it is on mobile
             if (window.matchMedia('(max-width: 1080px)').matches) {
