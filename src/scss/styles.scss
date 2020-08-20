@@ -1,7 +1,13 @@
+//The main scss file
 
 //Font Imports
+
+//Poppins
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+//Oswald
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@469&display=swap');
+
 //PingFang
 @font-face {
   font-family: 'PingFang';
@@ -9,6 +15,7 @@
   url('../../src/assets/fonts/PingFangSCRegular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
+//Soleil Family
 @font-face {
   font-family: 'Soleil Regular';
   src: url('../../src/assets/fonts/soleil.woff') format('woff') /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -26,20 +33,24 @@
   src: url('../../src/assets/fonts/soleilsb.woff') format('woff') /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+//Brandon Grotesque
 @font-face {
   font-family: 'Brandon Grotesque Medium';
   src: url('../../src/assets/fonts/transat_medium-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   url('../../src/assets/fonts/transat_medium-webfont.woff') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
+//Fjalla One
 @font-face {
   font-family: 'Fjalla One Regular';
   src: url('../../src/assets/fonts/FjallaOne-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
+//Fjalla One Alternate Import
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 
+//Our theme Colors
 $primary: #71c8f0;
 $secondary: #6666ad; //6666ad
 $accent: #b44c78; //b44c78
@@ -47,141 +58,28 @@ $gray: #e8e9f0;  //e8e9f0
 $dark: #333366; //333366
 $darker: #000033; //000033;
 
+//Custom Variables
 :root{
-  --gray: #e8e9f0;
+
 }
 
-
-//Adding custom spacers to increase flexibility
-$spacer: 1rem !default;
-$spacers: (
-        6: ($spacer * 4), //64px
-        7: ($spacer * 5), //80px
-        8: ($spacer * 6.25), //100px
-        9: ($spacer * 7.5), //120px
-        10: ($spacer * 9.375) //150px
-);
 
 html{
   font-size: 100%;
 }
 
+//Border Box makes it easier to position elements/
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
+
+//The Main Wrapper/Container that the content of the website is placed in
+//This excludes headers, footers, and sidebars
 #main-info {
   margin-top: 57px;
   font-size: 1em;
 }
-
-
-#main-info.alongside-sidebar, #sidebar {
-  //margin-top: 0px;
-  //padding-top: 54px;
-}
-
-
-
-//Submenus !!!NOT USED CURRENTLY
-/*.dropdown-submenu {
-  position: relative;
-}
-
-.dropdown-submenu > .dropdown-menu {
-
-  transform: translate(0, -8%);
-  position: relative;
-
-
-  border-radius: 6px 6px 6px 6px;
-
-}
-
-
-.dropdown-submenu:hover > .dropdown-menu {
-  display: block;
-}
-
-
-.dropdown-submenu > a:after {
-  display: block;
-  content: " ";
-  float: left;
-  transform: scaleX(-1);
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #ccc;
-  margin-top: 5px;
-  margin-right: -10px;
-  margin-left: -20px;
-}
-
-.dropdown-submenu:hover > a:after {
-  border-left-color: #fff;
-}
-
-.dropdown-submenu.pull-left {
-  float: none;
-}
-
-.dropdown-submenu.pull-left > .dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  -webkit-border-radius: 6px 0 6px 6px;
-  -moz-border-radius: 6px 0 6px 6px;
-  border-radius: 6px 0 6px 6px;
-}
-
-.dropdown-menu {
-  min-width: 50px !important;
-}*/
-
-
-
-#page-description {
-  background-color: $primary;
-
-}
-
-#page-description p, #page-description h2 {
-  color: white;
-}
-
-#reasons {
-  list-style: none;
-}
-
-
-
-
-#landscape-image img { //for making the image resize when page is adjusted
-
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; /* Make the picture taking the size of it's parent */
-  width: 100%; /* This if for the object-fit */
-  height: 100%; /* This if for the object-fit */
-  object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
-  object-position: center;
-}
-
-.card-text {
-  color: #AAAAAA;
-}
-
-
-
-
-
-
-
-
-
 
 
 //*************//*************//*************
@@ -199,10 +97,11 @@ html{
 @import "partners.scss";
 //*************
 //*************
-// Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
-// Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
+
 // Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
 @import "node_modules/bootstrap/scss/bootstrap";
+
+//Plyr import, a video player library
 @import "src/css/plyr";
 
 

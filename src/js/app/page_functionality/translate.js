@@ -54,6 +54,7 @@ define(function (require) {
                     if(document.getElementById("language-toggle-input").checked === true){
                         Translator.load("en");
                         document.getElementById("language-toggle-input").checked = false;
+                        localStorage.setItem("preferred_language", "en")
                     }
                 });
                 $('#header').on('click touchstart', '#zh', function () {//#zh is the text beside the language switch
@@ -61,6 +62,7 @@ define(function (require) {
                     if(document.getElementById("language-toggle-input").checked === false) {
                         Translator.load("zh");
                         document.getElementById("language-toggle-input").checked = true;
+                        localStorage.setItem("preferred_language", "zh")
                     }
                 });
 

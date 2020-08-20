@@ -1,8 +1,15 @@
+//Styling for the university and high school sidebars
+
+//1. General Formatting
+//2. Screen width 800px
+//==========================
+
+
+//1. General formatting
 #sidebar {
   width: 250px;
   top: 59px;
   left: 0;
-
   overflow-y: scroll;
   position: sticky;
   background: white;
@@ -10,10 +17,9 @@
   transition: all 0.3s;
   border-right: 2px solid $gray;
   max-height: calc(100vh - 59px);
-
-
 }
 
+//First line on the sidebar; the title
 .sidebar-header {
   padding-left: 20px;
 }
@@ -22,61 +28,68 @@
   padding-top: 10px;
 }
 
+//-----------------------------
+
+//List that contains the sidebar items
 #sidebar ul {
   padding-left: 0;
   list-style-type: none;
 }
 
-a.icon {
-  font-size: 60px;
-  padding-top: 0;
-  display: none;
-  color: $dark;
-
-  text-decoration: none;
-}
-
-
-#sidebar .sidebar-components .sidebar-item a {
+//Links that toggle the expand/collapse of the submenus (if applicable)
+.sidebar-item a {
   color: $dark;
   padding-left: 30px;
   padding-bottom: 10px;
   padding-top: 10px;
   display: block;
   transition: all 400ms;
-
 }
 
-
-#sidebar .sidebar-components .sidebar-item a:hover {
+.sidebar-item a:hover {
   background-color: $dark;
   color: white;
 }
 
-#sidebar .sidebar-components .sidebar-item .course-unit-dropdown {
+//-----------------------------
+
+
+//.course-unit-dropdown is the ul each dropdown in the sidebar
+.sidebar-item .course-unit-dropdown {
   font-size: 13px;
- // max-height: 0;
-  //overflow: hidden;
-  transition: all 1s cubic-bezier(.17,.67,.48,1.04)
+  transition: all 1s cubic-bezier(.17, .67, .48, 1.04)
 }
 
-#sidebar .sidebar-components .sidebar-item .course-unit-dropdown li a {
+.sidebar-item .course-unit-dropdown li a {
   padding-left: 40px;
   display: block;
 }
 
+//The little arrow that displays on mobile navigation to open and collapse the sidebar
+a.icon {
+  font-size: 60px;
+  padding-top: 0;
+  display: none; //<--
+  color: $dark;
+  text-decoration: none;
+}
 
-
+//2. Screen width 800px
 @media screen and (max-width: 800px) {
 
+  //This makes the header not fix to the top when there is a sidebar
   #header.alongside-sidebar {
     position: relative;
   }
+
+  //Before, the .wrapper was flex-direction: row; therefore the sidebar and the main-info were left-right
+  //Now, on mobile, the sidebar and main-info are top-down
   .wrapper {
     flex-direction: column;
     position: relative;
     margin-top: 0;
   }
+
   #sidebar-div {
     background: white;
     position: sticky;
@@ -89,15 +102,12 @@ a.icon {
     border-right: 0;
     padding-top: 0;
     border-bottom: 1px solid rgba(167, 167, 167, 0.4);
-
-
   }
 
   #sidebar {
     min-height: 55px;
     border-right: 0;
     width: 100%;
-
     overflow-y: hidden;
     padding-top: 0;
 
@@ -153,39 +163,38 @@ a.icon {
 
     transform: skew(0deg, -40deg);
   }
+
+  //.responsive makes the arrow appear
   #sidebar.responsive a.icon {
     transform: scaleY(-1);
-
   }
 
   .sidebar-components {
     margin: 0;
     overflow: auto;
     max-height: 0px;
-    transition: max-height 1.2s cubic-bezier(.17,.67,.48,1.04);
+    transition: max-height 1.2s cubic-bezier(.17, .67, .48, 1.04);
   }
 
   #main-info.alongside-sidebar {
     margin-top: 0;
-
   }
 
 
-  #sidebar .sidebar-header {
+  .sidebar-header {
     display: inline-block;
   }
 
-  #sidebar .sidebar-components .sidebar-item {
+  .sidebar-item {
     float: none;
     display: block;
     width: 100%;
     text-align: left;
   }
 
-#sidebar.responsive .sidebar-components{
-  //59 px = height of header, 39px = height of top of sidebar (div.sidebar-header)
-  max-height: calc(100vh - 59px - 39px);
-
-}
+  #sidebar.responsive .sidebar-components {
+    //59 px = height of header, 39px = height of top of sidebar (div.sidebar-header)
+    max-height: calc(100vh - 59px - 39px);
+  }
 
 }

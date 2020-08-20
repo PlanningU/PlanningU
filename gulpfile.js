@@ -1,3 +1,6 @@
+//Automation for devs
+//Uses Gulp
+
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
@@ -5,6 +8,7 @@ var uglifycss = require('gulp-uglifycss');
 var concat = require('gulp-concat');
 var uglifyjs = require('gulp-uglify');
 var rjs = require('requirejs')
+
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function () {
@@ -30,7 +34,7 @@ gulp.task('uglifycss', function () {
 })
 
 
-// Move the javascript files into our /src/js folder
+// Move the javascript files into our /src/js folder - Not used at the moment
 gulp.task('js', function () {
     return gulp.src(
         [

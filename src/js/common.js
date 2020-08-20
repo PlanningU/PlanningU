@@ -2,6 +2,7 @@
 requirejs.config({
     baseUrl: '/src/js/libs',
     paths: {
+        //Insert your libraries here for easy access
         app: '../app',
         bootstrap: 'bootstrap.min',
         jquery: 'jquery.min',
