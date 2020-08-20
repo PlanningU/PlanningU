@@ -1,3 +1,16 @@
+//Styling for Video Cards (Thumbnails)
+
+//===========================================
+//Table of Contents:
+//1. General Formatting
+//2. Video Card Content Formatting
+//3. Formatting for Cards with a screen width of 1080px
+//4. Video Card formatting for screens less than 810px
+//5. Video Card formatting for screens less than 650px
+
+//1. General Formatting
+
+//The main container that holds all the video cards
 #video-section {
   padding: 30px;
   display: grid;
@@ -9,12 +22,15 @@
   --margin-text-left: 20px;
 }
 
-
+//2: Video Card formatting
+//Each card holds a thumbnail img, title, description, and tags
 .video-card {
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 }
 
+//Since each card is identically named, to style them differently they must be referred to by their order
 .video-card:first-child {
   grid-column: 1/ span 4;
   grid-row: 1/ span 8;
@@ -30,20 +46,28 @@
   grid-row: 5/span 4;
 }
 
+//For the 4th card and beyond, have 3 cards per row
 .video-card:nth-child(n + 4) {
   grid-column: auto/span 2;
   grid-row: auto/span 6;
 }
+//================================================
 
+//2. Video Card Content Formatting
+
+///Universal ------------------------------------
+
+//Thumbnail
 .video-card img {
   position: relative;
   z-index: 1;
   width: 100%;
   height: 100%;
   object-fit: cover;
-
 }
 
+
+//Container that holds all the text in a video-card
 .video-text {
   position: absolute;
   height: 100%;
@@ -52,16 +76,14 @@
   z-index: 4;
   display: flex;
   flex-direction: column;
-
-
 }
 
+//This is for a translucent background - this is overridden for the 4th and greater cards
 .video-text > * {
   background: rgba($dark, 0.8);
   margin-bottom: 0;
   width: 100%
 }
-
 
 .video-title {
   color: white;
@@ -70,67 +92,10 @@
   display: block;
   margin: 5px 3px 0 0;
   padding: 10px 5px 0 var(--margin-text-left);
-}
-
-
-//First Video Box
-.video-card:first-child .tags {
-  margin-top: auto;
-}
-
-.video-card:first-child .video-title {
-  font: 2rem "Fjalla One Regular", sans-serif;
-  padding: 10px var(--margin-text-left);
-  margin-top: 0;
-}
-
-//Second and Third video box
-.video-card:nth-child(2) .video-title,
-.video-card:nth-child(3) .video-title {
-  margin-top: auto;
- padding-bottom: 10px;
-}
-
-.video-card:nth-child(2) .video-description,
-.video-card:nth-child(3) .video-description {
-  display: none;
-}
-.video-card:nth-child(2) .tags,
-.video-card:nth-child(3) .tags {
-  display: none;
-}
-
-//For all the other cards
-.video-card:nth-child(n + 4) {
-  display: flex;
-  flex-direction: column;
-  background: $dark;
-}
-
-.video-card:nth-child(n + 4) .video-text {
-  position: relative;
-
-
-}
-
-.video-card:nth-child(n + 4) img {
-  height: 230px;
-  width: 100%;
-}
-
-.video-card:nth-child(n + 4) .video-description {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding-bottom: 0;
-  margin-bottom: 5px;
 
 }
 
 
-///Universal
 .tags {
   padding: 10px var(--margin-text-left);
 }
@@ -153,6 +118,101 @@
   letter-spacing: 0.3px;
   color: white;
 }
+//--------------------------------------
+
+//First Video Box Styling-----------------
+
+.video-card:first-child .video-title {
+  font: 2rem "Fjalla One Regular", sans-serif;
+  padding: 10px var(--margin-text-left);
+  margin-top: 0;
+  transition: padding-top 0.3s ease-in-out;
+}
+
+.video-card:first-child:hover .video-title {
+  padding-top: 20px;
+}
+
+.video-card:first-child .tags {
+  margin-top: auto;
+}
+
+//Hover responsive (make text area get bigger)
+.video-card:first-child .video-description {
+  transition: padding-bottom 0.3s ease-in-out;
+}
+
+.video-card:first-child:hover .video-description {
+  padding-bottom: 25px;
+}
+//---------------------------------------------------
+
+
+//Second and Third video box------------------------------
+.video-card:nth-child(2) .video-title,
+.video-card:nth-child(3) .video-title {
+  margin-top: auto;
+  padding-bottom: 10px;
+  transition: padding 0.3s ease-in-out;
+}
+
+.video-card:nth-child(2):hover .video-title,
+.video-card:nth-child(3):hover .video-title {
+  padding: 20px 5px 20px 20px;
+}
+
+.video-card:nth-child(2) .video-description,
+.video-card:nth-child(3) .video-description {
+  display: none;
+}
+
+.video-card:nth-child(2) .tags,
+.video-card:nth-child(3) .tags {
+  display: none;
+}
+//--------------------------------------------------
+
+//For all the other cards-----------------------------------
+.video-card:nth-child(n + 4) {
+  display: flex;
+  flex-direction: column;
+  background: $dark;
+}
+
+.video-card:nth-child(n + 4) img {
+  height: 230px;
+  width: 100%;
+  transition: height 0.3s ease-in-out;
+}
+
+//When hover over card, make it responsive by increasing .video-text size (indirectly through decreasing img size
+.video-card:nth-child(n + 4):hover img {
+  height: 210px;
+}
+
+.video-card:nth-child(n + 4) .video-text {
+  position: relative;
+}
+
+.video-card:nth-child(n + 4) .video-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+}
+//------------------------------------------------
+
+
+
+
+
+
+//==================================================================
+
+//3. Formatting for Cards with a screen width of 1080px
 
 @media screen and (max-width: 1080px) {
 
@@ -160,6 +220,7 @@
     grid-column: 1/ span 6;
     grid-row: 1/ span 8;
   }
+  //For some reason, #video-section is required - even though everything is the same specificity throughout?
   #video-section .video-card:nth-child(n + 2) {
     grid-column: auto/span 3;
     grid-row: auto/span 6;
@@ -172,17 +233,31 @@
   .video-card:nth-child(n + 2) .video-text {
     position: relative;
     width: 100%;
-
   }
+
+  //Resetting variables for the 2nd and 3rd cards since they were different on the large screen
   .video-card:nth-child(n + 2) .video-title {
-    margin: 5px 20px 0 0;
+    margin: 5px 3px 0 0;
+    padding-bottom: 0;
 
 
   }
+
 
   .video-card:nth-child(n + 2) img {
     height: 220px;
     width: 100%;
+    transition: height 0.3s ease-in-out;
+  }
+  //When hover over card, make it responsive by increasing .video-text size (indirectly through decreasing img size
+  .video-card:nth-child(n + 2):hover img {
+    height: 210px;
+
+  }
+
+//Getting rid of the initial hover animations in larger screens for
+  .video-card:nth-child(n+2):hover .video-title{
+    padding: 10px 5px 0 20px;
   }
 
   .video-card:nth-child(n + 2) .video-description {
@@ -200,62 +275,78 @@
   }
 }
 
+
+//4. Video Card formatting for screens less than 810px
 @media screen and (max-width: 810px) {
   #video-section .video-card:nth-child(n+1) {
     grid-column: auto/ span 3;
     grid-row: auto/ span 5;
   }
-  /*#video-section .video-card:nth-child(n + 2){
-    grid-column: auto/span 3;
-    grid-row: auto/span 6;
-
-  }*/
 
   .video-card:nth-child(n+1) {
     display: flex;
     flex-direction: column;
     background: #336;
   }
+
+  .video-card:nth-child(n+1) img {
+    height: 180px;
+    width: 100%;
+    transition: height 0.3s ease-in-out;
+  }
+  .video-card:nth-child(n+1):hover img {
+    height: 160px;
+  }
+
   .video-card:nth-child(n+1) .video-text {
     position: relative;
-    // color: $dark;
-
   }
-  .video-card:nth-child(n+1) .video-title {
+
+  #video-section .video-card:nth-child(n+1) .video-title {
     margin: 5px 20px 0 0;
-    padding: 7px 5px 0 20px;
+    padding: 10px 10px 0 10px;
     width: 100%;
     font: 1.2rem "Fjalla One Regular", sans-serif;
   }
 
-  .video-card:nth-child(n+1) img {
-    height: 200px;
-    width: 100%;
-  }
   .video-card:nth-child(n+1) .tags {
     margin-top: 0;
+    padding-left: 10px;
+  }
+  .video-card:nth-child(n+1) .tag {
+    font-size: 0.8rem;
   }
 
   .video-card:nth-child(n+1) .video-description {
     display: none;
-
   }
+
 }
 
+
+//5. Video Card formatting for screens less than 650px
 @media screen and (max-width: 650px) {
-  #video-section{
+
+  #video-section {
     padding: 30px 0;
     row-gap: 0px;
     grid-auto-rows: 47px;
   }
+
   #video-section .video-card:nth-child(n+1) {
     grid-column: auto/ span 6;
 
     grid-row: auto/ span 7;
   }
+
   .video-card:nth-child(n+1) img {
-    height: 220px;
+    height: 210px;
     width: 100%;
+    transition: height 0.3s ease-in-out;
+  }
+  .video-card:nth-child(n+1):hover img {
+    height: 190px;
+    // width: 100%;
   }
   .video-card:nth-child(n+1) .video-title {
     padding: 7px 5px 0 10px;

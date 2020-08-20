@@ -1,3 +1,18 @@
+//Styling for the header and footer of every page
+
+//=====================================
+//Table of contents
+//1. Header
+////1a. Header General Formatting
+
+//2. Footer
+//3. WECHAT MODAL
+//=====================================
+
+
+//1. Header
+//1a. Header General formatting
+
 //Top Navigation Page
 #header { //This is the element that the js inserts code into (use this only for positioning!!!)
   top: 0;
@@ -10,17 +25,19 @@
   height: 58px;
 }
 
+//This is for the dropdown pill on the header (mobile)
 #nav-toggle {
   position: absolute;
   top: -999px;
   left: -999px;
 }
 
+//Make all the text white
 #header * {
   color: white;
 }
 
-
+//Contains the logo picture and "PlanningU
 .logo-container {
   grid-column: 2/3;
   display: flex;
@@ -140,7 +157,7 @@ a.nav-link:hover:before{
 
 
 
-//Slider Language///////////
+//Slider Language Toggle
 .switch {
   position: relative;
   margin: 0;
@@ -155,7 +172,6 @@ a.nav-link:hover:before{
 }
 
 .slider {
-
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -208,18 +224,13 @@ a.nav-link:hover:before{
 .slider.round:before {
   border-radius: 10%;
 }
+//-------------------------------------------
 
-/////////
 
-
+//Social Media Icons for Header
 a.fa {
   padding: 0;
   color: white;
-}
-
-div.social-media {
-
-
 }
 
 div.social-media a icon {
@@ -239,15 +250,14 @@ div.social-media a icon {
 .social-media a:link{
   text-decoration: none;
 }
+//-----------------------------------
 
 
-
-//The collapsible
+// Header for mobile devices
 @media (max-width: 1230px) {
   #header {
     display: block;
   }
-
   .logo-container {
     position: absolute;
     top: 50%;
@@ -260,6 +270,7 @@ div.social-media a icon {
     top: -9999px !important;
     left: -9999px !important;
   }
+
   .nav-toggle-label {
     position: absolute;
     right: calc(2vw + 20px);
@@ -292,11 +303,9 @@ div.social-media a icon {
     top: 98%;
     left: 0;
     background: $darker;
-
     width: 100%;
     height: 0;
     transition: height 1.2s ease;
-
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -308,8 +317,6 @@ div.social-media a icon {
     opacity: 0;
     padding: 0;
     transition: opacity 600ms ease-in-out;
-
-
   }
 
   a.nav-link {
@@ -330,10 +337,12 @@ div.social-media a icon {
   a.nav-link:before{
     display: none;
   }
+
   #language-toggle-item span {
     font: 1.2rem "Open Sans Light", sans-serif;
   }
 
+  //Header Toggle for Mobile (3 rectangles)
   .nav-toggle:checked ~ .nav-items {
     height: 100vh;
   }
@@ -359,9 +368,9 @@ div.social-media a icon {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
   }
+  //------------------------------------------------
 
-
-
+  //Text formatting
   .dropdown:hover .dropdown-content {
     background-color: initial;
   }
@@ -405,7 +414,6 @@ div.social-media a icon {
     background-color: rgba(255, 255, 255, 0.47)
   }
 
-
   .nav-item:not(:first-child)::before {
     content: '';
     display: block;
@@ -430,7 +438,6 @@ div.social-media a icon {
     padding: 0 5px;
   }
 
-
 }
 
 @media (max-width: 400px) {
@@ -448,7 +455,7 @@ div.social-media a icon {
 }
 
 
-//FOOTER **************************************************
+//2. Footer=======================================
 
 
 #footer-container, #copyright {
@@ -514,8 +521,10 @@ div.social-media a icon {
 .no-margin {
   margin-bottom: 0;
 }
+//=======================================================
 
-//WECHAT MODAL
+//3. WECHAT MODAL
+
 /* The Modal (background) */
 .popup {
   display: none; /* Hidden by default */
@@ -608,3 +617,5 @@ div.social-media a icon {
   right: 30px;
   cursor: pointer;
 }
+
+//=========================================================

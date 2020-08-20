@@ -1,61 +1,86 @@
+//Styling for the About Us Page
+
+//======================================
+//Table of Contents:
+//1. General Definitions
+//2. Heading - The top image and title (Our Mission)
+//3. About Us Body - Why we created, general info about company as whole
+////3a: Why we created PlanningU
+////3b: What universities we offer
+////3c: Our personal message ("we are so excited...")
+//4. Our Team
+//======================================
+
+//1. General Definitions
+//Same as #main-info, but requires just some background-color changes
 .about{
   margin-top: 57px;
   font-size: 1em;
   background-color: $gray;
-
 }
 
+//Standard banner - really, all this class does is centers text and add padding
 .banner {
   text-align: center;
-
   padding: 30px 5vw;
 }
+//===============================================
 
+
+
+
+
+/*
+2. =================Heading========================
+*/
+//"Our Mission: To provide..."
+#about-heading {
+  background-image: linear-gradient(rgba(51, 51, 102, 0.4), rgba(51, 51, 102, 0.4)), url("/src/assets/about_us_background.jpg");
+  height: 60vh;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+#about-heading h1 {
+  font: 4em "Soleil Bold", sans-serif;
+  text-transform: uppercase;
+}
+
+#about-heading p {
+  margin-top: 13px;
+  font: 1.7em "Open Sans Light", sans-serif;
+}
+
+//Horizontal line
 #about-line-divider {
   background-color: $primary;
   width: 130px;
   height: 8px;
 }
 
-#about-heading {
-  background-image: linear-gradient(rgba(51, 51, 102, 0.4), rgba(51, 51, 102, 0.4)), url("/src/assets/about_us_background.jpg");
-  height: 60vh;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-
-}
-
-#about-heading h1 {
-  font: 4em "Soleil Bold", sans-serif;
-
-  text-transform: uppercase;
-
-}
-
-#about-heading p {
-  margin-top: 13px;
-  font: 1.7em "Open Sans Light", sans-serif;
-
-}
-
 #about-asthetic-triangle {
   width: 100%;
-  //height: 50px;
-  // object-fit: fill;
   display: block;
 }
 
+/*
+=================================================
+*/
+
+
+//3. About Us Body - Why we created, general info about company as whole
+
+
+//The transparent border simulates a margin/gap between each element
+//There is a better solution, but this was done before I (Fred) learned about css grids and margin positioning
 #about-story > * {
   border-left: 1.6vw solid transparent;
   border-right: 1.6vw solid transparent;
@@ -64,30 +89,30 @@
 
 }
 
+
 #about-story {
   display: inline-flex;
   box-sizing: border-box;
   flex-flow: row wrap;
   padding: 60px 5vw 0px 5vw;
   line-height: 1.7em;
-  //margin:0 -15px;
 }
 
 #about-story h2, #about-story h3 {
   font-family: "Soleil Bold", sans-serif;
   text-transform: uppercase;
-
 }
 
 #about-story h2 {
   font-weight: bolder;
 }
+//-----------------------------
 
+//3a: Why we created PlanningU
 #about-story-creation {
   flex: 1 0 65%;
   background-color: white;
   padding: 30px 2vw;
-
 }
 
 #about-story-creation h2 {
@@ -102,11 +127,13 @@
   color: $secondary;
 }
 
+//Readmore '+' button
 button.readmore-toggle {
   display: none;
 }
 
-@media (max-width: 800px) { //The readmore toggle
+//When screen is certain width, hide text and add a '+' to expand text
+@media (max-width: 800px) {
   #about-story-creation {
     height: 350px;
     overflow: hidden;
@@ -151,14 +178,17 @@ button.readmore-toggle {
     top: 45%;
   }
 }
+//----------------------
 
+
+//3b: What universities we offer
 
 #about-story-uni {
   flex: 1 0 35%;
   background-color: $darker;
   padding: 30px 2vw;
-
 }
+
 #about-story-uni *{
   color: white;
 }
@@ -179,7 +209,7 @@ button.readmore-toggle {
   font: 1.2em "Open Sans Light", sans-serif;
 }
 
-
+//Aesthetic line
 #about-unis-offer-line {
   background-color: $primary;
   left: 20px;
@@ -188,10 +218,11 @@ button.readmore-toggle {
   height: 100%;
   width: 3px;
   position: absolute;
-
 }
+//------------
 
 
+//3c: Our personal message ("we are so excited...")
 #about-story-message {
   flex: 0 0 100%; /* Let it fill the entire space horizontally */
   background-color: white;
@@ -203,8 +234,9 @@ button.readmore-toggle {
   color: $dark;
   font-weight: bolder;
 }
+//--------------
 
-
+//Transition element
 #down-arrow {
   stroke: none;
   fill: $darker;
@@ -214,11 +246,14 @@ button.readmore-toggle {
   margin-right: auto;
 }
 
+
+//4. Our Team
+
+//'MEET THE TEAM'
 #our-team {
   margin-top: 35px;
   background-color: $darker;
   color: white;
-
 }
 
 #our-team h2 {
@@ -226,6 +261,7 @@ button.readmore-toggle {
   text-transform: uppercase;
 }
 
+//The Container that contains each card
 #profiles {
   display: flex;
   flex-wrap: wrap;
@@ -233,6 +269,8 @@ button.readmore-toggle {
   padding: 50px 3px;
   //max-width: 150px;
 }
+
+//This is to force a maximum of 3 ppl per row
 #profiles hr{
   width: 100%;
   opacity: 0;
@@ -241,10 +279,12 @@ button.readmore-toggle {
 @media screen and (max-width: 900px) {
   #profiles hr {
     display: none;
-
   }
 }
+//============
 
+
+//Profile Card Container for each member
 .profile-card {
   width: 400px;
   height: 500px;
@@ -252,13 +292,20 @@ button.readmore-toggle {
   position: relative;
   overflow: hidden;
 }
+//--------------------
 
-.profile-card svg {
-  width: 30px;
-  transform: rotate(180deg);
+.profile-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 
 
+
+//Contains the text for each profile card, expands up when hovered or tapped on mobile
 .profile-overlay {
   position: absolute;
   bottom: 0px;
@@ -281,7 +328,9 @@ button.readmore-toggle {
 
   }
 }
+//---------------------
 
+//Asthetic lines
 .profile-horizontal-div {
   width: 80%;
   height: 2px;
@@ -295,28 +344,15 @@ button.readmore-toggle {
   background-color: $primary;
   margin: 10px 0;
 }
+//----------------
 
+//Text formatting for the profile text
+
+//Every text element on the profile card (name, uni, role, etc) should take up its own block
+//and should be white
 .profile-overlay > * {
   display: block;
   color: white;
-}
-
-.profile-overlay .mobile-open-arrow {
-  position: absolute;
-  width: 25px;
-  top: 20px;
-  right: 30px;
-  transition: .5s ease;
-}
-
-
-.profile-image {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  object-fit: cover;
 }
 
 .profile-overlay h4 {
@@ -332,6 +368,8 @@ button.readmore-toggle {
   margin-right: 10px;
   //min-height: 40px;
 }
+
+//Specific override for the position (CEO, Chief of Technology, etc.)
 .profile-overlay h5.position{
   font: 1em "Open Sans Light", sans-serif;
   text-transform: none;
@@ -348,15 +386,32 @@ button.readmore-toggle {
   margin-top: 20px;
 }
 
-.flip {
-  transform: rotate(-180deg);
-}
-
 .profile-overlay li, .profile-overlay p {
   font: 0.9em "Open Sans Light", sans-serif;
   line-height: 1.7em;
 }
+//-------------------------------
 
+
+
+//The little arrow that rotates
+.profile-overlay .mobile-open-arrow {
+  position: absolute;
+  width: 25px;
+  top: 20px;
+  right: 30px;
+  transition: .5s ease;
+}
+//Class added to the little arrow to make it spin
+.flip {
+  transform: rotate(-180deg);
+}
+//---------------------------
+
+
+
+
+//Formatting for specific screen sizes
 @media screen and (max-width: 1000px) {
   #about-story-creation {
     flex: 1 0 100%;
@@ -385,8 +440,6 @@ button.readmore-toggle {
     font-size: 14.5px;
   }
   .profile-horizontal-div-2 {
-
-
     margin: 14px 0;
   }
 }
