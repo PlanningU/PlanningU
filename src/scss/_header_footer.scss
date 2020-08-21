@@ -115,12 +115,12 @@ a.nav-link:hover:before{
 }
 
 .dropdown:hover{
-  background-color: #004;
+  background-color: lighten($darker, 5%);
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-  background-color: #004;
+  background-color: lighten($darker, 5%);
   max-height: 200px;
 }
 
@@ -152,7 +152,7 @@ a.nav-link:hover:before{
 }
 
 .dropdown-content a:hover {
-  background-color: #005;
+  background-color: lighten($darker, 15%);
 }
 
 

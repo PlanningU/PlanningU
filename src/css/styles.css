@@ -48,7 +48,7 @@ html {
   width: 100%;
   position: fixed;
   z-index: 100;
-  background-color: #000033;
+  background-color: #101028;
   display: grid;
   grid-template-columns: 5% auto minmax(30px, 3fr) 5%;
   height: 58px; }
@@ -112,7 +112,7 @@ a.nav-link:hover:before {
   overflow: hidden;
   position: absolute;
   left: 0;
-  background: #000033;
+  background: #101028;
   list-style: none;
   padding-left: 0;
   max-height: 0;
@@ -120,11 +120,11 @@ a.nav-link:hover:before {
   min-width: 100%; }
 
 .dropdown:hover {
-  background-color: #004; }
+  background-color: #17173a; }
 
 .dropdown:hover .dropdown-content {
   display: block;
-  background-color: #004;
+  background-color: #17173a;
   max-height: 200px; }
 
 .dropdown .toggle-dropdown::after {
@@ -148,7 +148,7 @@ a.nav-link:hover:before {
   text-align: left; }
 
 .dropdown-content a:hover {
-  background-color: #005; }
+  background-color: #26265f; }
 
 .switch {
   position: relative;
@@ -263,7 +263,7 @@ div.social-media a icon {
     text-align: left;
     top: 98%;
     left: 0;
-    background: #000033;
+    background: #101028;
     width: 100%;
     height: 0;
     transition: height 1.2s ease;
@@ -313,7 +313,7 @@ div.social-media a icon {
     max-height: initial;
     display: block;
     position: initial;
-    background: #000033;
+    background: #101028;
     list-style: none;
     padding-left: calc(10vw + 25px); }
   .dropdown-content a {
@@ -368,7 +368,7 @@ div.social-media a icon {
   color: white; }
 
 #footer-container {
-  background-color: #000033;
+  background-color: #101028;
   padding-bottom: 20px; }
 
 #footer-container h3 {
@@ -640,7 +640,7 @@ div.social-media a icon {
   margin-bottom: 20px; }
 
 #learn-more-card .card-body h3, #high-school-card .card-body h3 {
-  color: #000033; }
+  color: #101028; }
 
 #university-application-card .card-body h3 {
   color: white; }
@@ -769,7 +769,7 @@ div.social-media a icon {
 
 .course-title {
   height: 65vh;
-  background-image: linear-gradient(rgba(0, 0, 51, 0.7), rgba(0, 0, 51, 0.7)), url("/src/assets/university_backdrop.jpg");
+  background-image: linear-gradient(rgba(16, 16, 40, 0.8), rgba(16, 16, 40, 0.8)), url("/src/assets/university_backdrop.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -946,7 +946,7 @@ a.icon {
     left: 0;
     height: 2px;
     width: 51%;
-    background: #000033;
+    background: #101028;
     transform: skew(0deg, 40deg); }
   a.icon:after {
     content: '';
@@ -955,7 +955,7 @@ a.icon {
     right: 0;
     height: 2px;
     width: 50%;
-    background: #000033;
+    background: #101028;
     transform: skew(0deg, -40deg); }
   #sidebar.responsive a.icon {
     transform: scaleY(-1); }
@@ -989,7 +989,7 @@ a.icon {
 2. =================Heading========================
 */
 #about-heading {
-  background-image: linear-gradient(rgba(51, 51, 102, 0.4), rgba(51, 51, 102, 0.4)), url("/src/assets/about_us_background.jpg");
+  background-image: linear-gradient(rgba(16, 16, 40, 0.5), rgba(16, 16, 40, 0.5)), url("/src/assets/about_us_background.jpg");
   height: 60vh;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -1097,7 +1097,7 @@ button.readmore-toggle {
 
 #about-story-uni {
   flex: 1 0 35%;
-  background-color: #000033;
+  background-color: #101028;
   padding: 30px 2vw; }
 
 #about-story-uni * {
@@ -1138,7 +1138,7 @@ button.readmore-toggle {
 
 #down-arrow {
   stroke: none;
-  fill: #000033;
+  fill: #101028;
   width: 50px;
   display: block;
   margin-left: auto;
@@ -1146,7 +1146,7 @@ button.readmore-toggle {
 
 #our-team {
   margin-top: 35px;
-  background-color: #000033;
+  background-color: #101028;
   color: white; }
 
 #our-team h2 {
@@ -1187,7 +1187,7 @@ button.readmore-toggle {
   bottom: 0px;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 51, 0.8);
+  background-color: rgba(16, 16, 40, 0.9);
   padding: 10px 15px;
   overflow: hidden;
   width: 100%;
@@ -1554,7 +1554,7 @@ button.readmore-toggle {
   color: #6666ad; }
 
 #lottery-banner {
-  background: #000033;
+  background: #101028;
   color: white; }
 
 #lottery-banner h3 {
