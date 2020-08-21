@@ -1,3 +1,5 @@
+//Cookie functions to get, set, and delete cookies
+
 define(function(){
     return{
         setCookie: function(cname, cvalue, exdays){

@@ -10,7 +10,6 @@
 }
 
 
-
 //Course information
 .course-title {
   height: 65vh;
@@ -24,14 +23,14 @@
 
 }
 
-.course-title img{
+.course-title img {
   position: absolute;
   width: 100%;
   height: 100%;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   object-fit: cover;
-filter: brightness(0.6);
+  filter: brightness(0.6);
 
 
 }
@@ -57,12 +56,13 @@ filter: brightness(0.6);
   padding-left: 8%;
   padding-right: 15%;
 }
+
 .wrapper #main-info {
   //padding-bottom: 100px;
 }
 
-#main-info #footer{
- margin-top: 100px;
+#main-info #footer {
+  margin-top: 100px;
 }
 
 @media screen and (max-width: 800px) {
@@ -76,17 +76,18 @@ filter: brightness(0.6);
   font-size: 50px;
 }
 
-.wrapper #main-info > h1{
+.wrapper #main-info > h1 {
   margin-top: 50px;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
   .wrapper #main-info h1 {
     font-size: 40px;
   }
 }
 
-.wrapper #main-info h1:not(:first-child), .wrapper #main-info h2 {
+.wrapper #main-info h1:not(:first-child),
+.wrapper #main-info h2 {
   padding-bottom: 10px;
   padding-top: 50px;
   font-family: "Fjalla One Regular", sans-serif;
@@ -94,12 +95,14 @@ filter: brightness(0.6);
 }
 
 
-
 .wrapper #main-info h2 {
   font-size: 30px;
 }
 
-.wrapper #main-info p, .wrapper #main-info ul li, .wrapper #main-info ul li a, .wrapper #main-info ol li {
+.wrapper #main-info p,
+.wrapper #main-info ul li,
+.wrapper #main-info ul li a,
+.wrapper #main-info ol li {
   font-size: 18px;
   font-family: "Lato Medium", sans-serif;
   color: $secondary;
@@ -114,7 +117,6 @@ filter: brightness(0.6);
 }
 
 .wrapper #main-info p.difficulty-stars {
-  // font-size: 180px;
   font-family: "Brandon Grotesque Medium", sans-serif;
   color: $accent;
 }

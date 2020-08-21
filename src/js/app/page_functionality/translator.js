@@ -1,7 +1,11 @@
+//Does the heavylifting and translates the whole page
+//1. Looks for any element that contains the data-i18 data attribute
+//2. Looks in an array created from the csv of translations for the corresponding attribute
+//3. Replaces the innerHtml with the respective translation in the array
 "use strict"
 
 define(function (require) {
-    var parse_json = require('app/page_functionality/parse_json');
+    var parse_json = require('app/page_functionality/parse_file');
     return {
 
         Translator: class {

@@ -1,3 +1,4 @@
+//The readmore plus arrow found on the about page on mobile pages
 define(function() {
     $('#about-readmore-toggle').on('click', function(){
         if (!$("#about-story-creation").hasClass("expanded")) {

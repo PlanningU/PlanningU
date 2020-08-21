@@ -1,3 +1,4 @@
+//TO animate the slideshow on the home page
 define(function(require){
     var slides = document.getElementsByClassName("slide")
     var slideIndex = 1;
