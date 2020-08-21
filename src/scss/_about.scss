@@ -35,7 +35,7 @@
 */
 //"Our Mission: To provide..."
 #about-heading {
-  background-image: linear-gradient(rgba(51, 51, 102, 0.4), rgba(51, 51, 102, 0.4)), url("/src/assets/about_us_background.jpg");
+  background-image: linear-gradient(rgba($darker, 0.5), rgba($darker, 0.5)), url("/src/assets/about_us_background.jpg");
   height: 60vh;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -311,7 +311,7 @@ button.readmore-toggle {
   bottom: 0px;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 51, 0.80);
+  background-color: rgba($darker, 0.9);
   padding: 10px 15px;
   overflow: hidden;
   width: 100%;
