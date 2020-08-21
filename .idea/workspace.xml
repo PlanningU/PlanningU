@@ -18,19 +18,7 @@
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/contact_trans.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/contact_trans.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/cookie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/create_cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/create_cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/header_footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/header_footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/load_video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/load_video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/parse_json.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/parse_file.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/translator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/translator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/ui_animations/profile_hover_mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/ui_animations/profile_hover_mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/ui_animations/readmore_button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/ui_animations/readmore_button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app/ui_animations/slideshow_animate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/ui_animations/slideshow_animate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_uni_highschool.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_uni_highschool.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/translations/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pages/translations/en.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +122,7 @@
       <workItem from="1597756332985" duration="40287000" />
       <workItem from="1597849426608" duration="19842000" />
       <workItem from="1597943780768" duration="19792000" />
-      <workItem from="1598018963998" duration="1845000" />
+      <workItem from="1598018963998" duration="2700000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
