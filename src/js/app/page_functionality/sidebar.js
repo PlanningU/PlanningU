@@ -1,8 +1,4 @@
-//Keeps the dropdown of the current link opened in either the high school courses or uni pages
-//If you don't understand, open the dropdown in MCV4U, select a link, and you'll see the dropdown is still open - that's
-//what this does
-//You might notice that I use sessionStorage instead of localStorage as seen in the translate.js file
-//This is because I am not storing anything important that needs to be kept on the computer - session only
+
 
 define(function (require) {
 
@@ -27,12 +23,18 @@ define(function (require) {
 
             doAfter: function () {
 
+                //Makes the header not fixed when there is both a header and sidebar
                 var x = document.getElementById("header");
                 x.className += "alongside-sidebar";
                 x = document.getElementById("main-info");
                 x.className += " alongside-sidebar";
 
 
+                //Keeps the dropdown of the current link opened in either the high school courses or uni pages
+                //If you don't understand, open the dropdown in MCV4U, select a link, and you'll see the dropdown is still open - that's
+                //what this does
+                //You might notice that I use sessionStorage instead of localStorage as seen in the translate.js file
+                //This is because I am not storing anything important that needs to be kept on the computer - session only
                 try {
                     document.getElementById(sessionStorage.getItem("current_course")).className += " show";
                 } catch (typeError) {

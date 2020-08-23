@@ -1,6 +1,8 @@
 define(function (require) {
     var Papa = require('papaparse.min');
     return {
+        //Uses the papa_parse lib to return a promise containing an array made from a csv file
+
         parse_csv: async function(src){
 
             return await fetch(src)

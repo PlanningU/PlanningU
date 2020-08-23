@@ -1,3 +1,5 @@
+//Used for the profile cards on the about us page
+//Since hover is not possible on mobile, we have to convert that into a toggle
 define(function(){
 $('#profiles').on('click', '.profile-card', function () {
     if (/Mobi|Android/i.test(navigator.userAgent)) {

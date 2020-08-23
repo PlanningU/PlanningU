@@ -1,12 +1,20 @@
+//Creates the header, footer, as well as anything that relates to it
+
+//any additions are subject to change, but as of now it consists of:
+//a) The wechat modal
+//b) The alert banner for the savvyuni promotion
+
 define(function () {
     return {
-        //Header and Footer
+        //Header and Footer - Takes one deferred variable per load() function to allow for code to be
+        //executed after BOTH have finished loading web pages
         loadContent: function (def1, def2) {
             $("#footer").load("/pages/footer.html", function () {
                 def2.resolve();
             });
 
             $("#header").load("/pages/header.html", function () {
+                //The alert banner for SavvyUni
                 $("#main-info").prepend($('<div class="alert-banner"><span class="alert-text" data-i18n="banner-text">Our Partner SavvyUni is hosting a giveaway</span><a id="link-to-lottery" href="/pages/partners/savvyuni.html" data-i18n="banner-link">Learn how to enter</a><span class="close-x">×</span></div>'));
                 def1.resolve();
 
@@ -17,14 +25,16 @@ define(function () {
 
         },
 
+        //doAfter function performs what is to be done after the load() functions have run
         doAfter: function () {
 
+            //When click the alert banner
             $('#main-info').on("click touch", "#link-to-lottery", function(){
-               // console.log("hi");
+                //Url variable for smooth autoscroll
                 $(this).attr('href',"/pages/partners/savvyuni.html?promotion=true");
-               //window.location.href = "/pages/partners/savvyuni.html$promotion=true";
             })
 
+            //Close the alert banner
             $('#main-info').on('click touch', '.close-x', function(){
                 var element = document.getElementsByClassName("alert-banner")[0];
                 element.parentNode.removeChild(element);

@@ -1,23 +1,33 @@
+//Creates the elements on the video player page
 define(function(require){
-    var parse_json = require("app/page_functionality/parse_json");
+    var parse_json = require("app/page_functionality/parse_file");
     var Plyr = require("Plyr");
     var displayArticles = require("app/page_functionality/create_cards");
 
     return{
         loadContent: function(){
+
+            //Gets url parameter to know which videoid it is
             let url_string = window.location.href;
             let url = new URL(url_string);
-            let video_id = parseInt(url.searchParams.get("videoid"));
 
+            //THIS IS TO BE RE_ENABLED
+            //let video_id = parseInt(url.searchParams.get("videoid"));
+            let video_id = 1//TEMP CODE FOR INDEX PAGE
+
+            //Get the csv file
             parse_json.parse_csv("/src/assets/articles/video_metadata.csv")
                 .then(data => {
+
+                    //Dynamically sets the page meta description to the description of the video
                     $('meta[name="description"]').attr("content", data[video_id][1]);
+                    //Sets the page title to be the title of the video
                     document.title = data[video_id][0];
 
 
-                    let video = document.getElementById('video');
+                    //Creating the video element and its children
+                    let video = document.getElementById('video-player');
                     video.setAttribute("data-poster", data[video_id][3]);
-
 
                     let source = document.createElement('source');
 
@@ -26,9 +36,12 @@ define(function(require){
 
                     video.appendChild(source);
                     const player = new Plyr(video);
+                    //----------------------------------------
 
-                    //Setting descriptions
-                    var text_elements = document.querySelector('#video-container .video-text');
+                    //Setting descriptions TODO: Make it more dynamic and not repeat the same code found in
+                    // create_cards?
+
+                    var text_elements = document.querySelector('.video-player.video-text');
 
                     let sub_element;
                     sub_element = document.createElement("h3");

@@ -1,3 +1,4 @@
+//Unused
 var form = document.getElementById('contact-form');
 
 $('#header').on('click touchstart', 'input', function () {
