@@ -30,7 +30,7 @@ require(['../common'], function (common) {
             load_video.loadContent();
             new create_cards.VideoCards(
                 "/src/assets/articles/video_metadata.csv",
-                "video-section",
+                "video-wrapper",
                 parseInt(new URL(window.location.href).searchParams.get("videoid")));
             //===================================================//
 

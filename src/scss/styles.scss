@@ -84,7 +84,15 @@ html{
 
 //*************//*************//*************
 //*************
+
+// Bootstrap Sass Imports ***MAKE SURE THIS IS AT THE BOTTOM IN ORDER FOR YOUR OVERRIDES TO WORK
+@import "node_modules/bootstrap/scss/bootstrap";
+
+//Plyr import, a video player library
+@import "src/css/plyr";
+
 //Importing all other files
+
 
 @import "header_footer.scss";
 @import "homepage.scss";
@@ -102,7 +110,6 @@ html{
 @import "node_modules/bootstrap/scss/bootstrap";
 
 //Plyr import, a video player library
-@import "src/css/plyr";
 
 
 

@@ -23,7 +23,7 @@ define(function(require){
 
 
                     //Creating the video element and its children
-                    let video = document.getElementById('video');
+                    let video = document.getElementById('video-player');
                     video.setAttribute("data-poster", data[video_id][3]);
 
                     let source = document.createElement('source');
@@ -38,7 +38,7 @@ define(function(require){
                     //Setting descriptions TODO: Make it more dynamic and not repeat the same code found in
                     // create_cards?
 
-                    var text_elements = document.querySelector('#video-container .video-text');
+                    var text_elements = document.querySelector('.video-player.video-text');
 
                     let sub_element;
                     sub_element = document.createElement("h3");

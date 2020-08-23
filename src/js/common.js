@@ -9,6 +9,7 @@ requirejs.config({
         papaparse: 'papaparse.min',
         popper: 'popper.min',
         Plyr: 'plyr'
+
     },
     shim: {
         bootstrap: ["jquery"],

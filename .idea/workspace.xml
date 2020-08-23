@@ -17,8 +17,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
+      <change afterPath="$PROJECT_DIR$/src/css/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/libs/video.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/translations/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/pages/translations/en.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/watch.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/watch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/load_video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/load_video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/page_watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/page_watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_partners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_partners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_watch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_watch.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +134,8 @@
       <workItem from="1597756332985" duration="40287000" />
       <workItem from="1597849426608" duration="19842000" />
       <workItem from="1597943780768" duration="19792000" />
-      <workItem from="1598018963998" duration="2700000" />
+      <workItem from="1598018963998" duration="3312000" />
+      <workItem from="1598124617142" duration="13099000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>

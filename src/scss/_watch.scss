@@ -1,0 +1,172 @@
+//Setting Plyr custom css variables
+:root{
+  --plyr-video-range-thumb-active-shadow-color: red;
+  --plyr-color-main: #{$accent};
+  //--plyr-control-icon-size:
+}
+
+#video-wrapper{
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 40px;
+  row-gap: 25px;
+  column-gap: 25px;
+  grid-auto-flow: row;
+  background: $gray;
+}
+
+/*#video-container{
+  grid-column: 1/ span 4;
+  grid-row: 1/ span 12;
+}*/
+
+.plyr{//Video player
+  grid-column: 1/ span 8;
+  grid-row: 1/ span 8;
+}
+
+.video-info{
+  grid-column: 1/ span 8;
+  grid-row: 9/ span 4;
+  //background: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.video-player.profile-text{
+  flex: 1 0 25%;
+  background: white;
+}
+
+.video-player.video-text{
+  position: relative;
+  height: auto;
+  background: white;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.video-player.video-text > *{
+  background: white;
+
+}
+.video-player.video-text .video-title{
+  margin-top: 0;
+  color: $dark;
+}
+.video-player.video-text .video-description{
+  margin-top: 20px;
+  color: $secondary;
+}
+
+#watch-more-divider{
+  grid-column: 1/span 12;
+  grid-row: 13/span 2;
+  color: $dark;
+  position: relative
+
+  //background: red;
+}
+#watch-more-divider h3{
+
+  font: 3rem "Fjalla One Regular", sans-serif;
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  //background: red;
+}
+#video-wrapper .video-card{
+  grid-column: auto/span 4;
+  grid-row: auto/span 4;
+}
+#video-wrapper .video-card .video-text{
+  padding: 10px;
+}
+#video-wrapper .video-card img{
+  height: 140px;
+}
+#video-wrapper .video-card .video-description{
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+#video-wrapper .video-card .tags{
+  display: none;
+}
+
+
+//Plyr Customization
+
+//Making the progress bar take up the whole player
+.plyr__controls .plyr__controls__item.plyr__progress__container{
+  position: absolute;
+  bottom: 50px;
+  width: 102%;
+  left: -2px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+//Bringing the play button more to the right
+.plyr__controls .plyr__controls__item:first-child{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+//Bringing the player controls more up
+.plyr--video .plyr__controls{
+  padding-bottom: 15px;
+}
+
+//Play icon in middle of video
+.plyr__control--overlaid{
+  padding: 30px;
+}
+.plyr__control--overlaid svg{
+  height: 30px;
+  width: 30px;
+}
+
+.plyr__controls__item.plyr__volume{
+  margin-right: auto;
+}
+
+//VOlume
+.plyr__volume input[type=range] {
+  width: 20vw;
+}
+
+@media screen and (max-width: 700px){
+  #video-wrapper{
+    padding: 0px;
+
+  }
+
+  #video-wrapper > *,
+  #video-wrapper .video-card {
+    grid-column: auto/span 12;
+    //grid-row: auto;
+  }
+  .plyr{//Video player
+
+    grid-row: 1/ span 4;
+  }
+
+  .video-info{
+    grid-row: auto/span 4;
+  }
+  #watch-more-divider{
+    grid-row: auto/span 2;
+  }
+
+  #video-wrapper .video-card {
+    grid-row: auto/span 4;
+  }
+
+  //Plyr Customs
+  //VOlume
+  .plyr__volume input[type=range] {
+    display: none;
+  }
+}
