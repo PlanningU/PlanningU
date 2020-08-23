@@ -20,22 +20,23 @@ define(function(require){
                 .then(data => {
 
                     //Dynamically sets the page meta description to the description of the video
-                    $('meta[name="description"]').attr("content", data[video_id][1]);
+                   //TEMP DISABLED $('meta[name="description"]').attr("content", data[video_id][1]);
                     //Sets the page title to be the title of the video
-                    document.title = data[video_id][0];
+                   //TEMP DISABLED document.title = data[video_id][0];
 
 
                     //Creating the video element and its children
                     let video = document.getElementById('video-player');
-                    video.setAttribute("data-poster", data[video_id][3]);
+                    //Temp video.setAttribute("data-poster", data[video_id][3]);
 
                     let source = document.createElement('source');
 
-                    source.setAttribute('src', data[video_id][2]);
+                    //TEMP source.setAttribute('src', data[video_id][2]);
                     source.setAttribute('type', "video/mp4");
 
-                    video.appendChild(source);
-                    const player = new Plyr(video);
+                    //video.appendChild(source);
+                    //const player = new Plyr(video, {});
+                   // window.player = player;
                     //----------------------------------------
 
                     //Setting descriptions TODO: Make it more dynamic and not repeat the same code found in
