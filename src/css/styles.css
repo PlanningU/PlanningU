@@ -10110,7 +10110,7 @@ button.readmore-toggle {
 
 .video-player.video-text {
   position: relative;
-  flex: 1 0 370px;
+  flex: 1 1 370px;
   height: auto;
   padding: calc(1vw + 1rem);
   background: #333366; }
