@@ -5,6 +5,8 @@
   //--plyr-control-icon-size:
 }
 
+/* Temporarily Disabled
+
 #video-wrapper{
   padding: 30px;
   display: grid;
@@ -15,11 +17,6 @@
   grid-auto-flow: row;
   background: $gray;
 }
-
-/*#video-container{
-  grid-column: 1/ span 4;
-  grid-row: 1/ span 12;
-}*/
 
 .plyr{//Video player
   grid-column: 1/ span 8;
@@ -95,6 +92,49 @@
   display: none;
 }
 
+*/
+
+.banner.video-homepage{
+  background: $secondary;
+  color: white;
+  font: 2rem "Fjalla One Regular", sans-serif;
+}
+#video-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 30px;
+
+}
+
+
+.video-player.video-text{
+  position: relative;
+  flex: 1 0 370px;
+  height: auto;
+
+  padding: calc(1vw + 1rem);
+  background: $dark;
+}
+
+.video-player .video-title{
+  margin-top: 0;
+  font-size: calc(1vw + 1.1rem);
+}
+.video-player .tags{
+  margin-top: calc(1vw + 0.3rem);
+  padding: 0;
+}
+.video-player .video-description{
+
+  margin-top: calc(0.5vw + 0.3rem);
+
+  font:  calc(0.8vw + 0.5rem) Lato, sans-serif;
+}
+
+.plyr{
+  flex: 1 0 600px;
+}
 
 //Plyr Customization
 

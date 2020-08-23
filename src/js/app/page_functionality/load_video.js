@@ -10,7 +10,10 @@ define(function(require){
             //Gets url parameter to know which videoid it is
             let url_string = window.location.href;
             let url = new URL(url_string);
-            let video_id = parseInt(url.searchParams.get("videoid"));
+
+            //THIS IS TO BE RE_ENABLED
+            //let video_id = parseInt(url.searchParams.get("videoid"));
+            let video_id = 1//TEMP CODE FOR INDEX PAGE
 
             //Get the csv file
             parse_json.parse_csv("/src/assets/articles/video_metadata.csv")
