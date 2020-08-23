@@ -10108,6 +10108,12 @@ button.readmore-toggle {
   flex-wrap: wrap;
   padding: 10px 30px; }
 
+#video-player {
+  flex: 1 1 800px;
+  min-height: 30vw;
+  height: 30vh;
+  width: auto; }
+
 .video-player.video-text {
   position: relative;
   flex: 1 1 370px;
