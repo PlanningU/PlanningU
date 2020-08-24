@@ -10105,12 +10105,16 @@ button.readmore-toggle {
 .video-contents-wrapper {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   padding: 10px 30px; }
+
+@media screen and (max-width: 450px) {
+  .video-contents-wrapper {
+    padding: 10px 0; } }
 
 iframe {
   flex: 1 1 800px;
-  min-height: 30vw;
+  min-height: 28vw;
   height: 30vh;
   width: auto; }
 
@@ -10123,15 +10127,15 @@ iframe {
 
 .video-player .video-title {
   margin-top: 0;
-  font-size: calc(1vw + 1.1rem); }
+  font-size: calc(0.8vw + 1.1rem); }
 
 .video-player .tags {
-  margin-top: calc(1vw + 0.3rem);
+  margin-top: calc(0.8vw + 0.3rem);
   padding: 0; }
 
 .video-player .video-description {
   margin-top: calc(0.5vw + 0.3rem);
-  font: calc(0.8vw + 0.5rem) Lato, sans-serif; }
+  font: calc(0.6vw + 0.5rem) Lato, sans-serif; }
 
 .plyr {
   flex: 1 0 600px; }
