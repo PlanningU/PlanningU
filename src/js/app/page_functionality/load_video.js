@@ -42,34 +42,38 @@ define(function(require){
                     //Setting descriptions TODO: Make it more dynamic and not repeat the same code found in
                     // create_cards?
 
-                    var text_elements = document.querySelector('.video-player.video-text');
+                    var text_elements = document.querySelectorAll('.video-player.video-text');
 
-                    let sub_element;
-                    sub_element = document.createElement("h3");
-                    sub_element.className = "video-title";
-                    sub_element.innerHTML = data[video_id][0];
-                    text_elements.appendChild(sub_element);
+                    for(let i= 0; i<text_elements.length; i++){
+                        let sub_element;
+                        sub_element = document.createElement("h3");
+                        sub_element.className = "video-title";
+                        sub_element.innerHTML = data[i+1][0];
+                        text_elements[i].appendChild(sub_element);
 
-                    //VIDEO TAGS DIV
-                    sub_element = document.createElement("div");
-                    sub_element.className = "tags";
-                    let sub_sub_element = text_elements.appendChild(sub_element);
+                        //VIDEO TAGS DIV
+                        sub_element = document.createElement("div");
+                        sub_element.className = "tags";
+                        let sub_sub_element = text_elements[i].appendChild(sub_element);
 
-                    //VIDEO INDIVIDUAL TAG
-                    let tags = data[video_id][4].replace(/"/g, "").split(',');
-                    for (let i = 0; i < tags.length; i++) {
-                        let tag = document.createElement("span");
-                        tag.className = "tag";
-                        tag.innerHTML = tags[i];
-                        sub_sub_element.appendChild(tag);
+                        //VIDEO INDIVIDUAL TAG
+                        let tags = data[i+1][4].replace(/"/g, "").split(',');
+                        for (let i = 0; i < tags.length; i++) {
+                            let tag = document.createElement("span");
+                            tag.className = "tag";
+                            tag.innerHTML = tags[i];
+                            sub_sub_element.appendChild(tag);
+
+                        }
+
+                        //VIDEO DESCRIPTION
+                        sub_element = document.createElement("p");
+                        sub_element.className = "video-description";
+                        sub_element.innerHTML = data[i+1][1];
+                        text_elements[i].appendChild(sub_element);
 
                     }
 
-                    //VIDEO DESCRIPTION
-                    sub_element = document.createElement("p");
-                    sub_element.className = "video-description";
-                    sub_element.innerHTML = data[video_id][1];
-                    text_elements.appendChild(sub_element);
 
                 });
 

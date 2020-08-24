@@ -10102,13 +10102,13 @@ button.readmore-toggle {
   color: white;
   font: 2rem "Fjalla One Regular", sans-serif; }
 
-#video-wrapper {
+.video-contents-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 10px 30px; }
 
-#video-player {
+iframe {
   flex: 1 1 800px;
   min-height: 30vw;
   height: 30vh;
