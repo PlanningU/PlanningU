@@ -17,9 +17,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94378b6c-cafd-42cb-a8d3-e0203f434780" name="Default Changelist" comment="fixed crazy flashing of index jumbotron (again)">
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/thumbnails/ottawau_med_school_hannah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/thumbnails/uoft_data_science_howard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/articles/thumbnails/waterloo_coop_andrew.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/watch.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/watch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/articles/profile_pictures/max.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/articles/thumbnails/math_competition_experience_max.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/articles/thumbnails/math_competition_experience_max.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/articles/video_metadata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/articles/video_metadata.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/create_cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/create_cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app/page_functionality/load_video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app/page_functionality/load_video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/pages/page_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/pages/page_index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_articles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_articles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_homepage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_watch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_watch.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +139,8 @@
       <workItem from="1597943780768" duration="19792000" />
       <workItem from="1598018963998" duration="3312000" />
       <workItem from="1598124617142" duration="13396000" />
-      <workItem from="1598195260861" duration="13570000" />
+      <workItem from="1598195260861" duration="14177000" />
+      <workItem from="1598560783640" duration="9965000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>

@@ -14,13 +14,11 @@ CSV DATA AS OF 2020-08-03:
 */
 
 
-
-
 define(function (require) {
     var parse_file = require('app/page_functionality/parse_file');
 
     return {
-        VideoCards: class{
+        VideoCards: class {
             //Constructor takes three items:
             //1. The file to be read from (csv)
             //2. The class name of the element that these cards will be inserted into
@@ -30,7 +28,7 @@ define(function (require) {
             constructor(source_file, insert_section, remove) {
                 parse_file.parse_csv(source_file).then(data => {
                     this.parent = document.getElementById(insert_section);
-                    if(typeof remove !== "undefined"){
+                    if (typeof remove !== "undefined") {
                         data.splice(remove, 1);
                     }
                     this.build(data, this.parent);
@@ -40,7 +38,7 @@ define(function (require) {
             }
 
 
-            build(data, parent){
+            build(data, parent) {
                 this.createCards(data, parent, "div", "video-card");
                 this.cards = document.getElementsByClassName("video-card");
                 Array.from(this.cards).forEach((card, index) => {
@@ -49,18 +47,18 @@ define(function (require) {
                 });
                 const video_cards = document.querySelectorAll('.video-card');
                 for (let i = 0; i < video_cards.length; i++) {
-                    video_cards[i].addEventListener('click', ((j) => {
-                        return function () {
-                            //When a video-card is clicked, open new page and pass the item's index as var in url
-                            window.location.href = "/pages/watch.html?videoid=" + (j + 1);
-                        }
-                    })(i));
+                    video_cards[i].addEventListener('click', (function (e) {
+                        console.log("hi");
+                        //When a video-card is clicked, open new page and pass the item's index as var in url
+                        window.location.href = "/pages/watch.html?videoid=" + parseInt(this.getAttribute("id"));
+
+                    }));
                 }
             }
 
 
             //Simply creates the empty div.card element
-             createCards(data, parent, element, class_name) {
+            createCards(data, parent, element, class_name) {
                 for (let i = 1; i < data.length; i++) {
                     let div = document.createElement(element);
                     div.className = class_name;
@@ -69,7 +67,9 @@ define(function (require) {
             }
 
             //Adds data from the csv file
-             addData(card, i, data) {
+            addData(card, i, data) {
+
+                card.setAttribute("id", data[i][5]);
 
                 //The thumbnail image
                 let element;
@@ -88,7 +88,7 @@ define(function (require) {
             }
 
             //adds the text to the text div
-             addText(text_elements, i, data) {
+            addText(text_elements, i, data) {
                 //Video Title
                 let sub_element;
                 sub_element = document.createElement("h3");
