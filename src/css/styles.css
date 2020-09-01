@@ -9938,8 +9938,6 @@ button.readmore-toggle {
     transition: height 0.3s ease-in-out; }
   .video-card:nth-child(n + 2):hover img {
     height: 210px; }
-  #video-section .video-card:nth-child(n+2):hover .video-title {
-    padding: 10px 5px 0 20px; }
   .video-card:nth-child(n + 2) .video-description {
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -9951,7 +9949,7 @@ button.readmore-toggle {
   .video-card:nth-child(n+1) .tags {
     display: initial; } }
 
-@media screen and (max-width: 10000px) {
+@media screen and (max-width: 840px) {
   #video-section {
     padding: 30px 15px; }
   #video-section .video-card:nth-child(n+1) {
@@ -10074,7 +10072,7 @@ iframe {
 
 #video-wrapper .video-card {
   grid-column: auto/span 4;
-  grid-row: auto/span 4; }
+  grid-row: auto/span 6; }
 
 #video-wrapper .video-card .video-text {
   padding: 10px; }
@@ -10088,18 +10086,29 @@ iframe {
   text-overflow: ellipsis; }
 
 #video-wrapper .video-card img {
-  height: 160px;
+  height: calc(5vw + 100px);
   transition: height 0.3s ease-in-out; }
 
 #video-wrapper .video-card:hover img {
-  height: 150px; }
+  height: calc(5vw + 90px); }
 
 #video-wrapper .video-card .video-description {
   margin-top: 10px;
   font-size: 0.8rem; }
 
-#video-wrapper .video-card .tags {
+/*#video-wrapper .video-card .tags {
+  display: none;
+}*/
+#video-wrapper .tag:nth-child(n+3) {
   display: none; }
+
+#video-wrapper .video-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 0; }
 
 .banner.video-homepage {
   background: #6666ad;
@@ -10141,12 +10150,10 @@ iframe {
   #video-wrapper .video-card .video-title {
     font-size: calc(0.75rem + 1vw); }
   #video-wrapper .video-card .video-description {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding-bottom: 0; }
+    display: none; }
+  #video-wrapper .tags {
+    padding: 10px 10px 10px 0;
+    margin-left: -5px; }
   /*//Plyr Customs
   //VOlume
   .plyr__volume input[type=range] {

@@ -29,8 +29,6 @@
       <change beforePath="$PROJECT_DIR$/pages/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/articles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/partners/savvyuni.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/partners/savvyuni.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/people/isaacdong.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/people/isaacdong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/people/sabchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/people/sabchen.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/subjects/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/subjects/business/bbb4m/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/bbb4m/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/subjects/business/bbb4m/resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subjects/business/bbb4m/resources.html" afterDir="false" />
@@ -165,7 +163,9 @@
       <workItem from="1598018963998" duration="3312000" />
       <workItem from="1598124617142" duration="13396000" />
       <workItem from="1598195260861" duration="14177000" />
-      <workItem from="1598560783640" duration="11590000" />
+      <workItem from="1598560783640" duration="12093000" />
+      <workItem from="1598798218959" duration="1195000" />
+      <workItem from="1598980386879" duration="2966000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Tests">
       <created>1594940732728</created>
@@ -414,10 +414,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="287" y="0" width="776" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1598205778096" />
-    <state x="425" y="0" width="883" height="768" key="find.popup" timestamp="1598573892706">
+    <state x="425" y="0" width="883" height="768" key="find.popup" timestamp="1598988715032">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="425" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1598573892706" />
+    <state x="425" y="0" width="883" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1598988715032" />
     <state x="407" y="157" key="git4idea.merge.GitPullDialog" timestamp="1597694617483">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

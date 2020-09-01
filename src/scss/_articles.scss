@@ -256,7 +256,7 @@
 
 //Getting rid of the initial hover animations in larger screens for
   #video-section .video-card:nth-child(n+2):hover .video-title{
-    padding: 10px 5px 0 20px;
+   // padding: 10px 5px 0 20px;
   }
 
   .video-card:nth-child(n + 2) .video-description {
@@ -276,7 +276,7 @@
 
 
 //4. Video Card formatting for screens less than 840px
-@media screen and (max-width: 10000px) {//ORIGINALLY 840px
+@media screen and (max-width: 840px) {
 
   #video-section{
     padding: 30px 15px;

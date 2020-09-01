@@ -1,7 +1,7 @@
 //Starting base for all applications
 requirejs.config({
     baseUrl: '/src/js/libs',
-    urlArgs: "version=v2",
+    urlArgs: "v=1.2",
     paths: {
         //Insert your libraries here for easy access
         app: '../app',
