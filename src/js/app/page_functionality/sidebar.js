@@ -9,11 +9,11 @@ define(function (require) {
             loadContent: function (def1) {
 
                 if (window.location.href.indexOf("subjects") > -1) {
-                    $("#sidebar-div").load("/pages/subjects/subjects_sidebar.html", function () {
+                    $("#sidebar-div").load("/PlanningU/pages/subjects/subjects_sidebar.html", function () {
                         def1.resolve();
                     });
                 } else if (window.location.href.indexOf("applications") > -1) {
-                    $("#sidebar-div").load("/pages/applications/applications_sidebar.html", function () {
+                    $("#sidebar-div").load("/PlanningU/pages/applications/applications_sidebar.html", function () {
                         def1.resolve();
                     });
                 }

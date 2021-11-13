@@ -35,7 +35,7 @@ define(function (require) {
                     this._lang = lang;
 
                 }
-                parse_json.parse_csv('/pages/translations/en.csv')
+                parse_json.parse_csv('/PlanningU/pages/translations/en.csv')
                     .then(translation => {
                         this.translate(translation);
                     })

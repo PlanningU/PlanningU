@@ -29,7 +29,7 @@ require(['../common'], function (common) {
             hf.loadContent(d1, d2);
             load_video.loadContent();
             new create_cards.VideoCards(
-                "/src/assets/articles/video_metadata.csv",
+                "/PlanningU/src/assets/articles/video_metadata.csv",
                 "video-wrapper",
                 parseInt(new URL(window.location.href).searchParams.get("videoid")));
             //===================================================//

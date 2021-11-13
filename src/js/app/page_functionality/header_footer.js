@@ -9,13 +9,13 @@ define(function () {
         //Header and Footer - Takes one deferred variable per load() function to allow for code to be
         //executed after BOTH have finished loading web pages
         loadContent: function (def1, def2) {
-            $("#footer").load("/pages/footer.html", function () {
+            $("#footer").load("/PlanningU/pages/footer.html", function () {
                 def2.resolve();
             });
 
-            $("#header").load("/pages/header.html", function () {
+            $("#header").load("/PlanningU/pages/header.html", function () {
                 //The alert banner for SavvyUni
-                $("#main-info").prepend($('<div class="alert-banner"><span class="alert-text" data-i18n="banner-text">Our Partner SavvyUni is hosting a giveaway</span><a id="link-to-lottery" href="/pages/partners/savvyuni.html" data-i18n="banner-link">Learn how to enter</a><span class="close-x">×</span></div>'));
+                $("#main-info").prepend($('<div class="alert-banner"><span class="alert-text" data-i18n="banner-text">Our Partner SavvyUni is hosting a giveaway</span><a id="link-to-lottery" href="/PlanningU/pages/partners/savvyuni.html" data-i18n="banner-link">Learn how to enter</a><span class="close-x">×</span></div>'));
                 def1.resolve();
 
             });
@@ -31,7 +31,7 @@ define(function () {
             //When click the alert banner
             $('#main-info').on("click touch", "#link-to-lottery", function(){
                 //Url variable for smooth autoscroll
-                $(this).attr('href',"/pages/partners/savvyuni.html?promotion=true");
+                $(this).attr('href',"/PlanningU/pages/partners/savvyuni.html?promotion=true");
             })
 
             //Close the alert banner
@@ -42,7 +42,7 @@ define(function () {
 
             //Change "High School" link that functions only for a dropdown to a functioning link if it is on mobile
             if (window.matchMedia('(max-width: 1080px)').matches) {
-                $("#header a[data-i18n='nav-school-classes']").attr("href", "/pages/subjects/home.html");
+                $("#header a[data-i18n='nav-school-classes']").attr("href", "/PlanningU/pages/subjects/home.html");
 
             } else {
                 $("#header a[data-i18n='nav-school-classes']").attr("href", "javascript:void(0)");

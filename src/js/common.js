@@ -1,6 +1,6 @@
 //Starting base for all applications
 requirejs.config({
-    baseUrl: '/src/js/libs',
+    baseUrl: '/PlanningU/src/js/libs',
     urlArgs: "v=1.2",
     paths: {
         //Insert your libraries here for easy access

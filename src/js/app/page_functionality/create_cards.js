@@ -50,7 +50,7 @@ define(function (require) {
                     video_cards[i].addEventListener('click', (function (e) {
                         console.log("hi");
                         //When a video-card is clicked, open new page and pass the item's index as var in url
-                        window.location.href = "/pages/watch.html?videoid=" + parseInt(this.getAttribute("id"));
+                        window.location.href = "/PlanningU/pages/watch.html?videoid=" + parseInt(this.getAttribute("id"));
 
                     }));
                 }

@@ -16,7 +16,7 @@ define(function (require) {
 
 
             //Get the csv file
-            parse_json.parse_csv("/src/assets/articles/video_metadata.csv")
+            parse_json.parse_csv("/PlanningU/src/assets/articles/video_metadata.csv")
                 .then(data => {
 
                     //Dynamically sets the page meta description to the description of the video

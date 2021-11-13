@@ -8684,12 +8684,12 @@ a.nav-link:hover:before {
   width: 20px;
   left: 4px;
   bottom: 3px;
-  background: url("/src/assets/uk_flag.png") center/cover;
+  background: url("/PlanningU/src/assets/uk_flag.png") center/cover;
   -webkit-transition: .4s;
   transition: .4s; }
 
 #language-toggle-input:checked + .slider:before {
-  background: url("/src/assets/chinese_flag.png") center/cover; }
+  background: url("/PlanningU/src/assets/chinese_flag.png") center/cover; }
 
 #language-toggle-input:checked + .slider {
   background-color: #BD132D; }
@@ -9209,7 +9209,7 @@ div.social-media a icon {
   height: 50%;
   width: 50%;
   opacity: 50%;
-  background-image: url("/src/assets/Index/dot_grid.svg");
+  background-image: url("/PlanningU/src/assets/Index/dot_grid.svg");
   background-size: cover; }
 
 .rect-1 {
@@ -9269,7 +9269,7 @@ div.social-media a icon {
 
 .course-title {
   height: 65vh;
-  background-image: linear-gradient(rgba(16, 16, 40, 0.8), rgba(16, 16, 40, 0.8)), url("/src/assets/university_backdrop.jpg");
+  background-image: linear-gradient(rgba(16, 16, 40, 0.8), rgba(16, 16, 40, 0.8)), url("/PlanningU/src/assets/university_backdrop.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9493,7 +9493,7 @@ a.icon {
 2. =================Heading========================
 */
 #about-heading {
-  background-image: linear-gradient(rgba(16, 16, 40, 0.5), rgba(16, 16, 40, 0.5)), url("/src/assets/about_us_background.jpg");
+  background-image: linear-gradient(rgba(16, 16, 40, 0.5), rgba(16, 16, 40, 0.5)), url("/PlanningU/src/assets/about_us_background.jpg");
   height: 60vh;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;

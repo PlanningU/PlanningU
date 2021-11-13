@@ -17,7 +17,7 @@ require(['../common'], function (common) {
             hf.loadContent(d1, d2);
 
             new create_cards.VideoCards(
-                "/src/assets/articles/video_metadata.csv",
+                "/PlanningU/src/assets/articles/video_metadata.csv",
                 "video-section");
 
         });

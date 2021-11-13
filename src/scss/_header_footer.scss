@@ -197,13 +197,13 @@ a.nav-link:hover:before{
   width: 20px;
   left: 4px;
   bottom: 3px;
-  background: url("/src/assets/uk_flag.png") center /cover;
+  background: url("/PlanningU/src/assets/uk_flag.png") center /cover;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 #language-toggle-input:checked + .slider:before {
-  background: url("/src/assets/chinese_flag.png") center /cover;
+  background: url("/PlanningU/src/assets/chinese_flag.png") center /cover;
 }
 
 #language-toggle-input:checked + .slider {

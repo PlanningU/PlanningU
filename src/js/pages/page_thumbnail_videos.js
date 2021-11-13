@@ -13,7 +13,7 @@ require(['../common'], function (common) {
             $.when(d1, d2).then(function () {
                 hf.doAfter();
                 new create_cards.VideoCards(
-                    "/src/assets/articles/video_metadata.csv",
+                    "/PlanningU/src/assets/articles/video_metadata.csv",
                     "video-section");
                 //console.log(document.querySelector("#video-section .video-card:nth-child(n + 4) .video-description"));
 
